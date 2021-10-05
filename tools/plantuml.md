@@ -16,7 +16,7 @@ Best practices:
 - If included with code practice are following:
 
 - If indivdual files are required for quick integration:
- 
+
 
 '''plantuml
 @startuml component
@@ -41,9 +41,14 @@ app -> client
 - Set up custom location to save files
 
 - Exporting images to other formats using plantuml extension
-  - ![Right click on individual plantuml file](tools/puml/export_diagram.png)
+  - ![Right click on individual plantuml file](/tools/puml/export_diagram.png)
   - Click option to 'Export Workspace Diagrams' 
   - choose the format to save diagrams
+
+## Github Integration
+
+
+![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=/tools/puml/example1.puml)
 
 
 ### Other IDEs
