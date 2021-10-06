@@ -7,6 +7,21 @@ The key python
 
 - TBA
 
+## Conda Environments
+
+### General working
+
+### CI/CD Deployments
+
+- If altering environment, consider the following:
+  - delete environment and recreate fresh. 
+    - This will help avoid run time performance issues. 
+	- Possibly remnant files/folders from confuse the python process
+	- Also, if a fast route compilation (numba) is used. Without warning the numba can be disabled.
+  - This will require disabling the tasks or kill ongoing tasks in a machine
+
+
+
 ## Packaging
 
 The good practices are as follows:
