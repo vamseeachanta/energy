@@ -53,7 +53,7 @@ app -> client
 
 ### Other IDEs
 
-Difficult to get it working in other IDEs
+For developers, getting it to work in in other IDEs may be difficult.
 
 
 ## References
@@ -65,3 +65,5 @@ Difficult to get it working in other IDEs
 - [https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
 
 - [https://www.reddit.com/r/git/comments/j6zaji/plant_uml_alternative_is_there_a_good_tool_for/](https://www.reddit.com/r/git/comments/j6zaji/plant_uml_alternative_is_there_a_good_tool_for/)
+
+- [https://www.codeproject.com/Articles/1278703/UML-Made-Easy-with-PlantUML-VS-Code](https://www.codeproject.com/Articles/1278703/UML-Made-Easy-with-PlantUML-VS-Code)
