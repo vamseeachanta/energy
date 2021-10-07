@@ -67,3 +67,5 @@ For developers, getting it to work in in other IDEs may be difficult.
 - [https://www.reddit.com/r/git/comments/j6zaji/plant_uml_alternative_is_there_a_good_tool_for/](https://www.reddit.com/r/git/comments/j6zaji/plant_uml_alternative_is_there_a_good_tool_for/)
 
 - [https://www.codeproject.com/Articles/1278703/UML-Made-Easy-with-PlantUML-VS-Code](https://www.codeproject.com/Articles/1278703/UML-Made-Easy-with-PlantUML-VS-Code)
+
+- [https://www.linux-magazine.com/Issues/2020/235/PlantUML-Diagrams/(offset)/3](https://www.linux-magazine.com/Issues/2020/235/PlantUML-Diagrams/(offset)/3)
