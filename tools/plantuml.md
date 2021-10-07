@@ -41,7 +41,9 @@ app -> client
 - Set up custom location to save files
 
 - Exporting images to other formats using plantuml extension
-  - ![Right click on individual plantuml file](/tools/puml/export_diagram.png)
+  - <img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />
+  - <img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="200" />
+  - ![](/tools/puml/export_diagram.png  | width="100")
   - Click option to 'Export Workspace Diagrams' 
   - choose the format to save diagrams
 
@@ -57,6 +59,7 @@ Github integration is given in this section.
 - Example format is below of a file in repo is below
   - http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml
 - The rendering of the example format of the file in repo:
+
 ![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml)
 
 
