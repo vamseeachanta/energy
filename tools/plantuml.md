@@ -48,7 +48,7 @@ app -> client
 ## Github Integration
 
 
-![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=/tools/puml/example1.puml)
+![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/vamseeachanta/energy/blob/master/tools/puml/wbs.puml)
 
 
 ### Other IDEs
