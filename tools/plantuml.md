@@ -47,7 +47,16 @@ app -> client
 
 ## Github Integration
 
+Github integration is given in this section.
 
+- The below format can be used in markdown (.md) file:
+  - http://www.plantuml.com/plantuml/proxy?cache=no&src=(raw github plantuml link)
+- Key things to note are:
+  - raw github file link can be obtained from actual githublink file link
+  - cache=no will allow to seamlessly update image along with code
+- Example format is below of a file in repo is below
+  - http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml
+- The rendering of the example format of the file in repo:
 ![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml)
 
 
