@@ -42,7 +42,7 @@ app -> client
 
 - Exporting images to other formats using plantuml extension
   - <img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />
-  - <img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="200" />
+  - [ ![](<img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />) ]("tools/puml/export_diagram.png")
   - ![](/tools/puml/export_diagram.png  | width="100")
   - Click option to 'Export Workspace Diagrams' 
   - choose the format to save diagrams
