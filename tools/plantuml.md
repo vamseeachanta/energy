@@ -1,21 +1,23 @@
 ## Introduction
-PlantUML is top priority. The ability to draw ascii drawings and help project participants (from Developers to architects to project sponsors alike) immensly. 
+The ability to draw ascii drawings and help project participants (from Developers to architects to project sponsors alike) immensly. PlantUML is a component that allows to quickly write and generate drawings and diagrams using basic ascii code. 
 
 This document describes the following:
-- How to prepare drawings to steamline project work and development etc.
-- How to write source in asciidoc + PlantUML; How to get rendered in HTML + SVG/PNG nicely.
+- A method to prepare drawings to steamline project work and development etc.
+- How to write source in asciidoc + PlantUML; 
+- How to get rendered in HTML + PNG on github markdown pages.
 
 ## Summary
+
+The advantages to ascii code based drawings or diagrams such as plantuml are:
+- Ability to quickly generate drawings from ground up
+- Ability to quickly edit to update/correct drawings to keep sync with code
+- Integrate drawings in markdown files using general CI/CD practices
 
 Best practices:
 - Always save each plantuml drawing as individual files
   - helps in easy CI-CD
   - facilitates easy use of templates
-  - facilitates easy reuse of existing flowcharts
-
-- If included with code practice are following:
-
-- If indivdual files are required for quick integration:
+  - facilitates easy use existing flowcharts for new flowchart
 
 
 '''plantuml
@@ -34,6 +36,7 @@ app -> client
 
 ## Rendering in an IDE
 
+An plantuml extension or utility can be used to render in an IDE. Instructions for IDE(s) is given in this section.
 ### VS Code
 
 - Install the extension 'PlantUML' in VS code
@@ -43,7 +46,6 @@ app -> client
 - Exporting images to other formats using plantuml extension
   - <img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />
   - [ ![](<img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />) ]("tools/puml/export_diagram.png")
-  - ![](/tools/puml/export_diagram.png  | width="100")
   - Click option to 'Export Workspace Diagrams' 
   - choose the format to save diagrams
 
@@ -81,3 +83,5 @@ For developers, getting it to work in in other IDEs may be difficult.
 - [https://www.codeproject.com/Articles/1278703/UML-Made-Easy-with-PlantUML-VS-Code](https://www.codeproject.com/Articles/1278703/UML-Made-Easy-with-PlantUML-VS-Code)
 
 - [https://www.linux-magazine.com/Issues/2020/235/PlantUML-Diagrams/(offset)/3](https://www.linux-magazine.com/Issues/2020/235/PlantUML-Diagrams/(offset)/3)
+
+- [https://github.github.com/gfm/](https://github.github.com/gfm/)
