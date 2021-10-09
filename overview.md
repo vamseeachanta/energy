@@ -9,7 +9,7 @@ The document describes the python energy initiatives for the following:
 - Analysis 
     - Objective is to create a energy_analysis python library
     - implement industry standard codes (API, ISO, DNV, ABS etc.) for easy use and analysis
-    
+
 ## Summary
 
 Typically, the data analysis intiatives do not care about data. The data initiatives may not comprehensively think or understand how the data is used. The good practices to be used are summarized in below documents:
@@ -27,3 +27,7 @@ Typically, the data analysis intiatives do not care about data. The data initiat
 
 ## Analysis principles
 
+
+## Current trends
+
+https://jpt.spe.org/executing-your-companys-digital-vision-an-open-letter-to-energy-ceos
