@@ -11,14 +11,26 @@ The key python
 
 ### General working
 
+### IDE: VS Code 
+
+For general working in VS code:
+[https://code.visualstudio.com/docs/languages/python](https://code.visualstudio.com/docs/languages/python)
+
+The typical extensions required are:
+- Python (from Microsoft)
+- Python Extension Pack
+
+Setting up the project specific environment
+
+
 ### CI/CD Deployments
 
 - If altering environment, consider the following:
   - delete environment and recreate fresh. 
     - This will help avoid run time performance issues. 
-	- Possibly remnant files/folders from confuse the python process
+	- Possibly remnant files/folders confuse the python process
 	- Also, if a fast route compilation (numba) is used. Without warning the numba can be disabled.
-  - This will require disabling the tasks or kill ongoing tasks in a machine
+  - This will require disabling the tasks or kill ongoing tasks in a server machine
 
 
 
