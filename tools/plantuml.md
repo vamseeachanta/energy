@@ -41,7 +41,7 @@ An plantuml extension or utility can be used to render in an IDE. Instructions f
 
 Github integration will greatly help streamline implementation. A method to implement a stand-alone file inline with a markdown file is given in this section.
 
-- Create an individual plantuml file as below:
+- Create an individual plantuml file. An example plantuml file saved in location [https://github.com/vamseeachanta/energy/blob/master/tools/puml/wbs.puml](https://github.com/vamseeachanta/energy/blob/master/tools/puml/wbs.puml) with below code:
 
 <pre><code>
 '''
@@ -63,14 +63,20 @@ Github integration will greatly help streamline implementation. A method to impl
 '''
 </code></pre>
 
-- The below format can be used in markdown (.md) file:
+- The below format is defined in markdown (.md) file:
   - http://www.plantuml.com/plantuml/proxy?cache=no&src=(raw github plantuml link)
 - Key things to note are:
   - raw github file link can be obtained from actual githublink file link
   - cache=no will allow to seamlessly update image along with code
 - Example format is below of a file in repo is below
   - http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml
-- The rendering of the example format of the file in repo:
+
+- Exact code used in markdown is:
+<pre><code>
+![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml)
+</code></pre>
+
+- The rendering of the example file in github is:
 
 ![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml)
 
