@@ -1,5 +1,5 @@
 ## Introduction
-The ability to draw ascii drawings and help project participants (from Developers to architects to project sponsors alike) immensly. PlantUML is a component that allows to quickly write and generate drawings and diagrams using basic ascii code. 
+The ability to draw ascii drawings and help project participants. Drawings and diagrams can benefit developers, architects, project sponsors etc. PlantUML is a component that allows to quickly write and generate drawings and diagrams using basic ascii code. 
 
 This document describes the following:
 - A method to prepare drawings to steamline project work and development etc.
@@ -18,18 +18,6 @@ Best practices:
   - helps in easy CI-CD
   - facilitates easy use of templates
   - facilitates easy use existing flowcharts for new flowchart
-
-
-'''plantuml
-@startuml component
-actor client
-node app
-database db
-
-db -> app
-app -> client
-@enduml
-'''
 
 [https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/](https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/)
 [https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github/32771815#32771815](https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github/32771815#32771815)
@@ -51,7 +39,29 @@ An plantuml extension or utility can be used to render in an IDE. Instructions f
 
 ## Github Integration
 
-Github integration is given in this section.
+Github integration will greatly help streamline implementation. A method to implement a stand-alone file inline with a markdown file is given in this section.
+
+- Create an individual plantuml file as below:
+
+<pre><code>
+'''
+@startwbs
+* Project Organization
+** Procure project work
+*** Perosn 1
+*** Perosn 2
+** US Resources
+*** Technical Project Manager
+*** Doc Controller/BA
+** Project Resources
+*** Project manager (scrum master/planning/release train)
+*** 2 Fullstack developers
+*** 1 Devops/Automation
+*** 1 PowerBI + SQL
+*** 1 Scrum master + release train
+@endwbs
+'''
+</code></pre>
 
 - The below format can be used in markdown (.md) file:
   - http://www.plantuml.com/plantuml/proxy?cache=no&src=(raw github plantuml link)
