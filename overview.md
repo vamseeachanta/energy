@@ -28,6 +28,26 @@ Typically, the data analysis intiatives do not care about data. The data initiat
 ## Analysis principles
 
 
+
+
 ## Current trends
 
 https://jpt.spe.org/executing-your-companys-digital-vision-an-open-letter-to-energy-ceos
+
+https://github.com/bolgebrygg/Force-2020-Machine-Learning-competition
+
+## Drilling Automation
+
+We in the Drilling System Automation Technical Section (DSATS) have had a successful run of some 13.5 years, but we think it is time to refresh things a bit, as the industry/state-of-the-art has moved in Drilling Automation. So we are looking for volunteers, especially from Young Professional and/or those who have not yet participated in DSATS, to join in the “DSATS V2 Committee”, who will be drafting an abstract outline of a revised DSATS “Mission and Vision” and nominating a slate of new Officers and Board members. The timing of this is to be able to report out to the DSATS membership at the DSATS/IADC ART Symposium the day before the Drilling Conference in early March.
+
+Can you send me your current email address to mark.anderson@ensignenergy.com.
+
+
+## References
+
+https://www.chatosolutions.com/posts/2021-09-04-fetarps/
+
+https://www.ihsenergy.ca/support/documentation_ca/Harmony_Enterprise/2019_3/content/html_files/ref_materials/calculations/oil_correlations.htm
+
+## Incidents
+https://gcaptain.com/deepwater-asgard-incident-gulf-of-mexico-hurricane-zeta/
