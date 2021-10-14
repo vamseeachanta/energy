@@ -10,6 +10,7 @@ The document describes the programming principles to be the followed for typical
   - Object oriented programming principles (see below)
   - SOLID programming principles (see below)
   - Pick a language of your choice and write code to demonstrate above learnings. Commit to github in your training repo. Share the repo.
+  - preferred book to read for writing good code: [https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). Need to read chapters 1 to 10 in 2-3 week of training.
   
 - choose technology to train for 2 months
     - set-up VS Code as IDE
