@@ -24,6 +24,11 @@ PI AF can expose this rich data to PI System components, such as PI VIsion, PI D
 - PI AF SDK is the foundational .NET-based software development kit for interacting with asset metadata and time series data stored in the PI Asset Framework. It is available from PI Developers Club* (formerly known as vCampus). For more information, refer to PI AF SDK Homepage.
 - PI Server 2018 introduces a single setup kit that includes PI Data Archive, PI Asset Framework with Asset Analytics and Notifications, PI Web API, PI System Directory, and all dependent components. Users can choose the desired components to install in a new installation.
 
+### PI System Explorer
+
+https://livelibrary.osisoft.com/LiveLibrary/content/en/server-v9/GUID-21B52B10-20E6-4039-B358-E0159ECA76C2
+
+
 ## Developer/Test Servers
 
 ### Sandbox
