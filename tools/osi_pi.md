@@ -2,27 +2,53 @@
 
 OSIsoft makes the PI System, the market-leading data management platform for industrial operations, that helps you move from complexity to simplicity.
 
+https://techsupport.osisoft.com/Products/Layered%20Products/PI-AF/Overview
+
+
 ## Summary
 
-The recommended best practices are:
+
+### PI AF
+PI Asset Framework (PI AF) is a single repository for asset-centric models, hierarchies, objects, and equipment. It integrates, contextualizes, refines, references, and further analyzes data from multiple sources, including one or more PI Data Archives and non-PI sources such as external relational databases. Together, these metadata and time series data provide a detailed description of equipment or assets.
+
+PI AF can expose this rich data to PI System components, such as PI VIsion, PI DataLink, or PI ProcessBook, where it can be used to build displays, run calculations, deliver important information, and more. PI Asset Framework can also expose these data to non-PI systems via a rich set of data access products. PI AF also includes a number of basic and advanced search capabilities to help users sift through static and real time information. The following comparison table lists the capabilities of current and earlier versions of PI AF.
+
+### PI System components
+
+- PI VIsion
+- PI DataLink
+- PI ProcessBook
+
+### PI System components
+
+- PI AF SDK is the foundational .NET-based software development kit for interacting with asset metadata and time series data stored in the PI Asset Framework. It is available from PI Developers Club* (formerly known as vCampus). For more information, refer to PI AF SDK Homepage.
+- PI Server 2018 introduces a single setup kit that includes PI Data Archive, PI Asset Framework with Asset Analytics and Notifications, PI Web API, PI System Directory, and all dependent components. Users can choose the desired components to install in a new installation.
+
+## Developer/Test Servers
+
+### Sandbox
 
 
-## Components
+### Dockers
 
-### Images
 
-- Direct image, original size:
- - tba
+https://pisquare.osisoft.com/s/question/0D51I00004UHlTwSAL/installing-pi-applications-on-docker
 
-- Image, custom size:
- - tba
 
-- Image, custom size:
- - tba
+Old version may have docker support. However, explore if new version has docker support?
 
-### Tables
+https://pisquare.osisoft.com/s/Blog-Detail/a8r1I000000GvHEQA0/spin-up-pi-web-api-container-af-server-included
 
-??
+https://pisquare.osisoft.com/s/Blog-Detail/a8r1I000000GvQdQAK/compose-pi-system-container-architecture
+
+https://pisquare.osisoft.com/s/question/0D51I00004UHk7sSAD/is-there-a-way-to-create-an-afsdk-docker-container
+
+https://resources.osisoft.com/presentations/how-to-put-your-af-server-into-a-container/
+
+### Resources
+
+PI DevClub subscriptions
+https://customers.osisoft.com/
 
 ### Hyperlinks
 

@@ -6,17 +6,24 @@ The document describes the programming principles to be the followed for typical
 
 ## 3 month Training
 
-- 1 week of common programming principles. 
+- common programming principles (1 week)
   - Object oriented programming principles (see below)
   - SOLID programming principles (see below)
-  - Pick a language of your choice and write code to demonstrate above learnings. Commit to github in your training repo. Share the repo.
-  - preferred book to read for writing good code: [https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). Need to read chapters 1 to 10 in 2-3 week of training.
+  - write code to demonstrate above learnings
+  - use most comfortable language of choice. 
+  - Commit to github in your training repo. Share the repo with leaders.
+  - Recommended book to read: 
+    - [https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
+    - read chapters 1 to 10 in first 3 weeks of training.
   
-- choose technology to train for 2 months
+- technologies training (2 months)
     - set-up VS Code as IDE
     - follow a prescribed training program
 
-- 1 month internal project with 30 point user story
+- project work (1 month)
+  - 30 point project
+  - 6-8 user stories
+
 
 ## OOPs
 
