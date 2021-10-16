@@ -26,10 +26,10 @@ The document describes the programming principles to be the followed for typical
   - create documentation using markdown (.md) files. 
 - use other resources to learn and code as needed
 - Recommended book to read: 
-  - [https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
+  - [REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
   - read chapters 1 to 10 in first 3 weeks of training.
 
-- Provide daily updates using daily_update_template, []()
+- Provide daily updates using daily_update_template, [daily_update_template](https://github.com/vamseeachanta/energy/blob/master/scrum/daily_update_template.md)
 
 - Technology training (2 months)
     - set-up VS Code as IDE
