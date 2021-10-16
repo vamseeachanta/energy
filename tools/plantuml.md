@@ -19,9 +19,16 @@ Best practices:
   - facilitates easy use of templates
   - facilitates easy use existing flowcharts for new flowchart
 
+
+
 [https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/](https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/)
 [https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github/32771815#32771815](https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github/32771815#32771815)
 
+Good starting examples (and reference links) are given below:
+
+[https://paircoders.com/2019/06/05/create-sequence-diagrams-with-plantuml/](https://paircoders.com/2019/06/05/create-sequence-diagrams-with-plantuml/)
+
+[https://forum.plantuml.net/9735/participant-text-overflows-from-the-right-of-its-box](https://forum.plantuml.net/9735/participant-text-overflows-from-the-right-of-its-box)
 ## Rendering in an IDE
 
 An plantuml extension or utility can be used to render in an IDE. Instructions for IDE(s) is given in this section.
