@@ -14,6 +14,7 @@ The key python
 
 ### References
 
+[20 free books](https://www.linkedin.com/pulse/free-data-science-books-20-steve-nouri/)
 ### Learning Resources 
 
 #### ML

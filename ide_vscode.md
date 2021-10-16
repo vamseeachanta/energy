@@ -10,3 +10,4 @@ The document describes the VS code usage, principles and best practices for proj
 
 - Download visual studio code from below:
     https://code.visualstudio.com/
+- Install extensions to suit programming needs

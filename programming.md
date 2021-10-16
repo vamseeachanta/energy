@@ -6,10 +6,10 @@ The document describes the programming principles to be the followed for typical
 
 ## 3 month Training
 
-- create github account and share with leaders
+- create github account and share with leaders. [https://github.com/](https://github.com/)
 - Resource Requirements
   - Need to get a PC prior to hire date
-    - document pc specs (processor, ram etc.) on github
+    - document pc specs (processor, ram, hard disk space etc.) on github
   - Need good broadband internet connection to be able to connect to a computer in US
     - document speed test results in ascii format using link [https://speed.measurementlab.net/#/](https://speed.measurementlab.net/#/)
 
@@ -24,13 +24,14 @@ The document describes the programming principles to be the followed for typical
     - see [https://github.com/vamseeachanta/energy/blob/master/ide_vscode.md](https://github.com/vamseeachanta/energy/blob/master/ide_vscode.md)
   - Commit to github in your training repo. Share the repo with leaders.
   - create documentation using markdown (.md) files. 
-  - use other resources to learn and code as needed
-  - Recommended book to read: 
-    - [https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
-    - read chapters 1 to 10 in first 3 weeks of training.
-  
+- use other resources to learn and code as needed
+- Recommended book to read: 
+  - [https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
+  - read chapters 1 to 10 in first 3 weeks of training.
 
-- technologies training (2 months)
+- Provide daily updates using daily_update_template, []()
+
+- Technology training (2 months)
     - set-up VS Code as IDE
     - follow a prescribed training program
 
