@@ -6,16 +6,30 @@ The document describes the programming principles to be the followed for typical
 
 ## 3 month Training
 
-- common programming principles (1 week)
-  - Object oriented programming principles (see below)
-  - SOLID programming principles (see below)
-  - write code to demonstrate above learnings
-  - use most comfortable language of choice. 
+- create github account and share with leaders
+- Resource Requirements
+  - Need to get a PC prior to hire date
+    - document pc specs (processor, ram etc.) on github
+  - Need good broadband internet connection to be able to connect to a computer in US
+    - document speed test results in ascii format using link [https://speed.measurementlab.net/#/](https://speed.measurementlab.net/#/)
+
+- Learn common programming principles (1 week)
+- Object oriented programming principles (see section below)
+- SOLID programming principles (see below)
+
+- write code to demonstrate above learnings:
+  - use most comfortable language of choice. Training language will be decided in 1 week
+  - use ide of choice.  
+    - VS Code will be extensively used for training and work. 
+    - see [https://github.com/vamseeachanta/energy/blob/master/ide_vscode.md](https://github.com/vamseeachanta/energy/blob/master/ide_vscode.md)
   - Commit to github in your training repo. Share the repo with leaders.
+  - create documentation using markdown (.md) files. 
+  - use other resources to learn and code as needed
   - Recommended book to read: 
     - [https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
     - read chapters 1 to 10 in first 3 weeks of training.
   
+
 - technologies training (2 months)
     - set-up VS Code as IDE
     - follow a prescribed training program
