@@ -7,6 +7,9 @@ The key python
 
 - TBA
 
+Recommended course on Udemy is:
+[https://www.udemy.com/course/the-python-pro-course/](https://www.udemy.com/course/the-python-pro-course/)
+
 ## Conda Environments
 
 ### General working
