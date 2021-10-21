@@ -8,6 +8,10 @@ The document describes :
 
 ## Deployment
 
+### CI CD
+
+[https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd](https://www.atlassian.com/continuous-delivery/ci-vs-ci-vs-cd)
+
 ### Kubernetes
 
 ### Docker Containers
@@ -17,6 +21,13 @@ The document describes :
 ## Telemetry
 
 [https://www.sumologic.com/insight/what-is-telemetry/](https://www.sumologic.com/insight/what-is-telemetry/)
+
+## Microservice
+
+https://smartbear.com/learn/api-design/what-are-microservices/	Microservices
+https://opensource.com/resources/what-are-microservices
+
+
 
 ### References
 

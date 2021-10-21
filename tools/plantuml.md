@@ -26,9 +26,13 @@ Best practices:
 
 Good starting examples (and reference links) are given below:
 
+[https://real-world-plantuml.com/](https://real-world-plantuml.com/)
+
 [https://paircoders.com/2019/06/05/create-sequence-diagrams-with-plantuml/](https://paircoders.com/2019/06/05/create-sequence-diagrams-with-plantuml/)
 
 [https://forum.plantuml.net/9735/participant-text-overflows-from-the-right-of-its-box](https://forum.plantuml.net/9735/participant-text-overflows-from-the-right-of-its-box)
+
+
 ## Rendering in an IDE
 
 An plantuml extension or utility can be used to render in an IDE. Instructions for IDE(s) is given in this section.
