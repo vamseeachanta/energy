@@ -23,6 +23,10 @@ Git cloning instructions:
 
 ### Cloning vs. Forking
 
+### Creating new repo from Existing Repo
+
+[https://stackoverflow.com/questions/9844082/how-to-create-a-new-git-repository-from-an-existing-one](https://stackoverflow.com/questions/9844082/how-to-create-a-new-git-repository-from-an-existing-one)
+
 ### Code Development
 
 The typical workflow followed in Azure Devops is given below:
