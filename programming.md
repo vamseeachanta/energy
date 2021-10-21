@@ -11,11 +11,13 @@ The document describes the programming principles to be the followed for typical
 - Learn common programming principles
   - Object oriented programming principles (see section below)
   - SOLID programming principles (see below)
-  - Recommended book to read: 
-    - [REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
-    - read chapters 1 to 3 in first 2 weeks of training.
-    - Reread chapters 1 to 3 and read chapters 4 to 10 in first 5 weeks of training.
-  - Follow good repo guidelines (see below)
+- Read book : 
+  - [REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
+  - read chapters 1 to 3 in first 2 weeks of training.
+  - Reread chapters 1 to 3 and read chapters 4 to 10 in first 5 weeks of training.
+- Why are environments (or sandboxes) important. Learn to create environments.
+- Follow good repo guidelines (see below)
+
 - Provide daily updates by updating the daily_update_template.md in your own repository. Example [daily_update_template.md](pm\daily_update_template.md)
 - Review daily checklist:
   - update checklist status daily. Example [checklist.md](pm\checklist.md)
@@ -81,9 +83,8 @@ OOPS or Object Oriented Programming Principles
 
 ## Good Repo guidelines
 
-??
-??
-
+- add program files in respective directory. 
+- for writing programs, a good starting folder structure is very critical to get a good project work, architecture
 
 
 ### References
