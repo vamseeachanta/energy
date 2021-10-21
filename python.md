@@ -12,6 +12,7 @@ Recommended course on Udemy is:
 
 ## Conda Environments
 
+Install miniconda using the instructions in []()
 ### General working
 
 ### IDE: VS Code 
