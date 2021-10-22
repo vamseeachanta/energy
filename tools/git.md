@@ -102,13 +102,14 @@ Install using the below link:
 
 | S.No |   Short Description |  Comment |  Links |   Additional comments |
 |---|---|---|---|---|
-| 1 | Intro  | A very good Git intro video | [https://www.youtube.com/watch?v=HVsySz-h9r4](https://www.youtube.com/watch?v=HVsySz-h9r4) | n/a | 
-| 2 | Add .gitignore file  | - | [https://stackoverflow.com/questions/10744305/how-to-create-gitignore-file	](https://stackoverflow.com/questions/10744305/how-to-create-gitignore-file	) |  |
-| 3 | Branch Features and Production  | - | [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/) |  |
-| 4 | sparseCheckout  | - | [http://scriptedonachip.com/git-sparse-checkout	](http://scriptedonachip.com/git-sparse-checkout) |  |
-| 5 | clone only a subdirectory  | - | [https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository](https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository) |  |
-| 6 | submodules  | - | [https://git-scm.com/book/en/v2/Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) |  |
-| 7 | cheatsheet  | - | [https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.md](https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.md) |  |
+|  | Intro  | A great intro article | [https://realpython.com/python-git-github-intro/](https://realpython.com/python-git-github-intro/) | n/a | 
+|  | Intro  | A very good Git intro video | [https://www.youtube.com/watch?v=HVsySz-h9r4](https://www.youtube.com/watch?v=HVsySz-h9r4) | n/a | 
+|  | Add .gitignore file  | - | [https://stackoverflow.com/questions/10744305/how-to-create-gitignore-file	](https://stackoverflow.com/questions/10744305/how-to-create-gitignore-file	) |  |
+|  | Branch Features and Production  | - | [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/) |  |
+|  | sparseCheckout  | - | [http://scriptedonachip.com/git-sparse-checkout	](http://scriptedonachip.com/git-sparse-checkout) |  |
+|  | clone only a subdirectory  | - | [https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository](https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository) |  |
+|  | submodules  | - | [https://git-scm.com/book/en/v2/Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) |  |
+|  | cheatsheet  | - | [https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.md](https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.md) |  |
 
 
 

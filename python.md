@@ -3,12 +3,23 @@ The document describes the python principles to be the followed for the python r
 
 ## Summary
 
-The key python 
-
+The key python learnings are:
+- data structures
+- classes and class functions
+- virtual environments
+- 
 - TBA
 
 Recommended course on Udemy is:
 [https://www.udemy.com/course/the-python-pro-course/](https://www.udemy.com/course/the-python-pro-course/)
+
+
+## Conda vs. Pip
+
+https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
+https://conda.io/projects/conda/en/latest/commands.html#conda-vs-pip-vs-virtualenv-commands
+https://www.anaconda.com/understanding-conda-and-pip/
+
 
 ## Conda Environments
 

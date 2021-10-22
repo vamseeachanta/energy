@@ -9,13 +9,12 @@ Typically python enviornments and associated libraries is installed using a pack
     - Uninstall the existing version of Anaconda/ Miniconda.
 
 - Navigate to https://docs.conda.io/en/latest/miniconda.html
+    - Pick the installer based on your Operating System, python version and processor type (32 bit vs 64 bit).  
+        - recommend python version >= 3.7.x
+        - Under Installation Type, select the "Just Me" option.
 
-- Pick the installer based on your Operating System, python version and processor type (32 bit vs 64 bit).  
-    - recommend python version >= 3.7.x
-    - Under Installation Type, select the "Just Me" option.
-
-- Keep the default options for the rest of the installation screens. 
-- In the final screen, the installation should complete usually within 5 minutes.
+    - Keep the default options for the rest of the installation screens. 
+    - In the final screen, the installation should complete usually within 5 minutes.
 
 
 The following actions will resolve typical SSL errors encountered during package installations. These will also be helpful when inside typical corporate firewalls:
