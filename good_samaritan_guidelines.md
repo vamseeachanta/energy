@@ -13,6 +13,11 @@ As a programmer
     - demonstrate the hardwork and details that went into the code
 - communicate:
     - such that there is no 
+    - communicate in a common place if possible. 
+        - If project information is not proprietary, an public repo such as this is acceptable
+        - If project information is considered proprietary, an private repo shared with leaders is a better place. If in doubt, add to private repo and seek advice from leaders.
+
+
 
 
 

@@ -7,6 +7,28 @@ The key python
 
 - TBA
 
+📌 Object-Oriented Programming Explained Simply for Data Scientists
+https://lnkd.in/dKxVy3xM
+📌 Concise Data Science Cheatsheet
+https://lnkd.in/dCcVnUge
+📌 Markov Chains in Python: Beginner Tutorial
+https://lnkd.in/g2-ZAsRN
+📌 Complete guide on How to use Autoencoders in Python
+https://lnkd.in/dS5hhjTU
+📌 Comprehensive & Practical Inferential Statistics Guide for data science
+https://lnkd.in/dhJNJv3n
+📌 Free Resources to Supercharge your Data Science Career
+https://lnkd.in/dQZf2YMm
+📌 An Introduction to Statistical Learning, with applications in R
+https://lnkd.in/dqby6Wh7
+📌 The role of chief data officers
+https://lnkd.in/d9xCyThd
+📌 Nine Emerging Python Libraries for Data Science
+https://lnkd.in/dB7Hydk3
+
+💙 The Ultimate Guide to AI, Data Science & Machine Learning
+https://lnkd.in/eiPz3GJ
+
 ## Deep Learning
 
 [https://cds.nyu.edu/deep-learning/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_356/](https://cds.nyu.edu/deep-learning/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_356/)

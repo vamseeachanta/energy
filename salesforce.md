@@ -4,16 +4,53 @@ Salesforce platform
 
 ## Summary
 
-- TBA
+- See "First Steps" section below
+
+- Course work:
+    - preferred:
+        - https://www.udemy.com/course/salesforce-development/
+    - further courses under review are below:
+        - https://www.udemy.com/courses/search/?q=salesforce+developer&src=sac&kw=salesforce
+
+- Podcasts:
+    - https://developer.salesforce.com/podcast
 
 
-Preferred course work:
-https://www.udemy.com/course/salesforce-development/
+### First Steps (Week 3)
 
-More below:
-https://www.udemy.com/courses/search/?q=salesforce+developer&src=sac&kw=salesforce
+- Start the course work given in summary
+- listen to all the podcasts to get good idea of what is possible using the technology
 
-https://developer.salesforce.com/podcast
+- Create account in below website
+    - https://developer.salesforce.com/
+
+- Pick 5 projects from below link
+    - https://developer.salesforce.com/code-samples-and-sdks
+    - for each project:
+        - document the project in md file
+            - exlain the architecture
+            - learn about plantuml using document: [tools\plantuml.md](tools\plantuml.md)
+            - draw project flowchart(s) in plantuml
+        - Run the projects in playgrounds
+
+- Learn Test Driven Development (TDD) principles
+
+### Course work (Weeks 3, 4, 5, 6, 7)
+
+Key things to note:
+- Start the course work given in summary
+- document all the learnings in the repository
+- save all code as programming files
+- along with coursework, on developer.salesforce.com, after registering, do the following:
+    - Follow all the trailhead basics : [https://trailhead.salesforce.com/en/content/learn/modules/trailhead_basics](https://trailhead.salesforce.com/en/content/learn/modules/trailhead_basics)
+        - learn to create playgrounds
+        - learn to install packages (using GUI or using URL)
+        - 
+    - run 5 chosen projects in playgrounds
+- work to get the following salesforce certifiations:
+    - ?
+    - ?
+
 
 ### General working
 

@@ -14,16 +14,55 @@ Recommended course on Udemy is:
 [https://www.udemy.com/course/the-python-pro-course/](https://www.udemy.com/course/the-python-pro-course/)
 
 
+- See "First Steps" section below
+
+- Course work:
+    - preferred:
+        - https://www.udemy.com/course/salesforce-development/
+    - further courses under review are below:
+        - https://www.udemy.com/courses/search/?q=salesforce+developer&src=sac&kw=salesforce
+
+- Podcasts:
+    - [https://realpython.com/podcasts/rpp/](https://realpython.com/podcasts/rpp/)
+
+### First Steps (Week 3)
+
+- listen to all the podcasts to get good idea of what is possible using the technology
+
+- Create account in below website
+    - dev.azure.com
+
+- Pick 5 projects from below link
+    - https://developer.salesforce.com/code-samples-and-sdks
+    - for each project:
+        - document the project in md file
+            - exlain the architecture
+            - learn about plantuml using document: [tools\plantuml.md](tools\plantuml.md)
+            - draw project flowchart(s) in plantuml
+        - Run the project
+
+- Learn Test Driven Development (TDD) principles
+
+### Course work (Weeks 3, 4, 5, 6, 7)
+- Start the course work given in summary
+- document all the learnings in the repository
+- save all code as programming (.py) files
+
+## Conda Environments
+
+Install miniconda using the instructions in [py\installation_miniconda.md](py\installation_miniconda.md)
+
 ## Conda vs. Pip
+
+Conda and pip are package managers. A comparison between pip and conda is given in link below.
+
+Virtual environments can be created using either conda or pip or combination. 
 
 https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
 https://conda.io/projects/conda/en/latest/commands.html#conda-vs-pip-vs-virtualenv-commands
 https://www.anaconda.com/understanding-conda-and-pip/
 
 
-## Conda Environments
-
-Install miniconda using the instructions in []()
 ### General working
 
 ### IDE: VS Code 
@@ -35,8 +74,8 @@ The typical extensions required are:
 - Python (from Microsoft)
 - Python Extension Pack
 
-Setting up the project specific environment
-
+Setting up the project specific environment:
+- ?
 
 ### CI/CD Deployments
 
@@ -47,39 +86,3 @@ Setting up the project specific environment
 	- Also, if a fast route compilation (numba) is used. Without warning the numba can be disabled.
   - This will require disabling the tasks or kill ongoing tasks in a server machine
 
-
-
-## Packaging
-
-The good practices are as follows:
-- Write tests. Preferably utilize pytest. 
-- Example test and file structure
-	- https://github.com/jumptrading/luddite
-	- Utilized test_package.py for all tests 
-	- pytest.ini file for pytest configurations
-	- Utilize github test workflows
-	- https://github.com/jumptrading/luddite/blob/master/.github/workflows/tests.yml
-- Others considerations
-	- Pypi supports Readme.rst (restructured Text)  and  Readme.md files. If only 1 format is used in a package, prefer to utilize a package to alternate if required.
-	- https://stackoverflow.com/questions/10718767/have-the-same-readme-both-in-markdown-and-restructuredtext
-
-## Steps - Overview
-
-| Step |  Description | Commands/Detailed Description | Reference |
-|---|---|---|---|
-| 1 | Create python project with directory structure | Follow pep8 guidelines | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/) |
-| 2 | Package compliance | Ensure all directories are package modules using __init__.py  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/) |
-| 3 | Add setup.py and build wheels | python setup.py sdist bdist_wheel  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)|
-| 4 | Create account on pypi and upload using twine package | These commands will push the .whl and .tar.gz file into the pypi repository <br> conda install twine <br> twine upload dist/*  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)|
-
-
-### References
-
-[https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)
-
-[https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html](https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html)
-
-[https://packaging.python.org/](https://packaging.python.org/)
-
-Guidelines to contribute to libraries:
-[https://pandas.pydata.org/docs/development/contributing.html#contributing](https://pandas.pydata.org/docs/development/contributing.html#contributing)
