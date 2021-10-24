@@ -4,6 +4,8 @@ Salesforce platform
 
 ## Summary
 
+- follow guidelines as a good samaritan, [good_samaritan_guidelines.md](good_samaritan_guidelines.md)
+
 - See "First Steps" section below
 
 - Course work (Still to be determined):
@@ -14,6 +16,10 @@ Salesforce platform
 
 - Podcasts:
     - https://developer.salesforce.com/podcast
+
+- Why is Refactoring important?
+
+[https://github.com/bmihovski/software-development-ebooks-1/blob/master/%5BRefactoring%20Improving%20the%20Design%20of%20Existing%20Code%20(Addison-Wesley%20Object%20Technology%20Series)%20Kindle%20Edition%20by%20Martin%20Fowler%20-%202002%5D.pdf](https://github.com/bmihovski/software-development-ebooks-1/blob/master/%5BRefactoring%20Improving%20the%20Design%20of%20Existing%20Code%20(Addison-Wesley%20Object%20Technology%20Series)%20Kindle%20Edition%20by%20Martin%20Fowler%20-%202002%5D.pdf)
 
 
 ### First Steps (Week 3)
@@ -31,7 +37,6 @@ Salesforce platform
 ### Technology Training (Weeks 3, 4, 5, 6, 7)
 
 developer.salesforce.com training:
-- follow guidelines as a good samaritan, [good_samaritan_guidelines.md](good_samaritan_guidelines.md)
 - save all code as programming files
 - as you train, learn any unknown topics and document them. Some go-by websites
     - https://www.salesforcetutorial.com/sfdc-tutorial/
@@ -78,7 +83,9 @@ developer.salesforce.com training:
                 - an overview flowchart
                 - detailed flowcharts as needed
         - Run project in playground
-        - add 2 tests to demonstrate test driven development principles
+        - add tests to demonstrate test driven development principles:
+			- 2-3 unit tests 
+			- 2-3 behavior driven development (BDD) tests 
 
 
 work towards getting the following salesforce certifiations:

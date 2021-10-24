@@ -1,5 +1,5 @@
 ## Introduction
-The document describes the good samaritan or resident guidelines and etiquettes that will help in life, career or otherways
+The document describes the good samaritan or resident guidelines and etiquettes that will help in life, career and as a good team/project participant. 
 
 ## Summary
 
@@ -24,6 +24,10 @@ Documentation guidelines:
 - draw flowcharts in plantuml
     - an overview flowchart
     - detailed flowcharts as needed
+
+Repository guidelines:
+- add program files in respective directory. 
+- for writing programs, a good starting folder structure is very critical to get a good project work, architecture
 
 
 ### References

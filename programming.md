@@ -2,7 +2,8 @@
 The document describes the programming principles to be the followed for typical programming projects:
 
 ## Summary
-- TBA
+
+- follow guidelines as a good samaritan, [good_samaritan_guidelines.md](good_samaritan_guidelines.md)
 
 ## 3 month Training for Fresh Grads
 
@@ -11,6 +12,7 @@ The document describes the programming principles to be the followed for typical
 - Learn common programming principles
   - Object oriented programming principles (see section below)
   - SOLID programming principles (see below)
+  - Learn test driven development principles
 - Read book : 
   - [REF-IT-Clean_Code.pdf](https://github.com/vamseeachanta/energy/blob/master/it/REF-IT-Clean_Code.pdf). 
   - read chapters 1 to 3 in first 2 weeks of training.
@@ -69,6 +71,9 @@ The document describes the programming principles to be the followed for typical
 
 ## OOPs
 
+A simple explanation for object oriented programming principles is given below:
+[it\REF-OOPs_Simply_Explained.pdf](it\REF-OOPs_Simply_Explained.pdf)
+
 OOPS or Object Oriented Programming Principles
 
 [https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_object_oriented_principles.htm
@@ -81,12 +86,12 @@ OOPS or Object Oriented Programming Principles
 ](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 )
 
-## Good Repo guidelines
+## Test Driven Development
 
-- add program files in respective directory. 
-- for writing programs, a good starting folder structure is very critical to get a good project work, architecture
-
+[https://philippe.bourgau.net/from-apprentice-to-master-how-to-learn-tdd-test-driven-development/](https://philippe.bourgau.net/from-apprentice-to-master-how-to-learn-tdd-test-driven-development/)
 
 ### References
 
-TBA
+
+[https://github.com/bmihovski/software-development-ebooks-1](https://github.com/bmihovski/software-development-ebooks-1)
+

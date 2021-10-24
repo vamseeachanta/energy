@@ -1,18 +1,16 @@
 ## Introduction
-The document describes the python principles to be the followed for the python repositories:
+
+The document describes the python learning for typical programming:
 
 ## Summary
 
-The key python learnings are:
-- data structures
-- classes and class functions
-- virtual environments
-- 
-- TBA
+- follow guidelines as a good samaritan, [good_samaritan_guidelines.md](good_samaritan_guidelines.md)
+
+- See "First Steps" section below
+
 
 Recommended course on Udemy is:
 [https://www.udemy.com/course/the-python-pro-course/](https://www.udemy.com/course/the-python-pro-course/)
-
 
 - See "First Steps" section below
 
@@ -25,6 +23,19 @@ Recommended course on Udemy is:
 - Podcasts:
     - [https://realpython.com/podcasts/rpp/](https://realpython.com/podcasts/rpp/)
 
+- Why is Refactoring important?
+
+[https://github.com/bmihovski/software-development-ebooks-1/blob/master/%5BRefactoring%20Improving%20the%20Design%20of%20Existing%20Code%20(Addison-Wesley%20Object%20Technology%20Series)%20Kindle%20Edition%20by%20Martin%20Fowler%20-%202002%5D.pdf](https://github.com/bmihovski/software-development-ebooks-1/blob/master/%5BRefactoring%20Improving%20the%20Design%20of%20Existing%20Code%20(Addison-Wesley%20Object%20Technology%20Series)%20Kindle%20Edition%20by%20Martin%20Fowler%20-%202002%5D.pdf)
+
+### End of learning Checklist
+
+The key python learnings are:
+- data structures
+- classes and class functions
+- virtual environments
+- 
+
+
 ### First Steps (Week 3)
 
 - listen to all the podcasts to get good idea of what is possible using the technology
@@ -32,21 +43,31 @@ Recommended course on Udemy is:
 - Create account in below website
     - dev.azure.com
 
-- Pick 5 projects from below link
-    - https://developer.salesforce.com/code-samples-and-sdks
+- Learn Test Driven Development (TDD) principles
+
+### Technology Training (Weeks 3, 4, 5, 6, 7)
+
+- Start the course work given in summary
+- document all the learnings in the repository
+- save all code as programming (.py) files
+
+
+- Pick 5 full stack projects from below link
+    - https://compscicentral.com/python-projects/
+	- https://dev.to/mrsaeeddev/5-absolutely-free-projects-you-should-do-to-become-a-full-stack-superman-before-the-2020-ends-2ci1
+	- https://www.upgrad.com/blog/full-stack-projects-github-beginners/
+
     - for each project:
         - document the project in md file
             - exlain the architecture
             - learn about plantuml using document: [tools\plantuml.md](tools\plantuml.md)
             - draw project flowchart(s) in plantuml
-        - Run the project
-
-- Learn Test Driven Development (TDD) principles
-
-### Course work (Weeks 3, 4, 5, 6, 7)
-- Start the course work given in summary
-- document all the learnings in the repository
-- save all code as programming (.py) files
+                - an overview flowchart
+                - detailed flowcharts as needed
+        - Run project in playground
+        - add tests to demonstrate test driven development principles:
+			- 2-3 unit tests 
+			- 2-3 behavior (BDD) tests 
 
 ## Conda Environments
 
