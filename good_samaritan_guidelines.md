@@ -1,5 +1,5 @@
 ## Introduction
-The document describes :
+The document describes the good samaritan or resident guidelines and etiquettes that will help in life, career or otherways
 
 ## Summary
 
@@ -18,8 +18,12 @@ As a programmer
         - If project information is considered proprietary, an private repo shared with leaders is a better place. If in doubt, add to private repo and seek advice from leaders.
 
 
-
-
+Documentation guidelines:
+- document all the learnings in training repository. 
+- save all code as programming files
+- draw flowcharts in plantuml
+    - an overview flowchart
+    - detailed flowcharts as needed
 
 
 ### References
