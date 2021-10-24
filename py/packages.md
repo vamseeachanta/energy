@@ -21,6 +21,17 @@ The good practices are as follows:
 Python wheels are great. Building them across Mac, Linux, Windows, on multiple versions of Python, is not. cibuildwheel is here to help. See link below
 [https://pypi.org/project/cibuildwheel/](https://pypi.org/project/cibuildwheel/)
 
+More CI/CD streamlining for python packages:
+- use cookiecutter to generate a package template
+- set up travis CI for auto deployment of package to pypi
+- 
+
+
+https://github.com/audreyfeldroy/cookiecutter-pypackage
+https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
+https://pypi.org/project/cookiecutter/
+
+
 ## Steps - Overview
 
 | Step |  Description | Commands/Detailed Description | Reference |

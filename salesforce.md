@@ -6,7 +6,7 @@ Salesforce platform
 
 - See "First Steps" section below
 
-- Course work:
+- Course work (Still to be determined):
     - preferred:
         - https://www.udemy.com/course/salesforce-development/
     - further courses under review are below:
@@ -37,20 +37,39 @@ Salesforce platform
 
 ### Course work (Weeks 3, 4, 5, 6, 7)
 
-Key things to note:
-- Start the course work given in summary
-- document all the learnings in the repository
-- save all code as programming files
-- along with coursework, on developer.salesforce.com, after registering, do the following:
-    - Follow all the trailhead basics : [https://trailhead.salesforce.com/en/content/learn/modules/trailhead_basics](https://trailhead.salesforce.com/en/content/learn/modules/trailhead_basics)
-        - learn to create playgrounds
-        - learn to install packages (using GUI or using URL)
-        - 
-    - run 5 chosen projects in playgrounds
-- work to get the following salesforce certifiations:
-    - ?
-    - ?
+developer.salesforce.com training:
+    - document all the learnings in training repository. 
+    - save all code as programming files
+    - as you train, learn any unknown topics and document them. Some go-by websites
+        - https://www.salesforcetutorial.com/sfdc-tutorial/
+        - trailhead.salesforce.com/developer/training
+        - google search topics
+    - Based on quality of your documentation, we will reuse in this repo for future trainings of developers.
+    - train on developer.salesforce.com, after registering, do the following:
+        - Follow all the trailhead basics : [https://trailhead.salesforce.com/en/content/learn/modules/trailhead_basics](https://trailhead.salesforce.com/en/content/learn/modules/trailhead_basics)
+            - learn to create playgrounds
+            - learn to install packages (using GUI or using URL)
+        - complete the below chosen trailhead modules in following areas:
+            - basics area
+                - ?
+                - ?
+            - apex area
+                - ?
+                - ?
+            - lightening area
+                - ?
+                - ?
+            - lightening web components (LWC) area
+                - ?
+                - ?
 
+        - run 5 chosen projects in playgrounds
+    - work towards getting the following salesforce certifiations:
+        - ?
+        - ?
+
+udemty course
+- Start the udemy course  given in summary
 
 ### General working
 
