@@ -37,7 +37,7 @@ The document describes the programming principles to be the followed for typical
     - create a new branch, 'training'
     - continue working in this new branch
     - push code every day before review call
-  - perform git operations from vs code
+  - perform git operations from vs code. See below for reference.
     - [https://www.youtube.com/watch?v=F2DBSH2VoHQ](https://www.youtube.com/watch?v=F2DBSH2VoHQ)
 
 - Resource Requirements

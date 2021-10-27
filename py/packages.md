@@ -42,6 +42,16 @@ https://pypi.org/project/cookiecutter/
 | 4 | Create account on pypi and upload using twine package | These commands will push the .whl and .tar.gz file into the pypi repository <br> conda install twine <br> twine upload dist/*  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)|
 
 
+### Building A Package Locally
+
+•	Add following package to the base environment
+o	Install conda-buiild
+o	Conda install conda-build
+•	Utilize the below to build the package in current path. A specific path can also be specified.
+o	Conda develop . 
+o	https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
+
+
 ### References
 
 [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)

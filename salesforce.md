@@ -69,6 +69,9 @@ developer.salesforce.com training:
         - full stack development
             - ?
             - ?
+    - complete salesforce admin training video. https://www.apexhours.com/salesforce-admin-training-free/.
+        - practice in development environment in developer.salesforce.com
+        - document learnings in repo for future reference
 
 5 template/code-sample projects
 - run 5 chosen projects in playgrounds
