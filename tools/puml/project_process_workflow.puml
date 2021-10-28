@@ -1,22 +1,43 @@
 @startuml
+
 start
-:WorkLead
-partition for-each-WorkLead {
-:Meeting to mature requirements  
-:Finalize written requirements
-:Get estimates from offshore team;
-:Acceptance by Client;
+:Work Lead;
+partition WorkLead_Go_Decision {
+
+note
+    Work Project Acceptance Timelime:
+    Go (or) No Go
+    Mature Requirements
+    Mature Estimates
+end note
+
+:Meeting to mature requirements;
+:Finalize requirements in XOM ADO;
+:Estimate by Disys TaaS Lead;
+:Review req/estimates by Client;
+
 }
-:Project acceptance
+
+:Work Project acceptance;
 
 partition for-each-Project {
-:Onboard project
-:sync with agile sprint cycles 
-(XOM lead/product owner)
+
+note
+    Work Project Execution:
+    Agile sync with client
+    Review requirements and raise CO if required
+    Work Project Close-out
+end note
+
+:Onboard project;
+:TaaS Lead sync with agile sprint cycles
+with XOM (lead/product owner);
 :Product Acceptance by Client;
+
 }
 
 :Get feedback;
+:Project close-out;
 
 stop
 @enduml
