@@ -1,19 +1,22 @@
 @startuml
+start
+:WorkLead
+partition for-each-WorkLead {
+:Meeting to mature requirements  
+:Finalize written requirements
+:Get estimates from offshore team;
+:Acceptance by Client;
+}
+:Project acceptance
 
-title Project workflow process
-
-state "Idle Queue" as Idle
-[*] -> Idle
-Idle -> Queue : Task Arrives
-Queue : Task placed in queue.
-Queue -> Worker : Worker collects Task
-Worker -> DRev
-
-state "Di Review (1 Week)" as DRev {
-  [*] --> long1
-  long1 --> ProcessData : Enough Data
+partition for-each-Project {
+:Onboard project
+:sync with agile sprint cycles 
+(XOM lead/product owner)
+:Product Acceptance by Client;
 }
 
-DRev -> [*]
+:Get feedback;
 
+stop
 @enduml
