@@ -1,5 +1,7 @@
 ## Introduction
 
+Infrastructure as code is a leading effort to help build infrastructure based on code.
+
 Ansible is an open source IT automation engine that automates provisioning, configuration management, application deployment, orchestration, and many other IT processes.
 
 Use Ansible automation to install software, automate daily tasks, provision infrastructure, improve security and compliance, patch systems, and share automation across your organization.
@@ -7,13 +9,6 @@ Use Ansible automation to install software, automate daily tasks, provision infr
 ## Summary
 
 ## References
-
-
-https://podcasts.apple.com/us/podcast/runas-radio/id253682066
-
-
-https://podcasts.apple.com/us/podcast/infrastructure-as-code-using-ansible-with-josh-duffney/id253682066?i=1000457977794
-https://podcasts.apple.com/us/podcast/becoming-ansible-with-josh-duffney/id253682066?i=1000490552599
 
 Ansible 
 https://youtu.be/aPN18jLRkJI
