@@ -1,14 +1,15 @@
 @startuml
-
 start
 :Work Lead;
 partition WorkLead_Go_Decision {
 
 note
-    Work Project Acceptance Timelime:
+    Work Project Acceptance:
     Go (or) No Go
     Mature Requirements
     Mature Estimates
+    Timeline (5 business days)
+    Responsibility: Vamsee A., Patrick T.
 end note
 
 :Meeting to mature requirements;
@@ -25,14 +26,17 @@ partition for-each-Project {
 note
     Work Project Execution:
     Agile sync with client
-    Review requirements and raise CO if required
-    Work Project Close-out
+    Responsibility: Disys Lead, Developer
 end note
 
 :Onboard project;
 :TaaS Lead sync with agile sprint cycles
 with XOM (lead/product owner);
 :Product Acceptance by Client;
+: Accept additional work
+Stories, features with story points
+Review requirements and raise CO (i.e. story points) as required
+User, Feature, Work Project Close-out
 
 }
 

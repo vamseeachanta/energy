@@ -48,6 +48,11 @@ An plantuml extension or utility can be used to render in an IDE. Instructions f
   - Click option to 'Export Workspace Diagrams' 
   - choose the format to save diagrams
 
+
+Typical errors and how to resolve them:
+- Error: Diagram unnamed. Try "@startuml name"
+  - Resolution: 
+
 ## Github Integration
 
 Github integration will greatly help streamline implementation. A method to implement a stand-alone file inline with a markdown file is given in this section.
