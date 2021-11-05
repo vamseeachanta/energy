@@ -1,11 +1,11 @@
 @startuml project_process_workflow
 start
-:Work Lead;
-partition WorkLead_Go_Decision {
+:Project Lead;
+partition ProjectLead_Go_Decision {
 
 note
-    Work Project Acceptance:
-    Go (or) No Go
+    Project Acceptance: 
+    Go (or) No Go in 7 days
     Mature Requirements
     Mature Estimates
     Timeline (5 business days)
@@ -21,7 +21,7 @@ end note
 
 :Work Project acceptance;
 
-partition for-each-Project {
+partition Each-Project-WorkCycle {
 
 note
     Work Project Execution:
