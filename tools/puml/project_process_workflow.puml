@@ -5,10 +5,9 @@ partition ProjectLead_Go_Decision {
 
 note
     Project Acceptance: 
-    Go (or) No Go in 7 days
+    Go (or) No Go in 5 business days
     Mature Requirements
     Mature Estimates
-    Timeline (5 business days)
     Responsibility: Vamsee A., Patrick T.
 end note
 
