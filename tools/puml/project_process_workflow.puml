@@ -1,4 +1,4 @@
-@startuml
+@startuml project_process_workflow
 start
 :Work Lead;
 partition WorkLead_Go_Decision {
@@ -31,12 +31,12 @@ end note
 
 :Onboard project;
 :TaaS Lead sync with agile sprint cycles
-with XOM (lead/product owner);
-:Product Acceptance by Client;
+with XOM (lead/product owner)
+Review/change story points as required;
 : Accept additional work
-Stories, features with story points
-Review requirements and raise CO (i.e. story points) as required
-User, Feature, Work Project Close-out
+Stories, features with story points;
+:Product Acceptance by Client
+User, Feature, Work Project Close-out;
 
 }
 
