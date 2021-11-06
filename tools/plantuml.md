@@ -32,6 +32,13 @@ Good starting examples (and reference links) are given below:
 
 [https://forum.plantuml.net/9735/participant-text-overflows-from-the-right-of-its-box](https://forum.plantuml.net/9735/participant-text-overflows-from-the-right-of-its-box)
 
+## Installation
+
+Install plantuml using the below command:
+  - choco install plantuml
+  - troubleshooting:
+    - ensure chocolatey is installed on the computer. 
+    - https://chocolatey.org/install
 
 ## Rendering in an IDE
 
