@@ -35,10 +35,12 @@ Good starting examples (and reference links) are given below:
 ## Installation
 
 Install plantuml using the below command:
-  - choco install plantuml
-  - troubleshooting:
-    - ensure chocolatey is installed on the computer. 
-    - https://chocolatey.org/install
+- choco install plantuml
+- troubleshooting - chocolatey not installed:
+  - error: "choco : The term 'choco' is not recognized as the name of a cmdlet, function, script file, or operable program. Check   the spelling of the name, or if a path was included, verify that the path is correct and try again"
+  - ensure chocolatey is installed on the computer. 
+  - https://chocolatey.org/install
+
 
 ## Rendering in an IDE
 
