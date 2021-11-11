@@ -9,6 +9,8 @@ Git is a Verson control tool
 
 ## General Workflows
 
+
+
 [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
 
 ### Cloning a repo
@@ -58,8 +60,6 @@ When branch is ready for review (and/or approval):
     - Go to Azure devops or github website
     - Create the pull request
 -	Copy the person who should be reviewing the code in the pull request.
-
-
 
 
 ### Rebase

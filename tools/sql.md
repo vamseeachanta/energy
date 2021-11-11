@@ -6,6 +6,13 @@ SQL is
 
 FYI
 
+SQL Server (MS SQL)
+
+https://www.microsoft.com/en-us/sql-server/sql-server-2022
+https://www.youtube.com/watch?v=ncF-zFzBDAY
+https://www.youtube.com/playlist?list=PL3EZ3A8mHh0xUC8xqFg7k1Qzp-f5HzbTB
+
+
 ## JSON Data
 
 Storying JSON data in a table column:
