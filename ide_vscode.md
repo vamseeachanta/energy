@@ -30,3 +30,11 @@ The document describes the VS code usage, principles and best practices for proj
 
 https://www.freecodecamp.org/news/how-to-sync-vs-code-settings-between-multiple-devices-and-environments/
 https://itnext.io/settings-sync-with-vs-code-c3d4f126989?gi=820f71c93d1e
+
+## Automation
+
+### On-Save, execute bash command
+
+https://betterprogramming.pub/automatically-execute-bash-commands-on-save-in-vs-code-7a3100449f63
+https://stackoverflow.com/questions/68059778/auto-run-command-from-vscode-extension-on-file-save
+
