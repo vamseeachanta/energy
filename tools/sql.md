@@ -42,3 +42,12 @@ References:
 
 [https://www.sqlshack.com/how-to-parse-json-in-sql-server/](https://www.sqlshack.com/how-to-parse-json-in-sql-server/)
 
+### References
+
+Good reference cheatsheets
+
+scripting language
+https://github.com/zyxnowell/sql-cheatsheet
+
+Finding data, data modification, reporting queries, join queries, view queries, altering table queries, creating table
+https://github.com/enochtangg/quick-SQL-cheatsheet
