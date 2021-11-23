@@ -1,7 +1,7 @@
 '''
 https://python-mss.readthedocs.io/examples.html
-
 https://www.thepythoncode.com/article/make-screen-recorder-python
+https://datatofish.com/screenshot-python/
 '''
 
 import os
