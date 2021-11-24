@@ -32,4 +32,7 @@ The following actions will resolve typical SSL errors encountered during package
 - For pip SSL errors:
     - Create directory C:\Users\<<user_network_id>>\pip 
     - copy pip.ini, see [py\ref\pip.ini](py\ref\pip.ini) to above created pip directory.
-
+    - for unix/linux computers:
+        - add pip.conf file in appropriate location
+        - https://stackoverflow.com/questions/25981703/pip-install-fails-with-connection-error-ssl-certificate-verify-failed-certi
+        - https://pip.pypa.io/en/stable/topics/configuration/
