@@ -20,7 +20,6 @@ Git cloning instructions:
     - $git  clone https://vamseeachanta@dev.azure.com/vamseeachanta/aceengineer/_git/aceengineer
 
 
-
 ### Forking a repo
 
 ### Cloning vs. Forking
@@ -78,6 +77,29 @@ Git Rebase. Always rebase the local branch that typically (way) behind master. R
 https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge
 https://www.perforce.com/blog/vcs/git-rebase-vs-merge-which-better
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
+
+## Commands
+
+To help summarize data
+git log --graph --decorate --pretty=oneline --abbrev-commit
+
+
+C:\Users\achantv\Documents\GitHub\client_projects>git log --graph --decorate --pretty=oneline --abbrev-commit
+*   6f24f52 (HEAD -> main) Merge branch 'main' of https://github.com/vamseeachanta/client_projects
+|\
+| * c425885 (origin/main, origin/HEAD) Feature/orcaflex analysis (#2)
+* | 0e4759b wip
+* | db2d53c wip
+* | 29d8a17 drilling
+|/
+* 8ab3d43 wip
+* 30edef8 wip
+* d49fbd9 Update README.md
+* 06024c6 Update developers.md
+* a4a7ede Feature/start ver (#1)
+* 9fa9599 Update README.md
+* 86ac5dc Initial commit
 
 
 ## Installation
