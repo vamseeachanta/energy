@@ -19,3 +19,4 @@ For general working in VS code:
 ### References
 
 [https://jpt.spe.org/a-robot-takes-over-the-drilling-floor](https://jpt.spe.org/a-robot-takes-over-the-drilling-floor)
+https://jpt.spe.org/drilling-automation-are-we-there-yet

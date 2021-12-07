@@ -3,6 +3,11 @@
 
 ## Summary
 
+SVM-based predictive model of Wind Turbine electrical power from a Supervisory Control and Data Acquisition (SCADA) dataset
+https://lnkd.in/gYmb_GW9
+
+Inside the wind turbine
+https://www.energy.gov/eere/wind/how-wind-turbine-works-text-version
 
 ## Installation
 
