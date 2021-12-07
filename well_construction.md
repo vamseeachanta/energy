@@ -18,4 +18,4 @@ For general working in VS code:
 
 ### References
 
-[https://www.typescriptlang.org/docs/handbook/intro.html](https://www.typescriptlang.org/docs/handbook/intro.html)
+[https://jpt.spe.org/a-robot-takes-over-the-drilling-floor](https://jpt.spe.org/a-robot-takes-over-the-drilling-floor)
