@@ -110,6 +110,11 @@ Github integration will greatly help streamline implementation. A method to impl
 
 For developers, getting it to work in in other IDEs may be difficult.
 
+## Standard schematics
+
+### gantt
+
+https://plantuml.com/gantt-diagram
 
 ## References
 
