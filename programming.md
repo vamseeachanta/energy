@@ -86,6 +86,10 @@ OOPS or Object Oriented Programming Principles
 ](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 )
 
+## 12 Factors in Modern App Development
+
+https://12factor.net/
+
 ## Test Driven Development
 
 [https://philippe.bourgau.net/from-apprentice-to-master-how-to-learn-tdd-test-driven-development/](https://philippe.bourgau.net/from-apprentice-to-master-how-to-learn-tdd-test-driven-development/)
