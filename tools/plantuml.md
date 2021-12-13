@@ -116,6 +116,16 @@ For developers, getting it to work in in other IDEs may be difficult.
 
 https://plantuml.com/gantt-diagram
 
+### Command line execution
+
+If plantuml extenion is installed in vs code, execute below in VS code terminal
+plantuml "C:\Users\Vamsee Achanta\GitHub\energy\tools\puml\gantt.puml"
+
+Output file will be saved in same folder as the root folder. The default output is typically .png
+
+Reference:
+https://plantuml.com/command-line
+
 ## References
 
 - [https://plantuml.com/](https://plantuml.com/)
@@ -131,3 +141,7 @@ https://plantuml.com/gantt-diagram
 - [https://www.linux-magazine.com/Issues/2020/235/PlantUML-Diagrams/(offset)/3](https://www.linux-magazine.com/Issues/2020/235/PlantUML-Diagrams/(offset)/3)
 
 - [https://github.github.com/gfm/](https://github.github.com/gfm/)
+
+https://mattjhayes.com/2021/11/28/other-uses-for-plantuml/
+
+https://github.com/mattjhayes/PlantUML-Examples

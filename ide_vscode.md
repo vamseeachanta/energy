@@ -33,7 +33,16 @@ https://itnext.io/settings-sync-with-vs-code-c3d4f126989?gi=820f71c93d1e
 
 ## Automation
 
+
+## Opening Settings.json
+
+- Open the command palette (either with F1 or Ctrl+Shift+P)
+- Type "open settings"
+- You are presented with two options, choose "Open Settings (JSON)"
 ### On-Save, execute bash command
+
+
+https://marketplace.visualstudio.com/items?itemName=fsevenm.run-it-on
 
 https://betterprogramming.pub/automatically-execute-bash-commands-on-save-in-vs-code-7a3100449f63
 https://stackoverflow.com/questions/68059778/auto-run-command-from-vscode-extension-on-file-save
