@@ -6,6 +6,9 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/overview
 Supporting platforms:
 https://docs.microsoft.com/en-us/azure/azure-monitor/app/platforms
 
+Pricing model
+https://azure.microsoft.com/en-us/pricing/details/monitor/#pricing
+
 # Specific Problems
 
 TBA
@@ -13,3 +16,4 @@ TBA
 # References
 
 TBA
+
