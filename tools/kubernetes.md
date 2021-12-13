@@ -4,7 +4,32 @@ kubernetes or K8s is a way to run applications.
 
 ## Summary
 
-FYI
+
+
+## First Steps
+
+
+Installing minikube
+https://v1-18.docs.kubernetes.io/docs/tasks/tools/install-minikube/
+
+How to practice Kubernetes:
+
+Use Minikube (Needs Virtual Machine or Hyper-V)
+
+Alternatively can use docker. See below link to enable kubernetes in Dockers. 
+https://stackoverflow.com/questions/70127857/minikube-doesnt-start-on-windows-server-2019
+
+
+Understanding Kubernetes using an example python application:
+Run locally (on port 5000): 
+http://localhost:5000/
+Run using Docker (on port 5001) : 
+http://localhost:5001/
+Run using Kubernetes (on port 6000) : 
+http://localhost:6000
+
+
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 ## References
 
