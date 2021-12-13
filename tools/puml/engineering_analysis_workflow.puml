@@ -6,60 +6,79 @@ skinparam titleBackgroundColor Tomato
 
 title Engineering Analysis \n Typical Workflow 
 
-start
-
-    partition "3D Modelling" {
-
         note right
-            Software: AutoDesk?
-            Storage: Vault?
+            TODO:
+             Need 2 track workflow 
+             Add timelines
         end note
 
-        :Define key Design Parameters;
-        :Build the 3D models;
-        :Save required formats 
-        (script/automate upon save);
+start
+
+    partition "Design Data and Methodology Preperation" {
+
+        note right
+            Markdown for:
+             Maintenance 
+             Portability
+             Add flowcharts in puml
+        end note
+
+        :Standard design data template;
+        :data known
+          Document;
+        :data unknown
+            Fill in Generic assumptions
+            Fill other assumptions 
+            Leave Blanks
+            Use color codes;
     }
 
     :Communicate Status to Client;
         note right
-            PDF: 3D viewable format 
+            md: 
+                Send as attachment? or 
+                repo link 
         end note
-
-    partition "3D to 2D Drawing" {
+    partition "Design Data and Methodology Approval" {
 
         note right
-            Software: AutoCAD?
-            Storage: Vault?
-            Automation: what extent?
+            Can be cyclic (2-3 iterations)
+            Prepare to run draft analysis
+            Assume analysis is always re-analysis
+            Provide timeline to client
         end note
 
-        :Define key Design Parameters;
-        note right
-            Borders
-            Size
-            Title blocks
-            BOM table
-            Notes table
-        end note
-        :Convert 2D to 3D using script;
-        :Basic Performance Tests
-            Latency etc.;
+        :Client Reviews;
+        :Get client confirmation;
 
-        :Detailed Checking;
-        note right
-            Use 3 color option in PDF 
-            save them in repo
-            2-3 drawing sync will decrease comments
-        end note
     }
 
-    partition "Client Delivery" {
-    : Send Draft for Client comments;
-    : Incorporate Client comments;
-    : Check  Client comments;
-    : Issue to client;
+
+    partition "Analysis" {
+    : Setoff 2 Analysis Matrix;
+
+        note right
+            Each matrix set:
+             should give operating envelopes
+             high level answers
+            Guide with next steps
+            Helps define re-analysis and postprocess requirements
+        end note
+
+    : PostProcess results;
+    : Spot check animations;
+    : Review results;
+    : Client communication;
     }
+
+    partition "Full Analysis, Postprocess and Results" {
+    : Set up full analysis;
+    : Postpcoess;
+    : Prepare results and charts;
+    : Document conclusions;
+    }
+
+: Full Report;
 
 stop
 
