@@ -8,7 +8,7 @@ kubernetes or K8s is a way to run applications.
 
 ## First Steps
 
-
+### Prerequisites
 Installing minikube
 https://v1-18.docs.kubernetes.io/docs/tasks/tools/install-minikube/
 
