@@ -1,9 +1,14 @@
 ## Introduction
-SonarCube is
+
+DevOps is
 
 ## Summary
 
-FYI
+
+taskkill command using:
+- PID
+- using program (taskkill chrome.exe)
+
 
 ## References
 
