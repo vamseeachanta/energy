@@ -1,2 +1,5 @@
 {
+    "python.pythonPath": "C:\\Data\\Continuum\\Miniconda3\\envs\\flask\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
 }
