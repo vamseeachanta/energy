@@ -9,8 +9,12 @@
 
 For general VS code settings, refer to https://github.com/vamseeachanta/energy/blob/d6a5aeb896ecbbe355fde45a2c6016843c7cef3a/ide_vscode.md
 
+Knownn Issues:
+- Sometimes the selected python environment is not recognized inspite of following the instructions in this page. Need to collect more data on this.
 
 ### Key value pairs
+
+The following settings will help set the python environments appropriately for a project or workspace in VS Code. 
 
 | key |   Value (sample) |  Setting |  Comments |
 |---|---|---|---|
@@ -27,6 +31,9 @@ For Workspace settings JSON
 <pre>
     "python.pythonPath": "C:\\Data\\Continuum\\Miniconda3\\envs\\flask\\python.exe",
 </pre>
+
+
+
 
 ## References
 
