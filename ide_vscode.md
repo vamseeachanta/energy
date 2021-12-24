@@ -15,7 +15,18 @@ The document describes the VS code usage, principles and best practices for proj
     - Install and experiment extensions as you see fit until one gets bored of all the fancy tools
     
 
-### Settings sync from previous work
+### Settings 
+
+### Overview
+
+Settings can be accessed from Command Palette (Ctrl+Shift+P)
+
+| Settings Type |   Short Description |  Comments |
+|---|---|---|
+| User | Settings that apply globally to any instance of VS Code you open.  | fallback properties. Located in user folder |
+| Workspace | Settings stored inside your workspace and only apply when the workspace is opened.  | override user settings. Located in workspace folder|
+
+### Sync from previous work
 
 - Install Settings Sync
 - Authorize access to Github
@@ -26,7 +37,6 @@ The document describes the VS code usage, principles and best practices for proj
     - Perform the github authentication 
     - Go to command pallette and search "Sync: Download Settings" and click on it
     - Perform the github authentication again if needed
-
 
 https://www.freecodecamp.org/news/how-to-sync-vs-code-settings-between-multiple-devices-and-environments/
 https://itnext.io/settings-sync-with-vs-code-c3d4f126989?gi=820f71c93d1e

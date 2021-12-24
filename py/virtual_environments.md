@@ -142,3 +142,13 @@ conda env list	REM Display all environments in Conda
 |Install other package manager|conda install pip                            |pip install conda                   |X                                     |
 |Install Python   |conda install python=x.x                     |X                                   |X                                     |
 |Update Python    |conda update python*                         |X                                   |X                                     |
+
+### Errors
+
+"ERROR: Could not install packages due to an OSError: [WinError 5] Access is denied: 'C:\\Users\\username\\AppData\\Local\\Temp\\pip-uninstall-3senkzeyr\\flask.exe'"
+
+or server:
+
+ERROR: Could not install packages due to an OSError: [WinError 5] Access is 
+denied: 'd:\\programs\\miniconda3\\envs\\analysis\\scripts\\flask.exe'
+ Consider using the `--user` option or check the permissions.
