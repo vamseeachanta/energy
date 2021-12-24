@@ -12,3 +12,4 @@ https://www.topresume.com/career-advice/14-ways-to-leverage-your-linkedin-profil
 ## References
 
 
+Engineering | Entrepreneurial leadership | Strategy | Transformation | Analytics | Team & Capability Development | Agile

@@ -42,7 +42,25 @@ Install plantuml using the below command:
   - https://chocolatey.org/install
 
 
-## Rendering in an IDE
+# Working in
+
+Plantuml can be worked in various methods:
+
+
+## Browser
+
+Prerequisites:
+- Need a working (error less) .puml (or .plantuml) code for use
+
+
+The following link can be used to generate drawings. Paste the .puml data into the below link. One should get the chart.
+http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
+
+## IDE
+
+Prerequisites:
+- Need a working (error less) .puml (or .plantuml) code for use
+- Installation installed on the computer
 
 An plantuml extension or utility can be used to render in an IDE. Instructions for IDE(s) is given in this section.
 ### VS Code
