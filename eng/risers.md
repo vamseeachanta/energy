@@ -40,11 +40,11 @@ Design requires
 
 | Component  | Nom. Size | Length | Typ. Cost   | Link | Comments |
 |--------|---------|---------|----------|---------|---------|
-| Inner Barrel |  21 | stroke? | - | ? | Both 2D and 3D drawings? | 
-| Outer Barrel |  24 | stroke? | - | - [] | Includes 2D drawings? | 
-| Packer |  associated | stroke? | - | - [] | Includes 2D drawings? | 
-| Goosneck Assemblies |  associated | - | - | - [] | Includes 2D drawings? | 
-| Lifting acccesories |  associated | - | - | - [] | Includes 2D drawings? | 
+| Inner Barrel |  21 | stroke? | - | ? | - | 
+| Outer Barrel |  24 | stroke? | - | - [] | - | 
+| Packer |  associated | stroke? | - | - [] | - | 
+| Goosneck Assemblies |  associated | - | - | - [] | - | 
+| Lifting acccesories |  associated | - | - | - [] | - | 
 
 Design requires
 - lifting plan
@@ -55,9 +55,9 @@ Design requires
 | Component  | Nom. Size | Length | Typ. Cost   | Link | Comments |
 |--------|---------|---------|----------|---------|---------|
 | Main Pipe |  21 | stroke? | - | ? | Box/Pin end | 
-| C&K Line |  ? | stroke? | - | - [] | Includes 2D drawings? | 
-| Hydraulic Line |  ? | stroke? | - | - [] | Includes 2D drawings? | 
-| Booster Line |  ? | stroke? | - | - [] | Includes 2D drawings? | 
+| C&K Line |  ? | stroke? | - | - [] | - | 
+| Hydraulic Line |  ? | stroke? | - | - [] | - | 
+| Booster Line |  ? | stroke? | - | - [] |  - | 
 
 
 ## References
