@@ -52,13 +52,23 @@ Design requires
 
 ### Termination jt
 
-| Component  | Nom. Size | Length | Typ. Cost   | Link | Comments |
+| Component  | Nom. Size | Length (ft) | Typ. Cost   | Link | Comments |
 |--------|---------|---------|----------|---------|---------|
-| Main Pipe |  21 | stroke? | - | ? | Box/Pin end | 
-| C&K Line |  ? | stroke? | - | - [] | - | 
-| Hydraulic Line |  ? | stroke? | - | - [] | - | 
-| Booster Line |  ? | stroke? | - | - [] |  - | 
+| Main Pipe |  21 | 5 | - | ? | Box/Pin end | 
+| C&K Line |  ? | 5 | - | - [] | - | 
+| Hydraulic Line |  ? | 5 | - | - [] | - | 
+| Booster Line |  ? | 5 | - | - [] |  - | 
 
+### Riser jt
+
+Main, pup joints length are defined appropriately.
+
+| Component  | Nom. Size | Length (ft) | Typ. Cost   | Link | Comments |
+|--------|---------|---------|----------|---------|---------|
+| Main Pipe |  21 | appropriate | - | ? | Box/Pin end | 
+| C&K Line |  ? | appropriate | - | - [] | - | 
+| Hydraulic Line |  ? | appropriate | - | - [] | - | 
+| Booster Line |  ? | appropriate | - | - [] |  - | 
 
 ## References
 
