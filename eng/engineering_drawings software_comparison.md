@@ -40,3 +40,15 @@ Engineering drawings software evolved since year 2000 to be more parametric, clo
 
 - https://www.file-extensions.org/solidworks-file-extensions
 
+
+Solidworks PDM data management in SQL server:
+https://elements.heroku.com/addons/mssql
+
+### Solidworks Storage | Plan & Pricing
+
+| Purpose  | Name | Vendor | Cost   | Decision | Comments |
+|--------|---------|---------|----------|---------|---------|
+| mssql Storage |  Micro  | Heroku | 180/yr | - [] | 2GB storage | 
+| mssql Storage |  Mini  | Heroku | 600/yr | - [] | 250GB storage |
+
+
