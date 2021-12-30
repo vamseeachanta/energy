@@ -22,6 +22,13 @@ Example Locations of interest for these quantites can be
      - Entire length
      - Example section lengths for structure of length L are: End A (0 to x ft), Mid-section (x to L-x ft), End B (x-L to L ft)
 
+Example loading conditions: 
+     - No Load (No wave, No current, System in neutral day-to-day  state)
+     - With Vessel offset pre-condition (pre-condition such as vessel offset, No Wave, No Current)
+     - With Current Only (No wave, or other pre-conditions such as vessel offset)
+     - With Wave Only (No Current, or other pre-conditions such as vessel offset)
+     - Example section lengths for structure of length L are: End A (0 to x ft), Mid-section (x to L-x ft), End B (x-L to L ft)
+
 #### Along the structure
 - MBR
 - Torsion (and Rotation)
