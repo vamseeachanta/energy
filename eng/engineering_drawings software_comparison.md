@@ -53,3 +53,8 @@ https://elements.heroku.com/addons/mssql
 | mssql Storage |  Mini  | Heroku | 600/yr | - [] | 250GB storage |
 
 
+## Open Source
+
+### Blender
+https://youtu.be/mWlk04zjwew
+https://blog.render.st/how-does-blender-help-in-industrial-design-interview-with-claas-kuhnen/

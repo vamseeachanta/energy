@@ -52,6 +52,12 @@ o	Conda develop .
 o	https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
 
 
+### Testing A Package Locally
+
+A package can be imported locally from another code and thoroughly tested as well if required. The steps to do so are:
+- TBA
+
+
 ### References
 
 [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)
