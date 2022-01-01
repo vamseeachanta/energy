@@ -27,10 +27,20 @@ More CI/CD streamlining for python packages:
 - 
 
 
+
 https://github.com/audreyfeldroy/cookiecutter-pypackage
 https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 https://pypi.org/project/cookiecutter/
 
+
+## CI
+
+Helps cover testing, test coerage, etc.
+
+https://jacobtomlinson.dev/posts/2021/testing-and-continuous-integration-for-python-packages-with-github-actions/
+https://github.com/ksator/continuous-integration-with-python
+
+https://medium.com/swlh/automate-python-testing-with-github-actions-7926b5d8a865
 
 ## Steps - Overview
 
