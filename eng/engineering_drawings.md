@@ -19,6 +19,16 @@ consistent drawings are the key.
 a/ logo and title block should be consistent and imported from a single source
 b/ title block 
 
+## Typical Project Workflow
+
+The process of obtaining data/requirements to issuing finished product to client is given below:
+
+Flowchart as SVG:
+
+<img src="https://github.com/vamseeachanta/energy/blob/986a68f347179a90959edbe912033a181a3f44b4/out/tools/puml/engineering_design_workflow.svg?sanitize=true">
+
+
+
 ## References
 
 - Engineering drawing standards and guidelines, 
