@@ -12,9 +12,9 @@ For general VS code settings, refer to https://github.com/vamseeachanta/energy/b
 Knownn Issues:
 - Sometimes the selected python environment is not recognized inspite of following the instructions in this page. Need to collect more data on this.
 
-### Key value pairs
+### Set up Environment 
 
-The following settings will help set the python environments appropriately for a project or workspace in VS Code. 
+The following settings (Key value pairs) will help set the python environments appropriately for a project or workspace in VS Code. 
 
 | key |   Value (sample) |  Setting |  Comments |
 |---|---|---|---|
@@ -32,7 +32,19 @@ For Workspace settings JSON
     "python.pythonPath": "C:\\Data\\Continuum\\Miniconda3\\envs\\flask\\python.exe",
 </pre>
 
+### Define Configuration(s)
 
+
+### Define default configurations
+
+Example configurations
+
+| key |   Value (sample) |  Setting |  Purpose |
+|---|---|---|---|
+| python.formatting.yapfPath | C:\\Users\\Vamsee Achanta\\miniconda3\\Scripts\\yapf.exe  | yapf path for formatting | 
+| python.formatting.yapfArgs | [] | key, value properties |
+| python.sortImports.path | C:\\Users\\Vamsee Achanta\\miniconda3\\Scripts\\isort.exe | key, value properties |
+| python.sortImports.args | [] | key, value properties |
 
 
 ## References
@@ -42,3 +54,9 @@ https://code.visualstudio.com/docs/getstarted/settings
 https://code.visualstudio.com/docs/python/environments
 
 https://medium.com/analytics-vidhya/efficient-way-to-activate-conda-in-vscode-ef21c4c231f2
+
+https://code.visualstudio.com/docs/python/python-tutorial
+
+https://code.visualstudio.com/docs/python/debugging
+
+https://code.visualstudio.com/docs/python/settings-reference

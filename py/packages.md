@@ -35,7 +35,18 @@ https://pypi.org/project/cookiecutter/
 
 ## CI
 
-Helps cover testing, test coerage, etc.
+Helps cover testing, test coverage, etc.
+
+### Github CI
+
+
+
+https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+https://hynek.me/articles/python-github-actions/
+
+
+### Travis CI
 
 https://jacobtomlinson.dev/posts/2021/testing-and-continuous-integration-for-python-packages-with-github-actions/
 https://github.com/ksator/continuous-integration-with-python

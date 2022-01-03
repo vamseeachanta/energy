@@ -55,6 +55,9 @@ https://elements.heroku.com/addons/mssql
 
 ## Open Source
 
+
+https://www.goodfirms.co/blog/best-free-open-source-3d-modeling-software
+
 ### Blender
 https://youtu.be/mWlk04zjwew
 https://blog.render.st/how-does-blender-help-in-industrial-design-interview-with-claas-kuhnen/
