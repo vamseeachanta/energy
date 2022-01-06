@@ -27,10 +27,31 @@ More CI/CD streamlining for python packages:
 - 
 
 
+
 https://github.com/audreyfeldroy/cookiecutter-pypackage
 https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 https://pypi.org/project/cookiecutter/
 
+
+## CI
+
+Helps cover testing, test coverage, etc.
+
+### Github CI
+
+
+
+https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+https://hynek.me/articles/python-github-actions/
+
+
+### Travis CI
+
+https://jacobtomlinson.dev/posts/2021/testing-and-continuous-integration-for-python-packages-with-github-actions/
+https://github.com/ksator/continuous-integration-with-python
+
+https://medium.com/swlh/automate-python-testing-with-github-actions-7926b5d8a865
 
 ## Steps - Overview
 
@@ -50,6 +71,12 @@ o	Conda install conda-build
 •	Utilize the below to build the package in current path. A specific path can also be specified.
 o	Conda develop . 
 o	https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
+
+
+### Testing A Package Locally
+
+A package can be imported locally from another code and thoroughly tested as well if required. The steps to do so are:
+- TBA
 
 
 ### References

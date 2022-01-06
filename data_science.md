@@ -43,6 +43,8 @@ https://lnkd.in/eiPz3GJ
 
 https://docs.microsoft.com/en-us/events/learntv/learnlive-foundations-of-machine-learning/?WT.mc_id=LearnLiveML-35858-cmandell
 
+https://bayesiancomputationbook.com/welcome.html
+
 ### Interesting Projects
 
 These are two great ways to gain more exposure to Data Science and make your resume more impressive:
