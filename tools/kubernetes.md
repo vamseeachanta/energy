@@ -10,7 +10,7 @@ kubernetes means pilot or
 ## First Steps
 
 ### Prerequisites
-Installing minikube
+Install minikube
 https://v1-18.docs.kubernetes.io/docs/tasks/tools/install-minikube/
 
 How to practice Kubernetes:
@@ -29,7 +29,6 @@ http://localhost:5001/
 Run using Kubernetes (on port 6000) : 
 http://localhost:6000
 
-
 https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 ## References
@@ -41,3 +40,4 @@ https://spot.io/blog/azure-kubernetes-the-basics-and-a-quick-tutorial/
 https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
 
 https://www.mydistributed.systems/2021/12/holiday-reading-list-2021.html
+
