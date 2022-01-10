@@ -29,6 +29,10 @@ https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/configure
 
 TBA
 
+## Application Insights
+
+See 
+
 # References
 
 TBA
