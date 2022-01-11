@@ -49,15 +49,13 @@ https://v1-18.docs.kubernetes.io/docs/tasks/tools/install-minikube/
 Other references:
 https://minikube.sigs.k8s.io/docs/start/
 
-## Python in Kubernetes 
+## Create a Python Image
 
 Follow steps outlined in article below:
 https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
 
 Same Files (with environment.yaml) are also given in 
 py\k8_starter
-
-Understanding Kubernetes by an example python application. The different ways of running this application is summraized below:
 
 Using python locally (on port 5000): 
 - create enviornment using  app\environment.yaml
@@ -66,10 +64,55 @@ Using python locally (on port 5000):
 - check the output in
     http://localhost:5000/
 
+
 Using Docker (on port 5001) : 
+- run docker container using:
+<pre>docker run -p 5001:5000 hello-python</pre>
+- check the output in
+    http://localhost:5001/
+
+## Python in minikube
+
+https://minikube.sigs.k8s.io/docs/start/
 
 
-http://localhost:5001/
+Deploy an Application using NodePort (No Luck):
+    Delete service if exists:
+        kubectl delete service hello-python-service
+        kubectl delete deploy hello-python-service
+
+    kubectl create deployment hello-python-service --image=hello-python:latest
+    kubectl expose deployment hello-python-service --type=NodePort --port=5000
+    kubectl get services hello-python-service
+
+    Deploy a service:
+        minikube service hello-python-service
+    Alternatively, port forward using:
+    kubectl port-forward service/hello-python-service 6000:5000
+
+    No luck due to:
+    https://github.com/kubernetes/minikube/issues/9030
+
+Deploy an Application using LoadBalancer (No Luck):
+
+kubectl create deployment balanced --image=hello-python
+kubectl expose deployment balanced --type=LoadBalancer --port=5000
+
+minikube tunnel
+kubectl get services balanced
+
+## Python in Kubernetes 
+
+https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
+Understanding Kubernetes by an example python application. 
+
+
+Other useful commands
+<pre>
+    kubectl delete deploy hello-python-service
+    kubectl delete service hello-python-service
+    kubectl delete pods --all
+</pre>
 
 Run using Kubernetes (on port 6000) : 
 - verify your kubectl is configured. At the command line, type the following:
@@ -80,7 +123,7 @@ Run using Kubernetes (on port 6000) :
 
 - If running on Windows or Mac, make sure it is using the Docker for Desktop context by running the following:
     <pre>
-        kubectl config use-context docker-for-desktop
+        kubectl config use-context docker-desktop
     </pre>
     - Got the error: 
         - error: no context exists with the name: "docker-for-desktop"
@@ -105,6 +148,26 @@ Run using Kubernetes (on port 6000) :
     - http://localhost:6000
     - The service is NOT working
 
+- View the services available and description for the service
+    <pre>
+        kubectl get services
+        kubectl describe service <hello-python-service>
+    </pre>
+
+- debugging application
+https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/
+<pre>
+    kubectl get endpoints hello-python-service
+</pre>
+Get all the resources in default namespace
+<pre>
+    kubectl get all -n default
+    kubectl describe pod -n default <pod name>
+</pre>
+
+Other references:
+https://betterprogramming.pub/getting-started-with-kubernetes-for-python-254d4c1d2041
+https://medium.com/avmconsulting-blog/running-a-python-application-on-kubernetes-aws-56609e7cd88c
 
 ## References
 
