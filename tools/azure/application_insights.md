@@ -10,7 +10,7 @@ See Azure Monitor
 
 ## Logging from PowerShell
 
-2 Mothods of logging are available:
+2 Methods of logging are available:
 
 - Using the .NET Application Insights instrumentation library 
 - Uisng a light weight API call
