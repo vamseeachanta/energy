@@ -66,12 +66,14 @@ Using python locally (on port 5000):
 
 
 Using Docker (on port 5001) : 
+- create an image using following command
+<pre>docker build -f Dockerfile -t hello-python:latest .</pre>
 - run docker container using:
-<pre>docker run -p 5001:5000 hello-python</pre>
+<pre>docker run -p 5001:5000 dynacard-flask</pre>
 - check the output in
     http://localhost:5001/
 
-## Python in minikube
+## Python in minikube (Aborted Route)
 
 https://minikube.sigs.k8s.io/docs/start/
 
@@ -146,7 +148,9 @@ Run using Kubernetes (on port 6000) :
     </pre>
 - View service at below:
     - http://localhost:6000
-    - The service is NOT working
+    - The service is NOT working in my network as 6000 port is potentially reserved. See link below
+        - 
+    - 
 
 - View the services available and description for the service
     <pre>
@@ -159,6 +163,7 @@ https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/
 <pre>
     kubectl get endpoints hello-python-service
 </pre>
+
 Get all the resources in default namespace
 <pre>
     kubectl get all -n default

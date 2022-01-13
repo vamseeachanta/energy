@@ -8,7 +8,7 @@ Typically python enviornments and associated libraries is installed using a pack
     - backup any conda environments you might be interested in. Export packages using conda env export. [https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
     - Uninstall the existing version of Anaconda/ Miniconda.
 
-- Navigate to https://docs.conda.io/en/latest/miniconda.html
+- Go to https://docs.conda.io/en/latest/miniconda.html
     - Pick the installer based on your Operating System, python version and processor type (32 bit vs 64 bit).  
         - recommend python version >= 3.7.x
         - Under Installation Type, select the "Just Me" option.
@@ -24,7 +24,8 @@ The following actions will resolve typical SSL errors encountered during package
         - Go to Start > Search for Miniconda
         - Open Miniconda Command Prompt
     -  Run following commands inside Miniconda shell to disable ssl and increase timeout to 20 mins     
-    <pre> conda config --set ssl_verify False   
+    <pre> 
+    conda config --set ssl_verify False   
     conda config --set remote_read_timeout_secs 2000 
     </pre>
     - Close and reopen the shell for the settings to take effect.
