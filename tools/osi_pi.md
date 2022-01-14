@@ -1,9 +1,13 @@
 ## Introduction
 
 OSIsoft makes the PI System, the market-leading data management platform for industrial operations, that helps you move from complexity to simplicity.
-
 https://techsupport.osisoft.com/Products/Layered%20Products/PI-AF/Overview
 
+There are different roles for various experts using the OSI soft PI system:
+- Installation and setup
+- Controller Network to PI System interface (Connect the instrumentation to PI system - typ. process engineers, industrial control experts etc.)
+- PI System administration (AssetFramework i.e. AF, assets, Tags, attibutes etc.)
+- Full stack development (C# or Python) with PI System interface (Programmer jobs)
 
 ## Summary
 
@@ -16,9 +20,9 @@ PI AF can expose this rich data to PI System components, such as PI VIsion, PI D
 
 ### PI System components
 
-- PI VIsion
-- PI DataLink
-- PI ProcessBook
+- PI VIsion (Visualize data, raw, analytics, predictive analytics etc.)
+- PI DataLink 
+- PI ProcessBook 
 
 ### PI System components
 
@@ -35,8 +39,7 @@ https://livelibrary.osisoft.com/LiveLibrary/content/en/server-v9/GUID-21B52B10-2
 ### Sandbox
 
 
-### Dockers
-
+### Dockers - As Sandbox?
 
 https://pisquare.osisoft.com/s/question/0D51I00004UHlTwSAL/installing-pi-applications-on-docker
 
@@ -58,4 +61,12 @@ https://customers.osisoft.com/
 
 ### References
 
+https://www.youtube.com/user/OSIsoftLearning
+
+https://www.youtube.com/watch?v=zj2EoTkpz1k A good overview
+https://www.youtube.com/watch?v=Ab-1wMFj3DA&list=PLMcG1Hs2JbcsGGJ84BtG2fClp7SF7K9jU PI System Basics
+
+https://www.youtube.com/watch?v=_n3yLpjMhew    OSIsoft: PI Basics- Connect to and Search a PI System
+
+https://www.youtube.com/watch?v=qqD07Vl6RZQ Running PI Edge in Containers
 
