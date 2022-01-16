@@ -21,7 +21,7 @@ PI AF can expose this rich data to PI System components, such as PI VIsion, PI D
 ### PI System components
 
 - PI VIsion (Visualize data, raw, analytics, predictive analytics etc.)
-- PI DataLink 
+- PI DataLink
 - PI ProcessBook 
 
 ### PI System components
