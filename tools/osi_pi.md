@@ -11,6 +11,10 @@ There are different roles for various experts using the OSI soft PI system:
 
 ## Summary
 
+In summary, like any other data systen, OSI PI and associated systems are data software system. 
+OSI PI and associated systems have APIs and SDK (PIAFSDK) developers can interface and work with.
+Both .NET/C# (Not sure of differences here) and Python have SDKs. No official support for Python.
+
 
 ### PI AF
 
