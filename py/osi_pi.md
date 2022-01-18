@@ -11,6 +11,8 @@ The typical way of understanding the output from the written code is to verify a
 ## Example Codes
 
 - Importing necessary custom libraries
+- The osisoft_client_files contain the entire libraries (XML and other formats) required for programming development for both .NET and Python
+- These osisoft_client_files are version dependent and need to sync with the PI AF network supported across the domain
 
 Code
 <pre>

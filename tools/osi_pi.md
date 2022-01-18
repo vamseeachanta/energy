@@ -61,6 +61,7 @@ The typical steps of setting up and onboarding a developer are:
 
 - The developer will install PI System to get access to PI System Explorer and other tools
 - Setup .NET/C# or Python development setup per preference (and approval by the IT systems)
+- The objects and attributes stay the same (or similar) in both .NET and python due to the same underlying client library.
 - Use exploratory codes to understand the project
 
 Example OSISoft PI usecases for developers are given below. One of more can be part of the work.
