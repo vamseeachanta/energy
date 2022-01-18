@@ -11,7 +11,6 @@ There are different roles for various experts using the OSI soft PI system:
 
 ## Summary
 
-
 ### PI AF
 
 PI Asset Framework (PI AF) is a single repository for asset-centric models, hierarchies, objects, and equipment. It integrates, contextualizes, refines, references, and further analyzes data from multiple sources, including one or more PI Data Archives and non-PI sources such as external relational databases. Together, these metadata and time series data provide a detailed description of equipment or assets.
@@ -20,19 +19,82 @@ PI AF can expose this rich data to PI System components, such as PI VIsion, PI D
 
 ### PI System components
 
-- PI VIsion (Visualize data, raw, analytics, predictive analytics etc.)
-- PI DataLink
-- PI ProcessBook 
+- Basic
+    - PI System Explorer
+    - PI SDK Utility
+- Advanced
+    - PI ProcessBook
+    - PI SQL Commander
+    - PI Interface Configuration Utility
+    - PI OLEDB
+    - PI VIsion (Visualize data, raw, analytics, predictive analytics etc.)
+    - PI DataLink
 
-### PI System components
+### PI AF SDK
 
 - PI AF SDK is the foundational .NET-based software development kit for interacting with asset metadata and time series data stored in the PI Asset Framework. It is available from PI Developers Club* (formerly known as vCampus). For more information, refer to PI AF SDK Homepage.
 - PI Server 2018 introduces a single setup kit that includes PI Data Archive, PI Asset Framework with Asset Analytics and Notifications, PI Web API, PI System Directory, and all dependent components. Users can choose the desired components to install in a new installation.
+
+Example Data:
+| Parameter |   Physical Quantity |  Value |  Unit |   Additional comments |
+|---|---|---|---|---|
+| Pore Pressure | Pressure  | 200 | psi | n/a | 
+| Pore Pressure | Pressure  | 200 | psi | n/a | 
+| Pore Pressure | Pressure  | 200 | psi | n/a | 
 
 ### PI System Explorer
 
 https://livelibrary.osisoft.com/LiveLibrary/content/en/server-v9/GUID-21B52B10-20E6-4039-B358-E0159ECA76C2
 
+
+# Typical Tasks of OSISoft PI Developer
+
+The typical steps of setting up and onboarding a developer are:
+- The OSI PI administrator will add the active directory (AD) of the developer to relevant PI servers for development.
+    - Usually only sandbox/development and staging environments access are provided
+    - The production environments are linked to live equipment and thus can disrupt equipment operation and shut-down equipment such as pumps, rigs etc.
+    - Alternatively, a default username will also be provided to configure the PI SDK utility to connect to PI resources
+    - Users may have server access but may still need further read and write access (In-house PI experts can help with this)
+
+- The developer will install PI System to get access to PI System Explorer and other tools
+- Setup .NET/C# or Python development setup per preference (and approval by the IT systems)
+- Use exploratory codes to understand the project
+
+Example OSISoft PI usecases for developers are given below. One of more can be part of the work.
+
+Reading Data:
+- Reading data needs permissions
+- Data can be read from a PI Point (or PI tag). Typical data:
+    - current value
+    - historical or recorded values
+    - future values (if recorded and exist for querying)
+
+Performing Analysis:
+- Simple statistics of recorded values. 
+    - Note that statistical methods used may not contain repeat recorded values to minimize data storage. Therefore, handling such statistics accurately needs data principle knowledge 
+- Advanced analysis using python scripts etc.
+
+Writing Data:
+- Data can written to pi tag:
+    - Supply input or configuration values
+- Future predicted data from algorithm to keep in state of readiness for comparison against actual values
+- etc.
+
+Visualizing Data:
+- PI Vision can help:
+    - Visualize data (current, recorded and future values)
+    - Measured vs. predited data
+- Alternatively, any other plotting programs/libraries can be used
+
+Real-time analysis or ML Models:
+- Based on historical data and current data (e.g. pore pressure, mud pump pressure), using various geophysical properties can be used in a model (algorithm) to predict the next expected data (pressure)
+- This prediction can be plotted against expected data
+- A ML model can further be used to calibrate the model (algorithm)
+
+## Code Examples
+
+For python examples, see py/osi_py.md
+.NET/C# examples will be analogous to python. Will be added.
 
 ## Developer/Test Servers
 
@@ -42,7 +104,6 @@ https://livelibrary.osisoft.com/LiveLibrary/content/en/server-v9/GUID-21B52B10-2
 ### Dockers - As Sandbox?
 
 https://pisquare.osisoft.com/s/question/0D51I00004UHlTwSAL/installing-pi-applications-on-docker
-
 
 Old version may have docker support. However, explore if new version has docker support?
 
