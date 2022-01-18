@@ -4,7 +4,7 @@ OSIsoft makes the PI System, the market-leading data management platform for ind
 https://techsupport.osisoft.com/Products/Layered%20Products/PI-AF/Overview
 
 There are different roles for various experts using the OSI soft PI system:
-- Installation and setup
+- Installation and setup ()
 - Controller Network to PI System interface (Connect the instrumentation to PI system - typ. process engineers, industrial control experts etc.)
 - PI System administration (AssetFramework i.e. AF, assets, Tags, attibutes etc.)
 - Full stack development (C# or Python) with PI System interface (Programmer jobs)
@@ -65,6 +65,7 @@ The typical steps of setting up and onboarding a developer are:
 
 Example OSISoft PI usecases for developers are given below. One of more can be part of the work.
 
+
 Reading Data:
 - Reading data needs permissions
 - Data can be read from a PI Point (or PI tag). Typical data:
@@ -93,6 +94,18 @@ Real-time analysis or ML Models:
 - Based on historical data and current data (e.g. pore pressure, mud pump pressure), using various geophysical properties can be used in a model (algorithm) to predict the next expected data (pressure)
 - This prediction can be plotted against expected data
 - A ML model can further be used to calibrate the model (algorithm)
+
+PI Edge Devices:
+- Deploying PI server at the Edge and performing edge calculations and visualizing using PI Vision
+- A fancy usecase PoC for citizen developers 
+
+Others:
+Various permutations and combinations of above. 
+
+Developer Resources:
+https://www.osisoft.com/pi-system/developer-technologies
+https://github.com/osisoft (Very recent and sparse. Worth reviewing periodically)
+PI-Developer Club (After Exxon gives access to PI, can be added to the VDI)
 
 ## Code Examples
 
