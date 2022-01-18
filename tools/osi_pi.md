@@ -11,6 +11,10 @@ There are different roles for various experts using the OSI soft PI system:
 
 ## Summary
 
+In summary, like any other data systen, OSI PI and associated systems are data software system. 
+OSI PI and associated systems have APIs and SDK (PIAFSDK) developers can interface and work with.
+Both .NET/C# (Not sure of differences here) and Python have SDKs. No official support for Python.
+
 ### PI AF
 
 PI Asset Framework (PI AF) is a single repository for asset-centric models, hierarchies, objects, and equipment. It integrates, contextualizes, refines, references, and further analyzes data from multiple sources, including one or more PI Data Archives and non-PI sources such as external relational databases. Together, these metadata and time series data provide a detailed description of equipment or assets.
