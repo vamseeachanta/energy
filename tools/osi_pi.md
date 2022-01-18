@@ -43,8 +43,7 @@ Example Data:
 | Parameter |   Physical Quantity |  Value |  Unit |   Additional comments |
 |---|---|---|---|---|
 | Pore Pressure | Pressure  | 200 | psi | n/a | 
-| Pore Pressure | Pressure  | 200 | psi | n/a | 
-| Pore Pressure | Pressure  | 200 | psi | n/a | 
+| Mud Temerature | Temerature  | 200 | deg C | n/a | 
 
 ### PI System Explorer
 
