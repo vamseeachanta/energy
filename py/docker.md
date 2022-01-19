@@ -6,7 +6,7 @@
 
 # Example go-by Code
 
-### Python Environment - Conda Route
+### Python Environment - Conda & PIP hybrid route
 
 Example file:
 <pre>
@@ -14,18 +14,24 @@ FROM continuumio/miniconda
 
 ARG conda_env=my_env
 
+# ssl verification bypass settings
+RUN mkdir -p /etc/xdg/pip
+COPY /docker/pip.conf /etc/xdg/pip/pip.conf
+
 WORKDIR /app
 ADD . /app/
 
-RUN conda update conda
-RUN conda config --set ssl_verify False
+# conda ssl verification bypass settings
+RUN conda config --set ssl_verify false
+#RUN conda update conda
+
 RUN conda env create -f environment.yml
 
 # Make RUN commands use the new environment:
 ENV PATH /opt/conda/envs/$conda_env/bin:$PATH
 ENV CONDA_DEFAULT_ENV $conda_env
 
-EXPOSE 5005
+EXPOSE 5015
 
 # The code to run when container is started:
 CMD ["python", "/app/temp_service.py"]

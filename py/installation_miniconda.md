@@ -38,3 +38,22 @@ The following actions will resolve typical SSL errors encountered during package
         - https://stackoverflow.com/questions/25981703/pip-install-fails-with-connection-error-ssl-certificate-verify-failed-certi
         - https://pip.pypa.io/en/stable/topics/configuration/
         - https://jhooq.com/pip-install-connection-error/
+- For docker SSL Errors containers, different ways:
+    - For pip based SSL errors, the following are examples: 
+        - Reference: https://stackoverflow.com/questions/56131677/run-pip-install-there-was-a-problem-confirming-the-ssl-certificate-ssl-certi
+<pre> 
+    RUN pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org --no-cache-dir -r /usr/src/app/requirements.txt
+    RUN pip3 install Flask flask-restplus --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
+</pre>
+    - Get latest certificates for docker OS: RUN apt-get install ca-certificates
+    - conda ssl_verify false for conda environment.yml: 
+        - See example code below.
+        - Note, This still gives pip ssl verify errors for pip based pacakges in environment.yml
+
+<pre> 
+    RUN conda update conda
+    RUN conda config --set ssl_verify False
+</pre>
+    - 
+
+        
