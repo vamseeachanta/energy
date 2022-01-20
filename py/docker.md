@@ -6,7 +6,7 @@
 
 # Example go-by Code
 
-### Python Environment - Conda & PIP hybrid route
+### Python Docker - Conda & PIP hybrid route
 
 Example file:
 <pre>
@@ -66,7 +66,7 @@ SHELL ["conda", "run", "-n", "my_env", "/bin/bash", "-c"]
 ENTRYPOINT ["conda", "run", "-n", "my_env", "python3", "/app/temp_service.py"]
 </pre>
 
-### Python Environment - pip Route
+### Python Docker - pip Route
 
 Example file:
 <pre>
@@ -84,3 +84,9 @@ EXPOSE 5005
 CMD ["python", "/app/temp_service.py"]
 </pre>
 
+### Python Docker - Connecting to a SQL server
+
+
+
+
+https://stackoverflow.com/questions/46405777/connect-docker-python-to-sql-server-with-pyodbc
