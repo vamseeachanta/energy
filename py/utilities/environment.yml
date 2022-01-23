@@ -1,0 +1,14 @@
+name: utilities
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - Flask
+  - flask-restplus
+  - psutil
+  - pandas
+  - numpy
+  - numpy-base
+  - sqlmodel
+  - pip
