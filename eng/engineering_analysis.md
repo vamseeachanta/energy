@@ -50,6 +50,10 @@ For all rigid jumpers
 - Bottom tension (Tension )
 
 
+https://www.linkedin.com/posts/mohamed-hermas_how-to-identify-the-spoolpiece-lifting-points-activity-6890608822483062784-SyUS/
+https://thenavalarch.com/how-to-identify-spoolpiece-lifting-points/
+
+
 ## References
 
 - Engineering drawing standards and guidelines, 

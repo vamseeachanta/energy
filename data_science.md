@@ -3,6 +3,14 @@ The document describes the python principles to be the followed for the python r
 
 ## Summary
 
+Keys to successful analytics programs:
+1. Get internal buy-in on what analytics to pursue
+2. Develop right analytics workforce
+3. Don't wait for the perfect tool
+4. Involve frontline teams in the development process
+https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/b2b-commercial-analytics-what-outperformers-do?cid=soc-web
+
+
 The key python 
 
 - TBA
@@ -33,6 +41,7 @@ https://lnkd.in/eiPz3GJ
 
 [https://cds.nyu.edu/deep-learning/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_356/](https://cds.nyu.edu/deep-learning/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_356/)
 
+https://github.com/fchollet/deep-learning-with-python-notebooks
 
 ### References
 

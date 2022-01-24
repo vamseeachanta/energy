@@ -27,3 +27,5 @@ Database First Design is another generic assumption of writing code. The typical
 ### Updating database data
 
 https://sqlmodel.tiangolo.com/tutorial/update/
+
+upsert?
