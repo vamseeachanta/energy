@@ -29,4 +29,4 @@ ENV CONDA_DEFAULT_ENV $conda_env
 
 EXPOSE 5005
 
-CMD ["python3", "/app/dynacard_flask.py"]
+CMD ["python3", "/app/temp_service.py"]
