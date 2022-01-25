@@ -17,6 +17,8 @@ bring all the commmands from word document into md file
 For Python examples, see py/docker.md
 Other wide variety of images for various applications can be found in:
 
+
+
 ## Working with Docker
 
 #Log in to your local docker registry
@@ -28,7 +30,17 @@ docker logout
 
 ## Working with Docker Image
 
-TBA
+Running the docker image:
+<pre>
+docker run -i -t  <image-name>
+docker run -i -t  service-temp
+</pre>
+
+Running the docker image:
+<pre>
+docker run -i -t  <image-name> /bin/bash
+docker run -i -t  service-temp /bin/bash
+</pre>
 
 ## Working with Docker Container
 
@@ -68,6 +80,12 @@ docker compose up
 Error: “You are trying to start Docker but you don’t have enough memory. Free some memory or change your settings.” 
 
 Solution: System with 4GB total ram may not be sufficient to run windows on Docker. Set the memory settings to the lowest memory of 1 GB and check if it runs.
+
+### SQL Driver Error
+
+https://superuser.com/questions/1355732/installing-microsoft-odbc-driver-to-debian
+https://stackoverflow.com/questions/51888064/install-odbc-driver-in-alpine-linux-docker-container
+https://stackoverflow.com/questions/42224701/odbc-driver-13-for-sql-server-cant-open-lib-on-pyodbc-while-connecting-on-ubunt
 
 ### References
 
