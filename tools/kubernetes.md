@@ -5,6 +5,8 @@ kubernetes means pilot or
 
 # Summary
 
+
+
 ## How to practice Kubernetes:
 
 In Developer Machine:
@@ -174,6 +176,7 @@ Other references:
 https://betterprogramming.pub/getting-started-with-kubernetes-for-python-254d4c1d2041
 https://medium.com/avmconsulting-blog/running-a-python-application-on-kubernetes-aws-56609e7cd88c
 
+
 ## References
 
 https://azure.microsoft.com/en-us/overview/kubernetes-getting-started/
@@ -183,4 +186,5 @@ https://spot.io/blog/azure-kubernetes-the-basics-and-a-quick-tutorial/
 https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
 
 https://www.mydistributed.systems/2021/12/holiday-reading-list-2021.html
+
 

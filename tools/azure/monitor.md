@@ -20,6 +20,33 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-
 
 https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/configure-azure-monitor
 
+# Azure Arc
+
+https://azure.microsoft.com/en-us/pricing/details/azure-arc/
+
+Helps:
+- Single server
+- Group server
+- Clusters
+
+- Operations
+    - Policites
+    - Update management (IT Management, schedule updates etc.)
+    - Inventory
+    - Change tracking
+
+    
+- Monitoring
+    - Insights
+        - Map
+            - Network connections, traffic, ports, etc.
+        - Performance
+            - Resources, Disk space, CPU Usage etc.
+    - Logs
+
+
+
+
 ## For VM
 
 - Install MMA (Microsoft Monitoring Agent)
