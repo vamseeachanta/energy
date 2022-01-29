@@ -24,6 +24,13 @@ https://www.youtube.com/playlist?list=PL3EZ3A8mHh0xUC8xqFg7k1Qzp-f5HzbTB
 ## Data Types
 
 
+INT
+FLOAT
+NUMERIC(6, 2)
+NUMERIC(10, 2)
+
+
+
 https://docs.microsoft.com/en-us/sql/t-sql/data-types/decimal-and-numeric-transact-sql?view=sql-server-ver15
 https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2005/ms191530(v=sql.90)?redirectedfrom=MSDN#_decimal
 https://stackoverflow.com/questions/1072806/sql-server-calculation-with-numeric-literals

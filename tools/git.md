@@ -120,6 +120,15 @@ Install using the below link:
 | Python  | *.pyc | - | n/a | 
 
 
+## SSL verification
+
+<pre>
+
+</pre>
+
+https://stackoverflow.com/questions/9008309/how-do-i-set-git-ssl-no-verify-for-specific-repos-only
+
+
 ## References
 
 | S.No |   Short Description |  Comment |  Links |   Additional comments |
