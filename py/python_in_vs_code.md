@@ -49,6 +49,13 @@ Example configurations
 
 ## References
 
+
+
+
+https://realpython.com/advanced-visual-studio-code-python/
+
+
+
 https://code.visualstudio.com/docs/getstarted/settings
 
 https://code.visualstudio.com/docs/python/environments
