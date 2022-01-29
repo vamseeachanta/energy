@@ -1,31 +1,31 @@
-# JIT
+# JIT Compilation
 
-sqlmodel is claimed to be very easy to use utility to connect data to various databases and pydantic data models. This documents the learnings
 
-##	Introduction
 
+##	Summary
+
+Numba 
+Cython
+Pyjion
+
+## Numba
+
+Numba needs compatible variables to run the code and keep it compiled for repeat usage. 
+Numba warmed up code can be reused to save time from 2nd run onwards
+
+Key unknowns:
+- can we deploy numba compiled code to run fast the first time?
+- a decorator function Find variables that are numba compilation compatible?
 
 ## Usecases
 
-### Python Design First
+TBA
+### example 1
 
-Python Design First is a generic assumption of writing code. The typical steps are given below:
-- Create python sqlmodel objects
-- Save the objects to a database without existing table
-- Upon save, the objects will create a database table with associated data type definitions. 
-- SQLALchemy helps definte these appropriate definitions
+TBA
 
-For example code, see 
+## References
 
-### Database First Design
+https://www.youtube.com/watch?v=I4nkgJdVZFA
 
-Database First Design is another generic assumption of writing code. The typical steps are given below:
-- Create engine/connection to database
-- Read a table
-- Review the data and data types of the sqlmodel objects
-
-### Updating database data
-
-https://sqlmodel.tiangolo.com/tutorial/update/
-
-upsert?
+https://live.trypyjion.com/
