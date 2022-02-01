@@ -69,6 +69,12 @@ References:
 
 [https://www.sqlshack.com/how-to-parse-json-in-sql-server/](https://www.sqlshack.com/how-to-parse-json-in-sql-server/)
 
+### Administration
+
+https://stackoverflow.com/questions/7048839/sql-server-query-to-find-all-permissions-access-for-all-users-in-a-database
+https://www.mssqltips.com/sqlservertip/6828/sql-server-login-user-permissions-fn-my-permissions/
+https://dba.stackexchange.com/questions/41234/how-to-find-which-tables-and-views-a-user-has-access-to
+
 ### References
 
 Good reference cheatsheets
