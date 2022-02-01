@@ -12,3 +12,5 @@ dependencies:
   - numpy-base
   - sqlmodel
   - pip
+  - pip:
+    - opencensus-ext-azure

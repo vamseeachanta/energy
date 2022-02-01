@@ -1,12 +1,13 @@
 # Azure Application Insights
 
+
+https://docs.microsoft.com/en-us/azure/azure-monitor/app/opencensus-python
 https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
 https://docs.microsoft.com/en-us/azure/azure-monitor/overview
 
-
 ## For On-Prem server
 
-See Azure Monitor
+See Azure Monitor and Azure Arc for monitoring.
 
 ## Logging from PowerShell
 

@@ -9,6 +9,8 @@ https://lnkd.in/gYmb_GW9
 Inside the wind turbine
 https://www.energy.gov/eere/wind/how-wind-turbine-works-text-version
 
+
+https://towardsdatascience.com/wind-energy-physics-and-resource-assessment-with-python-789a0273e697
 ## Installation
 
 
