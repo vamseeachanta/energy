@@ -17,6 +17,10 @@ Typically python enviornments and associated libraries is installed using a pack
     - In the final screen, the installation should complete usually within 5 minutes.
 
 
+## Typical Errros
+
+### SSL Errors
+
 The following actions will resolve typical SSL errors encountered during package installations. These will also be helpful when inside typical corporate firewalls:
 
 - For Conda SSL errors:
@@ -41,9 +45,12 @@ The following actions will resolve typical SSL errors encountered during package
 - For docker SSL Errors containers, different ways:
     - For pip based SSL errors, the following are examples: 
         - Reference: https://stackoverflow.com/questions/56131677/run-pip-install-there-was-a-problem-confirming-the-ssl-certificate-ssl-certi
+        - For working examples of Docker images with SQL: refer py/odbcsql13_image and py/odbcsql17_image
+
 <pre> 
     RUN pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org --no-cache-dir -r /usr/src/app/requirements.txt
     RUN pip3 install Flask flask-restplus --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
+
 </pre>
     - Get latest certificates for docker OS: RUN apt-get install ca-certificates
     - conda ssl_verify false for conda environment.yml: 
@@ -56,4 +63,13 @@ The following actions will resolve typical SSL errors encountered during package
 </pre>
     - 
 
-        
+### Removing Corrupt Packages
+
+Error:
+<pre> 
+    <UserName>\AppData\Local\Continuum\anaconda3\pkgs\pyqt-5.6.0-py35hd46907b_5 appears to be corrupted.
+</pre>
+
+<pre> 
+    conda clean --packages --tarballs
+</pre>
