@@ -149,3 +149,5 @@ https://www.youtube.com/watch?v=_n3yLpjMhew    OSIsoft: PI Basics- Connect to an
 https://www.youtube.com/watch?v=qqD07Vl6RZQ Running PI Edge in Containers
 
 https://www.osisoft.com/industries/oil-and-gas
+
+https://docs.osisoft.com/bundle/pi-powershell/page/html/N_OSIsoft_PowerShell.htm
