@@ -30,7 +30,7 @@ The following actions will resolve typical SSL errors encountered during package
     -  Run following commands inside Miniconda shell to disable ssl and increase timeout to 20 mins     
     <pre> 
     conda config --set ssl_verify False   
-    conda config --set remote_read_timeout_secs 2000 
+    conda config --set remote_read_timeout_secs 200
     </pre>
     - Close and reopen the shell for the settings to take effect.
 
