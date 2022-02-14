@@ -81,6 +81,10 @@ Error: “You are trying to start Docker but you don’t have enough memory. Fre
 
 Solution: System with 4GB total ram may not be sufficient to run windows on Docker. Set the memory settings to the lowest memory of 1 GB and check if it runs.
 
+### Clean up space
+
+https://stackoverflow.com/questions/64068185/docker-image-taking-up-space-after-deletion
+
 ### SQL Driver Error
 
 https://superuser.com/questions/1355732/installing-microsoft-odbc-driver-to-debian

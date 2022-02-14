@@ -34,13 +34,21 @@ $customParameters = New-Object PSObject -Property @{
     task_name = "logfile-import"
     task_command = "C:\Temp\temp.bat"
     working_directory = "C:\Temp"
-    task_trigger = "-Daily -At 9am"
+    task_trigger = New-ScheduledTaskTrigger -Daily -At 9am
 
 }
+$task_name = "logfile-import"
+$action = New-ScheduledTaskAction -Execute 'cmd.exe' -Argument "C:\Temp\temp.bat"
+$trigger = New-ScheduledTaskTrigger -Daily -At 9am
 
-$action = New-ScheduledTaskAction -Execute 'cmd.exe' -Argument $($customParameters.task_command)
 echo "$action = New-ScheduledTaskAction -Execute 'cmd.exe' -Argument C:\Temp\temp.bat"
 Write-Host '($action)'
+
+NOT WORKING:
+Set-ScheduledTask -Trigger $trigger -Action $action -TaskName "logfile-import"
+NOT WORKING:
+Set-ScheduledTask -Trigger $trigger -Action $action -TaskPath "MyTasks" -TaskName $($customParameters.task_name)
+
 
 </pre>
 
