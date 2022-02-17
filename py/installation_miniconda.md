@@ -33,6 +33,8 @@ The following actions will resolve typical SSL errors encountered during package
     conda config --set remote_read_timeout_secs 200
     </pre>
     - Close and reopen the shell for the settings to take effect.
+    - creating condarc file
+        - https://stackoverflow.com/questions/29896309/how-to-create-a-condarc-file-for-anaconda
 
 - For pip SSL errors:
     - Create directory C:\Users\<<user_network_id>>\pip 
