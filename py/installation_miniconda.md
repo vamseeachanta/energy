@@ -27,12 +27,12 @@ The following actions will resolve typical SSL errors encountered during package
     - Open miniconda prompt:
         - Go to Start > Search for Miniconda
         - Open Miniconda Command Prompt
-    -  Run following commands inside Miniconda shell to disable ssl and increase timeout to 20 mins     
+    -  Run following commands inside Miniconda shell to disable ssl and increase timeout to 30 mins     
     <pre> 
     conda config --set ssl_verify False   
-    conda config --set remote_read_timeout_secs 200
+    conda config --set remote_read_timeout_secs 1800
     </pre>
-    - Close and reopen the shell for the settings to take effect.
+    - Close and reopen the shell for settings to take effect.
     - creating condarc file
         - https://stackoverflow.com/questions/29896309/how-to-create-a-condarc-file-for-anaconda
 
