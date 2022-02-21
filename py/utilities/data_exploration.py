@@ -88,8 +88,9 @@ if __name__ == '__main__':
     df = pd.DataFrame(data)
     print(df)
 
-    data_dictionary = {'query': ''}
+    data_dictionary = {'query': '', 'csv_filename': 'df_statistics.csv'}
 
     data_expl = DataExploration()
     df_statistics = data_expl.get_df_statistics(df)
-    df_statistics.to_csv('df_statistics.csv')
+    df_statistics.to_csv(data_dictionary['csv_filename'])
+
