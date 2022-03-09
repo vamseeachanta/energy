@@ -141,8 +141,15 @@ plantuml "C:\Users\Vamsee Achanta\GitHub\energy\tools\puml\gantt.puml"
 
 Output file will be saved in same folder as the root folder. The default output is typically .png
 
+<pre><code>
+plantuml -png "C:\Users\Ganga\GitHub\client_projects\energy_engineering\rii\004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml"
+plantuml -svg "C:\Users\Ganga\GitHub\client_projects\energy_engineering\rii\004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml"
+</code></pre>
+
 Reference:
 https://plantuml.com/command-line
+
+
 
 ## References
 

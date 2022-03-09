@@ -10,7 +10,7 @@ https://github.com/Open-Source-Drilling-Community
 https://opensourcedrilling.org/
 
 
-## Invisible Lost TIme
+## Invisible Lost TIme (John de Wardt)
 
 Seeing Invisible Lost Time (ILT) in Drilling Requires the Proper Lens – maximize opportunity
 Invisible Lost Time is typically the largest time / cost reduction opportunity in oil and gas drilling which is often overlooked, neglected, or compromised. It is overlooked when drillers are unaware of it, neglected when drillers either choose or are driven to focus solely on NPT or compromised when the target used to calculate ILT causes the ILT to be minimized.
@@ -30,5 +30,21 @@ A few examples of opportunities to reduce ILT include:
 Each such opportunity requires proper preparation by the planning and execution team such that these reduced critical path activities do not reappear as Non-Productive Time.
 I am interested to read more examples of deriving the target for ILT reduction and examples of changed activities that reduced ILT.
 
+
+## NPT (John de Wardt)
+
+Is Drilling Non-Productive Time Percentage (%NPT) a Misleading Performance Indicator?
+Percentage NPT can mislead on the overall performance of drilling and completing an oil and gas well. Peter Rushmore published an article some years ago on the fallacy of NPT as a percentage and recommended measuring NPT per 1,000m (or 3,000 ft). He contributed this view to an SPE / IADC paper we co-authored with Phil Scott in 2016 titled: True Lies: Measuring Drilling and Completion Efficiency SPE 178850.
+
+Almost all operators use percentage Non-Productive Time (NPT) as a measure of efficiency, considering that a well drilled with a low % NPT represents a “better” performance than a well with a high % NPT. This, however, is not necessarily true. Two identical wells drilled incurring similar events creating 10 days NPT where the first well took 100 days in total resulting in 10% NPT and the second was drilled more aggressively in just 50 days, resulting in 20% NPT. The 20% NPT well represents the better overall drilling performance despite the higher % NPT figure. 
+
+The issue, of course, is would both identical wells incur similar NPT in terms of duration of NPT. That is a challenging question since some NPT is related to drilled formations and other depth related issues while some NPT is related to the stress on machinery and the duration of usage. The depth related issues would presumably occur similarly in each well while the machinery stress and time related issues could be different. Often a well that is drilled faster is stressing the machinery more than one drilled slowly while conversely creating less exposure to the time related sources. 
+
+As has been argued, % NPT is not a valid measure of performance or efficiency because both the numerator and denominator in the calculation can change independently of each other for a given well. A guaranteed way to reduce % NPT is simply to drill more slowly thus increasing well cost and delaying hydrocarbon production. There are stories in the industry of % NPT incentive schemes driving very cautious drilling to reduce the % NPT incurred lowering the overall performance and increasing well cost
+
+Peter pointed out that the problem of the numerator and denominator both changing can be solved by reporting NPT in terms of ‘per foot / meter’ in the same way that drilling speed is often reported as ‘Days per foot / meter’. As the length of a foot / meter does not change a low ‘NPT days per foot / meter’ will always represent a better performance than a higher ‘NPT days per foot / meter’. In the example above, the NPT in ‘Days per foot / meter’ will be the same for those identical wells.
+
+I am interested to read thoughts, comments and experience with this interesting topic.
+#spe #iadc #energy #oilandgas #drilling #NPT
 ### References
 
