@@ -75,3 +75,11 @@ Error:
 <pre> 
     conda clean --packages --tarballs
 </pre>
+
+
+## REferences
+
+
+https://conda.io/projects/conda/en/latest/user-guide/configuration/disable-ssl-verification.html 
+
+https://medium.com/@iffi33/dealing-with-ssl-authentication-on-a-secure-corporate-network-pip-conda-git-npm-yarn-bower-73e5b93fd4b2
