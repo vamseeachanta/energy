@@ -150,6 +150,10 @@ Reference:
 https://plantuml.com/command-line
 
 
+### Custom Styling
+
+Custom change line style and color
+https://blog.jdriven.com/2017/01/plantuml-pleasantness-change-line-style-color/
 
 ## References
 
