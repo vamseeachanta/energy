@@ -134,6 +134,7 @@ For developers, getting it to work in in other IDEs may be difficult.
 
 https://plantuml.com/gantt-diagram
 
+## Tips and Tricks
 ### Command line execution
 
 If plantuml extenion is installed in vs code, execute below in VS code terminal
@@ -154,6 +155,23 @@ https://plantuml.com/command-line
 
 Custom change line style and color
 https://blog.jdriven.com/2017/01/plantuml-pleasantness-change-line-style-color/
+
+### Commenting Code
+
+Comment out portions of the diagram syntax
+
+<pre><code>
+@startuml
+' This is a comment on a single line
+Bob->Alice : hello
+/' You quote alors use slash-and-quote
+to split your comments on several
+lines '/
+@enduml
+</code></pre>
+
+https://forum.plantuml.net/1353/is-it-possible-to-comment-out-lines-of-diagram-syntax
+
 
 ## References
 
