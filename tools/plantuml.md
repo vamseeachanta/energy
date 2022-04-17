@@ -153,7 +153,29 @@ https://plantuml.com/command-line
 
 ### Custom Styling
 
-Custom change line style and color
+Custom change line style and color. The code is self-explanatory if familiar with plantuml
+
+<pre><code>
+@startuml
+
+' Make a dashed line, alternative syntax for ..>
+(*) -[dashed]-> "Write outline"
+
+' Make line bold and use color name
+"Write outline" -[bold,#green]-> "Find example"
+
+' Only change the color with hexadecimal RGB code
+"Find example" -[#ff00ff]-> "Write blog"
+
+' Order of line style and color can be reversed
+"Write blog" -[#6666ff,dashed]-> "Publish"
+
+' Use dotted line style
+"Publish" -[dotted]-> (*)
+
+@enduml
+</code></pre>
+
 https://blog.jdriven.com/2017/01/plantuml-pleasantness-change-line-style-color/
 
 ### Commenting Code

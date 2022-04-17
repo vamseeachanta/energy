@@ -7,8 +7,6 @@
 http://www.feynman.com/science/what-is-science/ A speach by Feynman on how to keep your child curiousity
 
 
-
-
 Great reference on how to work smart along with hard work (By Sindhu Tatimatla)
 https://lnkd.in/g5BibDMh
 

@@ -22,6 +22,7 @@ The document describes :
 
 [https://www.sumologic.com/insight/what-is-telemetry/](https://www.sumologic.com/insight/what-is-telemetry/)
 
+High level good practices of telemetry are given below:
 
 
 ## Microservice
