@@ -67,3 +67,7 @@ I am interested to read thoughts, comments and experience with this interesting 
 #spe #iadc #energy #oilandgas #drilling #NPT
 ### References
 
+
+### Automation
+
+https://www.linkedin.com/pulse/drilling-systems-digitalization-automation-do-you-john/
