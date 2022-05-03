@@ -71,3 +71,5 @@ I am interested to read thoughts, comments and experience with this interesting 
 ### Automation
 
 https://www.linkedin.com/pulse/drilling-systems-digitalization-automation-do-you-john/
+
+https://dsabok.org/organizations/

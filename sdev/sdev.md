@@ -57,8 +57,6 @@ Engineering | Entrepreneurial leadership | Strategy | Transformation | Analytics
 
 ## References
 
-
-
 Be kind.  Everyone you meet is fighting a battle you know nothing about.
 When you choose to see the good in others, you end up finding the good in yourself.
 We learn by helping others.
