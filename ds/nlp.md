@@ -7,7 +7,10 @@ Natural Language processing
 ## Summary
 
 
-NLP 
+### NLP 
+
+http://masatohagiwara.net/100-nlp-papers/
+
 Stemming and Lemmatization
 https://medium.com/geekculture/introduction-to-stemming-and-lemmatization-nlp-3b7617d84e65     Stemming vs. Lemmatization
 https://www.analyticssteps.com/blogs/what-stemming-and-lemmatization-nlp

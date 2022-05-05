@@ -52,6 +52,7 @@ I am interested to read more examples of deriving the target for ILT reduction a
 
 ## NPT (John de Wardt)
 
+
 Is Drilling Non-Productive Time Percentage (%NPT) a Misleading Performance Indicator?
 Percentage NPT can mislead on the overall performance of drilling and completing an oil and gas well. Peter Rushmore published an article some years ago on the fallacy of NPT as a percentage and recommended measuring NPT per 1,000m (or 3,000 ft). He contributed this view to an SPE / IADC paper we co-authored with Phil Scott in 2016 titled: True Lies: Measuring Drilling and Completion Efficiency SPE 178850.
 
