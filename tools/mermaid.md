@@ -29,12 +29,8 @@ https://mermaid-js.github.io/mermaid/#/n00b-gettingStarted
 
 ## Browser
 
-Prerequisites:
-- Need a working (error less) .puml (or .plantuml) code for use
+HTML based files
 
-
-The following link can be used to generate drawings. Paste the .puml data into the below link. One should get the chart.
-http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
 
 ## IDE
 
@@ -45,20 +41,9 @@ Prerequisites:
 An plantuml extension or utility can be used to render in an IDE. Instructions for IDE(s) is given in this section.
 ### VS Code
 
-- Install the extension 'PlantUML' in VS code
-  - [https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
-- Set up custom location to save files
+Examples:
 
-- Exporting images to other formats using plantuml extension
-  - <img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />
-  - [ ![](<img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />) ]("tools/puml/export_diagram.png")
-  - Click option to 'Export Workspace Diagrams' 
-  - choose the format to save diagrams
-
-
-Typical errors and how to resolve them:
-- Error: Diagram unnamed. Try "@startuml name"
-  - Resolution: 
+https://ckeditor.com/blog/basic-overview-of-creating-flowcharts-using-mermaid/
 
 ## Github Integration
 
