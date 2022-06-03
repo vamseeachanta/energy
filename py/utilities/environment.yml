@@ -17,4 +17,4 @@ dependencies:
     - plotly-express==0.4.1
     - pyyaml
     - numpy_financial==1.0.0
-    
+    - kaleido

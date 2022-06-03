@@ -53,7 +53,7 @@ https://github.com/ksator/continuous-integration-with-python
 
 https://medium.com/swlh/automate-python-testing-with-github-actions-7926b5d8a865
 
-## Steps - Overview
+## Steps - Overview (Using twine)
 
 | Step |  Description | Commands/Detailed Description | Reference |
 |---|---|---|---|
@@ -61,6 +61,17 @@ https://medium.com/swlh/automate-python-testing-with-github-actions-7926b5d8a865
 | 2 | Package compliance | Ensure all directories are package modules using __init__.py  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/) |
 | 3 | Add setup.py and build wheels | python setup.py sdist bdist_wheel  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)|
 | 4 | Create account on pypi and upload using twine package | These commands will push the .whl and .tar.gz file into the pypi repository <br> conda install twine <br> twine upload dist/*  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/)|
+
+
+## Steps - Overview (Using toml file, bumpver and twine )
+
+| Step |  Description | Commands/Detailed Description | Reference |
+|---|---|---|---|
+| 1 | Create python project with directory structure | Follow pep8 guidelines | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/) |
+| 2 | Package compliance | Ensure all directories are package modules using __init__.py  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/) |
+| 3 | Add .toml file and setup.py to build wheels | pip install bumpver <br> bumpver update --patch  <br> pip install build <br> python -m build | https://realpython.com/pypi-publish-python-package/ |
+| 4 | Create account on pypi and upload using twine package | These commands will push the .whl and .tar.gz file into the pypi repository <br> conda install twine <br> twine upload dist/*  | https://realpython.com/pypi-publish-python-package/ |
+
 
 
 ### Building A Package Locally
@@ -89,3 +100,5 @@ A package can be imported locally from another code and thoroughly tested as wel
 
 Guidelines to contribute to libraries:
 [https://pandas.pydata.org/docs/development/contributing.html#contributing](https://pandas.pydata.org/docs/development/contributing.html#contributing)
+
+https://realpython.com/pypi-publish-python-package/
