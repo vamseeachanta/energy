@@ -24,8 +24,6 @@ Python wheels are great. Building them across Mac, Linux, Windows, on multiple v
 More CI/CD streamlining for python packages:
 - use cookiecutter to generate a package template
 - set up travis CI for auto deployment of package to pypi
-- 
-
 
 
 https://github.com/audreyfeldroy/cookiecutter-pypackage
@@ -38,8 +36,6 @@ https://pypi.org/project/cookiecutter/
 Helps cover testing, test coverage, etc.
 
 ### Github CI
-
-
 
 https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
@@ -71,7 +67,6 @@ https://medium.com/swlh/automate-python-testing-with-github-actions-7926b5d8a865
 | 2 | Package compliance | Ensure all directories are package modules using __init__.py  | [https://www.freecodecamp.org/news/build-your-first-python-package/](https://www.freecodecamp.org/news/build-your-first-python-package/) |
 | 3 | Add .toml file and setup.py to build wheels | pip install bumpver <br> bumpver update --patch  <br> pip install build <br> python -m build | https://realpython.com/pypi-publish-python-package/ |
 | 4 | Create account on pypi and upload using twine package | These commands will push the .whl and .tar.gz file into the pypi repository <br> conda install twine <br> twine upload dist/*  | https://realpython.com/pypi-publish-python-package/ |
-
 
 
 ### Building A Package Locally
