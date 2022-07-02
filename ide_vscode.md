@@ -57,3 +57,11 @@ https://marketplace.visualstudio.com/items?itemName=fsevenm.run-it-on
 https://betterprogramming.pub/automatically-execute-bash-commands-on-save-in-vs-code-7a3100449f63
 https://stackoverflow.com/questions/68059778/auto-run-command-from-vscode-extension-on-file-save
 
+## Remote Connections
+
+Steps:
+
+
+References:
+https://code.visualstudio.com/docs/remote/remote-overview
+https://code.visualstudio.com/docs/remote/ssh-tutorial

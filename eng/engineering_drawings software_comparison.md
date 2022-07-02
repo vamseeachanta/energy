@@ -80,6 +80,11 @@ https://youtu.be/mWlk04zjwew
 https://blog.render.st/how-does-blender-help-in-industrial-design-interview-with-claas-kuhnen/
 
 
+### Alibre
+
+Object oriented, data driven designs. Pretty good start.
+https://www.alibre.com/atom3d-data-driven/
+
 ## References
 
 - https://www.file-extensions.org/solidworks-file-extensions

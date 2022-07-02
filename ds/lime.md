@@ -1,7 +1,11 @@
 ## Introduction
 
-Natural Language processing
 
+LIME assumes a black box machine learning model and investigates the relationship between input and output, represented by the model.
+
+Conduct feature (or data or other parameter) sensitivity analysis to determine the impact of input variations on output
+
+Limitation: LIME handles linear relationship very well but fails when non-linearity exists
 
 
 ## Summary
