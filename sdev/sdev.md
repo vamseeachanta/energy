@@ -1,15 +1,17 @@
 ## Introduction
 
-
 ## Summary
 
-
 http://www.feynman.com/science/what-is-science/ A speach by Feynman on how to keep your child curiousity
-
 
 Great reference on how to work smart along with hard work (By Sindhu Tatimatla)
 https://lnkd.in/g5BibDMh
 
+Good Practices:
+- Be kind.  Everyone you meet is fighting a battle you know nothing about.
+- When you choose to see the good in others, you end up finding the good in yourself.
+- We learn by helping others.
+- Hard work and dedication still get recognized (irrespective of race, gender, or age)
 
 ### Writing
  
@@ -37,7 +39,15 @@ Graphic
 speed
  
 Props :
- 
+
+### Education
+
+https://www.cc.com/video/zwqhae/the-colbert-report-anant-agarwal
+
+Democratizing knowledge
+
+https://micromasters.mit.edu/ (Can we try these?)
+
 
 ### Gardening
 
@@ -47,17 +57,5 @@ https://applewoodgardenclub.org/gardening-houston-tips/
 https://applewoodgardenclub.org/summer-gardening-tips-india/
 https://www.urbanharvest.org/
 
-
-## LinkedIn
-
-https://www.topresume.com/career-advice/14-ways-to-leverage-your-linkedin-profile-during-your-job-search
-
-Headline:
-Engineering | Entrepreneurial leadership | Strategy | Transformation | Analytics | Team & Capability Development | Agile
-
 ## References
 
-Be kind.  Everyone you meet is fighting a battle you know nothing about.
-When you choose to see the good in others, you end up finding the good in yourself.
-We learn by helping others.
-Hard work and dedication still get recognized (despite your race, gender, or age)

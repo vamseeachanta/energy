@@ -30,132 +30,17 @@ HTML based files
 
 ## IDE
 
-Prerequisites:
-- Need a working (error less) .puml (or .plantuml) code for use
-- Installation installed on the computer
-
-An plantuml extension or utility can be used to render in an IDE. Instructions for IDE(s) is given in this section.
-### VS Code
-
-Examples:
-
-https://ckeditor.com/blog/basic-overview-of-creating-flowcharts-using-mermaid/
+Any leading text editor will work with mermaid.
 
 ## Github Integration
 
-Github integration will greatly help streamline implementation. A method to implement a stand-alone file inline with a markdown file is given in this section.
-
-- Create an individual plantuml file. An example plantuml file saved in location [https://github.com/vamseeachanta/energy/blob/master/tools/puml/wbs.puml](https://github.com/vamseeachanta/energy/blob/master/tools/puml/wbs.puml) with below code:
-
-<pre><code>
-'''
-@startwbs
-* Project Organization
-** Procure project work
-*** Perosn 1
-*** Perosn 2
-** US Resources
-*** Technical Project Manager
-*** Doc Controller/BA
-** Project Resources
-*** Project manager (scrum master/planning/release train)
-*** 2 Fullstack developers
-*** 1 Devops/Automation
-*** 1 PowerBI + SQL
-*** 1 Scrum master + release train
-@endwbs
-'''
-</code></pre>
-
-- The below format is defined in markdown (.md) file:
-  - http://www.plantuml.com/plantuml/proxy?cache=no&src=(raw github plantuml link)
-- Key things to note are:
-  - raw github file link can be obtained from actual githublink file link
-  - cache=no will allow to seamlessly update image along with code
-- Example format is below of a file in repo is below
-  - http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml
-
-- Exact code used in markdown is:
-<pre><code>
-![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml)
-</code></pre>
-
-- The rendering of the example file in github is:
-
-![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml)
-
-
-### Other IDEs
-
-For developers, getting it to work in in other IDEs may be difficult.
-
-## Standard schematics
-
-### gantt
-
-https://plantuml.com/gantt-diagram
-
-## Tips and Tricks
-### Command line execution
-
-If plantuml extenion is installed in vs code, execute below in VS code terminal
-plantuml "C:\Users\Vamsee Achanta\GitHub\energy\tools\puml\gantt.puml"
-
-Output file will be saved in same folder as the root folder. The default output is typically .png
-
-<pre><code>
-plantuml -png "C:\Users\Ganga\GitHub\client_projects\energy_engineering\rii\004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml"
-plantuml -svg "C:\Users\Ganga\GitHub\client_projects\energy_engineering\rii\004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml"
-</code></pre>
-
-Reference:
-https://plantuml.com/command-line
-
-
-### Custom Styling
-
-Custom change line style and color. The code is self-explanatory if familiar with plantuml
-
-<pre><code>
-@startuml
-
-' Make a dashed line, alternative syntax for ..>
-(*) -[dashed]-> "Write outline"
-
-' Make line bold and use color name
-"Write outline" -[bold,#green]-> "Find example"
-
-' Only change the color with hexadecimal RGB code
-"Find example" -[#ff00ff]-> "Write blog"
-
-' Order of line style and color can be reversed
-"Write blog" -[#6666ff,dashed]-> "Publish"
-
-' Use dotted line style
-"Publish" -[dotted]-> (*)
-
-@enduml
-</code></pre>
-
-https://blog.jdriven.com/2017/01/plantuml-pleasantness-change-line-style-color/
+Seamless due to markdown compatiblity.
 
 ### Commenting Code
-
-Comment out portions of the diagram syntax
-
-<pre><code>
-@startuml
-' This is a comment on a single line
-Bob->Alice : hello
-/' You quote alors use slash-and-quote
-to split your comments on several
-lines '/
-@enduml
-</code></pre>
-
-https://forum.plantuml.net/1353/is-it-possible-to-comment-out-lines-of-diagram-syntax
 
 
 ## References
 
 https://mermaid-js.github.io/mermaid/#/
+https://www.diagrams.net/blog/mermaid-diagrams
+
