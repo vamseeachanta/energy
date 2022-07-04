@@ -1,0 +1,72 @@
+<html>
+
+<body>
+    Flowchart:
+    <div class="mermaid">
+        graph TD
+        A(Coffee machine <br>not working) --> B{Machine has power?}
+        B -->|No| H(Plug in and turn on)
+        B -->|Yes| C{Out of beans or water?} -->|Yes| G(Refill beans and water)
+        C -->|No| D{Filter warning?} -->|Yes| I(Replace or clean filter)
+        D -->|No| F(Send for repair)
+    </div>
+
+    Gantt:
+    <div class="mermaid">
+        gantt
+        title Example Gantt diagram
+        dateFormat YYYY-MM-DD
+        section Team 1
+        Research & requirements :done, a1, 2020-03-08, 2020-04-10
+        Review & documentation : after a1, 20d
+        section Team 2
+        Implementation :crit, active, 2020-03-25 , 20d
+        Testing :crit, 20d
+    </div>
+
+
+    <div class="mermaid">
+        pie title Commits to mxgraph2 on GitHub
+        "Sunday" : 4
+        "Monday" : 5
+        "Tuesday" : 7
+        "Wednesday" : 3
+
+    </div>
+
+    UML class diagram:
+    <div class="mermaid">
+
+        sequenceDiagram
+        autonumber
+        Student->>Admin: Can I enrol this semester?
+        loop enrolmentCheck
+        Admin->>Admin: Check previous results
+        end
+        Note right of Admin: Exam results may <br> be delayed
+        Admin-->>Student: Enrolment success
+        Admin->>Professor: Assign student to tutor
+        Professor-->>Admin: Student is assigned
+
+    </div>
+
+    UML class diagram:
+    <div class="mermaid">
+        classDiagram
+        Person <|-- Student Person <|-- Professor Person : +String name Person : +String phoneNumber Person : +String
+            emailAddress Person: +purchaseParkingPass() Address "1" <-- "0..1" Person:lives at class Student{ +int
+            studentNumber +int averageMark +isEligibleToEnrol() +getSeminarsTaken() } class Professor{ +int salary }
+            class Address{ +String street +String city +String state +int postalCode +String country -validate()
+            +outputAsLabel() } </div>
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+            <script>
+                mermaid.initialize({ startOnLoad: true });
+            </script>
+
+</body>
+
+</html>

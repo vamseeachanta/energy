@@ -25,8 +25,8 @@ https://mermaid-js.github.io/mermaid/#/n00b-gettingStarted
 
 ## Browser
 
-HTML based files
-
+HTML based files. 
+Seamless redering in browser
 
 ## IDE
 
@@ -35,6 +35,8 @@ Any leading text editor will work with mermaid.
 ## Github Integration
 
 Seamless due to markdown compatiblity.
+
+## Custom Formatting
 
 ### Commenting Code
 
