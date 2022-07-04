@@ -1,7 +1,7 @@
 <html>
 
 <body>
-    Flowchart:
+    Flowchart 1:
     <div class="mermaid">
         graph TD
         A(Coffee machine <br>not working) --> B{Machine has power?}
@@ -11,7 +11,16 @@
         D -->|No| F(Send for repair)
     </div>
 
-    Gantt:
+    Flowchart 2:
+    <div class="mermaid">
+        graph TD;
+        A-->B;
+        A-->C;
+        B-->D;
+        C-->D;
+    </div>
+
+    Gantt 1:
     <div class="mermaid">
         gantt
         title Example Gantt diagram
@@ -22,6 +31,20 @@
         section Team 2
         Implementation :crit, active, 2020-03-25 , 20d
         Testing :crit, 20d
+    </div>
+
+    Gantt 2:
+    <div class="mermaid">
+        gantt
+        dateFormat YYYY-MM-DD
+        title Adding GANTT diagram to mermaid
+        excludes weekdays 2014-01-10
+
+        section A section
+        Completed task :done, des1, 2014-01-06,2014-01-08
+        Active task :active, des2, 2014-01-09, 3d
+        Future task : des3, after des2, 5d
+        Future task2 : des4, after des3, 5d
     </div>
 
 
