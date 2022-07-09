@@ -57,5 +57,11 @@ https://applewoodgardenclub.org/gardening-houston-tips/
 https://applewoodgardenclub.org/summer-gardening-tips-india/
 https://www.urbanharvest.org/
 
+### Physics
+
+https://www.feynmanlectures.caltech.edu/I_toc.html
+https://www.feynmanlectures.caltech.edu/II_toc.html
+https://www.feynmanlectures.caltech.edu/III_toc.html
+
 ## References
 

@@ -67,16 +67,25 @@ Git Rebase. Always rebase the local branch that typically (way) behind master. R
 
 - Working steps in PyCharm:
     - Pre-steps:
-    - Ensure the latest master branch (or intended commit) is pulled into local
-- Execution steps:
-    - Select the select branch (intended) to rebase 
-    - Click (but do not select) on Master branch menu
-    - Click rebase current (i.e. select branch) onto Selected (i.e. master).
-- Key references:
+        - Ensure the latest master branch (or intended commit) is pulled into local
+    - Execution steps:
+        - Select the select branch (intended) to rebase 
+        - Click (but do not select) on Master branch menu
+        - Click rebase current (i.e. select branch) onto Selected (i.e. master).
 
+- Working steps in Command prompt:
+    - Pre-steps:
+        - Ensure the latest master branch (or intended commit) is pulled into local
+    - Execution steps:
+        - Select the select branch (intended) to rebase 
+        - git rebase <reference_branch_will_remain_untouched>
+
+- Key references:
+https://git-scm.com/docs/git-rebase
 https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge
 https://www.perforce.com/blog/vcs/git-rebase-vs-merge-which-better
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
 
 
 ## Commands
