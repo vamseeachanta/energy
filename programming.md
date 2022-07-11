@@ -90,8 +90,11 @@ OOPS or Object Oriented Programming Principles
 
 [https://philippe.bourgau.net/from-apprentice-to-master-how-to-learn-tdd-test-driven-development/](https://philippe.bourgau.net/from-apprentice-to-master-how-to-learn-tdd-test-driven-development/)
 
-### References
+## Github Copilot
 
+https://github.com/features/copilot
+
+### References
 
 [https://github.com/bmihovski/software-development-ebooks-1](https://github.com/bmihovski/software-development-ebooks-1)
 
