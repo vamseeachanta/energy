@@ -28,6 +28,9 @@ Open Source Drilling Models
 https://github.com/Open-Source-Drilling-Community
 https://opensourcedrilling.org/
 
+## Autonomous Drilling
+
+https://www.drillingcontractor.org/fully-autonomous-drilling-at-scale-inches-closer-to-reality-but-challenges-remain-63145
 
 ## Invisible Lost TIme (John de Wardt)
 
