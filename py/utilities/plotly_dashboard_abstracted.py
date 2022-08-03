@@ -6,15 +6,17 @@ import plotly.graph_objects as go
 import pandas as pd
 from dash.dependencies import Input, Output
 
+# Initialize the app
+app = Dash(__name__)
+app.config.suppress_callback_exceptions = True
+
 # Load data
 df = pd.read_csv('py/utilities/assets/stockdata.csv',
                  index_col=0,
                  parse_dates=True)
 df.index = pd.to_datetime(df['Date'])
 
-# Initialize the app
-app = Dash(__name__)
-app.config.suppress_callback_exceptions = True
+drop_down_settings = {'multiple': True}
 
 
 def get_options(list_stocks):
@@ -40,7 +42,7 @@ app.layout = html.Div(children=[
                                  dcc.Dropdown(
                                      id='stockselector',
                                      options=get_options(df['stock'].unique()),
-                                     multi=True,
+                                     multi=drop_down_settings['multiple'],
                                      value=[df['stock'].sort_values()[0]],
                                      style={'backgroundColor': '#ffffff'},
                                      className='stockselector'),
