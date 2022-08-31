@@ -35,5 +35,46 @@ THe typical questions are:
 https://www.youtube.com/watch?v=QHpUMXnVgcg
 https://www.youtube.com/watch?v=PQDmCMU_uOY
 
+## Video interviews
+
+
+### LightBoard
+
+- acrylic glass (light does not travvel in normal glass far)
+- LED strip lights (pointing inwards)
+- Expo neon dry erase markers (window markers)
+- Camera
+- Black muslin fabric
+- Streamlabs OBS
+
+Camera Side:
+- Lighting
+    - Light on plexiglass and the presenter
+    - LED with barn doors (to control lights)
+    - Overhead light with barn doors (to control lights)
+- Sound
+    - 2 microphones (into zoom recorders)
+- Reflections
+    - Switch off the record light
+    - 
+- Backdrops
+
+Presenter:
+- Preshoot
+- Framing
+- Wardrobe
+    - No clothes with text (plain shirt)
+    - Wear dark colors to help use larger portion of board
+    - Stand in clear part of board (away from writing) i.e. Do not cover face with text
+    - Dark Room is required (Between plexiglass and camera)
+
+
+
+Presenter
+
+References:
+https://www.youtube.com/watch?v=CCbBg6PH5a0
+https://www.youtube.com/watch?v=kXJu6-4u7UY
+
 ## References
 

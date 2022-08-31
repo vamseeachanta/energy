@@ -28,6 +28,11 @@ Open Source Drilling Models
 https://github.com/Open-Source-Drilling-Community
 https://opensourcedrilling.org/
 
+## Field Planning
+
+https://www.linkedin.com/posts/johndewardt_next-generation-field-development-planning-activity-6970420367504924672-5DjR?utm_source=share&utm_medium=member_desktop
+
+
 ## Autonomous Drilling
 
 https://www.drillingcontractor.org/fully-autonomous-drilling-at-scale-inches-closer-to-reality-but-challenges-remain-63145
@@ -69,6 +74,10 @@ Peter pointed out that the problem of the numerator and denominator both changin
 
 I am interested to read thoughts, comments and experience with this interesting topic.
 #spe #iadc #energy #oilandgas #drilling #NPT
+
+### Completion vs. Drilling
+
+https://www.linkedin.com/posts/johndewardt_spe-iadc-energy-activity-6960345333004476416-urx3/
 ### References
 
 

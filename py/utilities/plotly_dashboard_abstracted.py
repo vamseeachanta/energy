@@ -16,6 +16,11 @@ df = pd.read_csv('py/utilities/assets/stockdata.csv',
                  parse_dates=True)
 df.index = pd.to_datetime(df['Date'])
 
+html_text = {
+    "H2": 'DASH - STOCK PRICES',
+    "p1": 'Visualising time series with Plotly - Dash.',
+    "p2": 'Pick one or more stocks from the dropdown below.'
+}
 drop_down_settings = {'multiple': True}
 
 
@@ -34,9 +39,9 @@ app.layout = html.Div(children=[
             html.Div(
                 className='four columns div-user-controls',
                 children=[
-                    html.H2('DASH - STOCK PRICES'),
-                    html.P('Visualising time series with Plotly - Dash.'),
-                    html.P('Pick one or more stocks from the dropdown below.'),
+                    html.H2(html_text["H2"]),
+                    html.P(html_text["p1"]),
+                    html.P(html_text["p2"]),
                     html.Div(className='div-for-dropdown',
                              children=[
                                  dcc.Dropdown(
@@ -167,3 +172,4 @@ def update_change(selected_dropdown_value):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+    
