@@ -9,8 +9,10 @@ from dash.dependencies import Input, Output
 # Initialize the app
 app = Dash(__name__)
 app.config.suppress_callback_exceptions = True
-
+color_list = ["#5E0DAC", '#FF4F00', '#375CB1', '#FF7400', '#FFF400', '#FF0056']
 # Load data
+data_source = {'type': 'csv', 'filename': 'py/utilities/assets/stockdata.csv'}
+data_definitions = {'x': 'Date', 'y': 'value'}
 df = pd.read_csv('py/utilities/assets/stockdata.csv',
                  index_col=0,
                  parse_dates=True)
@@ -33,37 +35,37 @@ def get_options(list_stocks):
 
 
 app.layout = html.Div(children=[
-    html.Div(
-        className='row',
-        children=[
-            html.Div(
-                className='four columns div-user-controls',
-                children=[
-                    html.H2(html_text["H2"]),
-                    html.P(html_text["p1"]),
-                    html.P(html_text["p2"]),
-                    html.Div(className='div-for-dropdown',
-                             children=[
-                                 dcc.Dropdown(
-                                     id='stockselector',
-                                     options=get_options(df['stock'].unique()),
-                                     multi=drop_down_settings['multiple'],
-                                     value=[df['stock'].sort_values()[0]],
-                                     style={'backgroundColor': '#ffffff'},
-                                     className='stockselector'),
-                             ],
-                             style={'color': '#000000'})
-                ]),
-            html.Div(className='eight columns div-for-charts',
-                     children=[
-                         dcc.Graph(id='timeseries',
-                                   config={'displayModeBar': False},
-                                   animate=True),
-                         dcc.Graph(id='change',
-                                   config={'displayModeBar': False},
-                                   animate=True),
-                     ])
-        ])
+    html.Div(className='row',
+             children=[
+                 html.Div(className='four columns div-user-controls',
+                          children=[
+                              html.H2(html_text["H2"]),
+                              html.P(html_text["p1"]),
+                              html.P(html_text["p2"]),
+                              html.Div(
+                                  className='div-for-dropdown',
+                                  children=[
+                                      dcc.Dropdown(
+                                          id='stockselector',
+                                          options=get_options(
+                                              df['stock'].unique()),
+                                          multi=drop_down_settings['multiple'],
+                                          value=[df['stock'].sort_values()[0]],
+                                          style={'backgroundColor': '#ffffff'},
+                                          className='stockselector'),
+                                  ],
+                                  style={'color': '#000000'})
+                          ]),
+                 html.Div(className='eight columns div-for-charts',
+                          children=[
+                              dcc.Graph(id='timeseries',
+                                        config={'displayModeBar': False},
+                                        animate=True),
+                              dcc.Graph(id='change',
+                                        config={'displayModeBar': False},
+                                        animate=True),
+                          ])
+             ])
 ])
 
 
@@ -94,10 +96,7 @@ def update_timeseries(selected_dropdown_value):
             data,
         'layout':
             go.Layout(
-                colorway=[
-                    "#5E0DAC", '#FF4F00', '#375CB1', '#FF7400', '#FFF400',
-                    '#FF0056'
-                ],
+                colorway=color_list,
                 template='plotly_white',
                 paper_bgcolor='rgba(0, 0, 0, 0)',
                 plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -141,10 +140,7 @@ def update_change(selected_dropdown_value):
             data,
         'layout':
             go.Layout(
-                colorway=[
-                    "#5E0DAC", '#FF4F00', '#375CB1', '#FF7400', '#FFF400',
-                    '#FF0056'
-                ],
+                colorway=color_list,
                 template='plotly_white',
                 paper_bgcolor='rgba(0, 0, 0, 0)',
                 plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -160,7 +156,7 @@ def update_change(selected_dropdown_value):
                     'x': 0.5
                 },
                 xaxis={
-                    'showticklabels': False,
+                    'showticklabels': True,
                     'range': [df_sub.index.min(),
                               df_sub.index.max()]
                 },
@@ -172,4 +168,3 @@ def update_change(selected_dropdown_value):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-    

@@ -78,7 +78,14 @@ I am interested to read thoughts, comments and experience with this interesting 
 ### Completion vs. Drilling
 
 https://www.linkedin.com/posts/johndewardt_spe-iadc-energy-activity-6960345333004476416-urx3/
+
+
+### Geothermal Feasibility
+
+https://www.linkedin.com/posts/johndewardt_spe-iadc-energy-activity-6972574420435427328-uX3z?utm_source=share&utm_medium=member_desktop
 ### References
+
+
 
 
 ### Automation
