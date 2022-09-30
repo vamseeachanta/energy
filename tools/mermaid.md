@@ -45,4 +45,4 @@ Seamless due to markdown compatiblity.
 
 https://mermaid-js.github.io/mermaid/#/
 https://www.diagrams.net/blog/mermaid-diagrams
-
+https://ckeditor.com/blog/basic-overview-of-creating-flowcharts-using-mermaid/

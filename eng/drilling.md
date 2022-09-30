@@ -23,6 +23,12 @@ The main influences on torque and drag are:
 ·        Hole cleaning
 
 
+Drilling Data
+https://onepetro.org/DC/article/doi/10.2118/208754-PA/506315/Connecting-Multilayer-Semantic-Networks-to-Data
+
+IADC Rig Sensor Stewardship Guidelines
+https://store.iadc.org/product/iadc-rig-sensor-stewardship-guidelines
+
 
 Open Source Drilling Models
 https://github.com/Open-Source-Drilling-Community

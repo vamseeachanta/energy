@@ -46,3 +46,4 @@ However, what a simple cost analysis cannot tell you is the pile driving refusal
 
 ### References
 
+https://www.americanprogress.org/article/offshore-wind-can-lower-energy-prices-and-beat-out-oil-and-gas/

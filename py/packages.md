@@ -81,9 +81,12 @@ o	https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/buil
 
 ### Testing A Package Locally
 
-A package can be imported locally from another code and thoroughly tested as well if required. The steps to do so are:
-- TBA
-
+A package can be imported locally from another code and thoroughly tested as well if required. Editable install is the best way to achieve this.
+The steps to do so are:
+- Change to the current working directory where the pyproject.toml file is located
+- Execute the following command to install the package locally
+	- python -m pip install -e .
+- This installation uses the files in the current working directory
 
 ### References
 
