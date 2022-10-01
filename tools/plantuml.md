@@ -76,9 +76,46 @@ An plantuml extension or utility can be used to render in an IDE. Instructions f
   - choose the format to save diagrams
 
 
+---
+Previous slide
+
+---
+
+# Display plantuml diagram inline
+Prerequisites:
+- Install plantuml
+  - Set the following in vs code user (or workspace based on preference) settings
+  <pre>
+      "plantuml.server": "https://www.plantuml.com/plantuml",
+  </pre>
+
+- install markdown preview enhanced extension: 
+https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+
+```plantuml
+@startuml
+  class Example {
+    - String name
+    - int number 
+    
+    +void getName()
+    +void getNumber()
+    +String toString()
+  }
+@enduml
+```
+
+---
+Next slide
+
+---
+
 Typical errors and how to resolve them:
 - Error: Diagram unnamed. Try "@startuml name"
   - Resolution: 
+
+References:
+https://stackoverflow.com/questions/66934681/using-plantuml-within-a-markdown-document
 
 ## Github Integration
 
@@ -214,3 +251,5 @@ https://forum.plantuml.net/1353/is-it-possible-to-comment-out-lines-of-diagram-s
 https://mattjhayes.com/2021/11/28/other-uses-for-plantuml/
 
 https://github.com/mattjhayes/PlantUML-Examples
+
+https://www.freecodecamp.org/news/inserting-uml-in-markdown-using-vscode/
