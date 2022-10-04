@@ -81,7 +81,7 @@ Previous slide
 
 ---
 
-# Display plantuml diagram inline
+# Display plantuml diagram inline in VS Code
 Prerequisites:
 - Install plantuml
   - Set the following in vs code user (or workspace based on preference) settings
@@ -116,6 +116,9 @@ Typical errors and how to resolve them:
 
 References:
 https://stackoverflow.com/questions/66934681/using-plantuml-within-a-markdown-document
+
+To display inline plantuml code in Google Chrome, use below:
+https://github.com/wicksome/plantuml-extension
 
 ## Github Integration
 
