@@ -19,8 +19,6 @@ Best practices:
   - facilitates easy use of templates
   - facilitates easy use existing flowcharts for new flowchart
 
-
-
 [https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/](https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/)
 [https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github/32771815#32771815](https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github/32771815#32771815)
 
@@ -256,3 +254,6 @@ https://mattjhayes.com/2021/11/28/other-uses-for-plantuml/
 https://github.com/mattjhayes/PlantUML-Examples
 
 https://www.freecodecamp.org/news/inserting-uml-in-markdown-using-vscode/
+
+https://github.com/qjebbs/vscode-plantuml/issues/449#issuecomment-975520835
+
