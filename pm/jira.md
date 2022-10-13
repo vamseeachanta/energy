@@ -13,16 +13,38 @@ A brief summary of the tool:
 - Each sales pipeline becomes a workstream
 - Dashboards
 
-
 ## Configuration | Manufacturing
 
 https://www.atlassian.com/agile/project-management/epics-stories-themes
 
-![epic](https://github.com/vamseeachanta/energy/blob/master/pm/jira_epics-vs-stories-agile-development.png)
+![epic-stories-themes](https://github.com/vamseeachanta/energy/blob/master/pm/jira_epics-vs-stories-agile-development.png)
 
-Correlation:
+### Heirarchy Levels
 
+![heirarchy levels](https://github.com/vamseeachanta/energy/blob/master/pm/jira_Tracking%20Hierarchy.png)
 
+Purpose: TBA
+Vision/Objective: TBA
+Goal/Strategic Initiative: TBA
+Workstream: TBA
+Initiative: TBA
+Epic1: Project
+Stories : Proposal, Engineering, Fabrication
+Proposal Subtasks: Eng, Fabrication, Project Management, Schedule, Cost and Resources
+Engineering Design Basis Subtasks: Design basis
+Engineering Design Subtasks: Design, Detailed Drawings
+Engineering Analysis Subtasks: Analysis, Results, reporting
+Fabrication Subtasks: All components (Tags of typical manufacturing)
+Project Management: A reminder to periodically review/update as long as project runs
+
+- In above example, TBAs are left empty for now. 
+- To move tags to subtasks, move up the definitions in the definition heirarchy. 
+- Initial setting up will help decrease future work and avoid confusion.
+
+Implementation a pilot and test run with 2 stakeholders can gain trackion. 
+
+Jira Templates
+https://www.judsonlmoore.com/jira-task-templates
 
 ## References
 

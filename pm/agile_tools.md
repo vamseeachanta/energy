@@ -16,13 +16,15 @@ Agile project management tools.
 | Software  | Seats | Cost | Service Type | Comments | Ref | 
 |------------|-----------|----------|----------------|--------|--------|-------|
 | Monday | Free/2 users <br> USD 75/10 users | ? | Cloud, SAS | Popularity, ok | [Manufacturing Templates](https://monday.com/templates/category/manufacturing) <br> [monday pricing](https://monday.com/pricing/)
-| Jira | Free/10 users <br> USD 75/10 users | ? | - | Most configurable, Need custom knowledge | [Jira Pricing](https://www.atlassian.com/software/jira/pricing) <br>
-[templates](https://www.judsonlmoore.com/jira-task-templates)
+| Jira | Free/10 users <br> USD 75/10 users | ? | - | Most configurable, Need custom knowledge <br> 65000 customers| [Jira Pricing](https://www.atlassian.com/software/jira/pricing) <br> [templates](https://www.judsonlmoore.com/jira-task-templates)
 | MS DevOps | Check Godaddy | ? | Cloud, SAS | Configurable, Need custom knowledge
 | Asana | ? | ? | - | - [x] ok?
 | Wrike | ? | ? | - | - [x] ok?
 | Smartsheet | ? | ? | - | - [x] ok?
 | Rally | ? | ? | - | - [x] ok?
+
+https://www.atlassian.com/software/jira/comparison/jira-vs-monday
+https://www.forbes.com/advisor/business/software/azure-devops-vs-jira/
 
 **Custom Software | Manufacturing**
 
@@ -31,14 +33,6 @@ Agile project management tools.
 | Visual estiTrack | - | 8000 | Server based | Need dedicated estiTrack knowledge <br> Need IT support <br> Need separate PM software for engineering | -
 
 
-## Quotes
-**Quotes**
-
-We are a manufacturing facility trying to set up a project management and process tracking. 
-
-Do you have custom templates for a manufacturing plants to be able to utilize with minimum downtime.
-
-Also, what is the pricing for about 20 employees/seats?
 
 ## References
 
