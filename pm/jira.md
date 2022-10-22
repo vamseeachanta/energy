@@ -34,7 +34,14 @@ Proposal Subtasks: Eng, Fabrication, Project Management, Schedule, Cost and Reso
 Engineering Design Basis Subtasks: Design basis
 Engineering Design Subtasks: Design, Detailed Drawings
 Engineering Analysis Subtasks: Analysis, Results, reporting
-Fabrication Subtasks: All components (Tags of typical manufacturing)
+Fabrication Subtasks: Parts
+    Part Subsubtasks:
+        Setup
+        Process/Run Time
+        Wait on Tools
+        Wait on Program
+        Machine Down
+        Maintenance
 Project Management: A reminder to periodically review/update as long as project runs
 
 - In above example, TBAs are left empty for now. 
@@ -45,6 +52,12 @@ Implementation a pilot and test run with 2 stakeholders can gain trackion.
 
 Jira Templates
 https://www.judsonlmoore.com/jira-task-templates
+
+Jira Schemes
+https://community.atlassian.com/t5/Jira-articles/Configurations-overview-Understanding-Jira-schemes/ba-p/1894016
+
+High-level configuration guide
+https://hub.appfire.com/popular-topics/administration-at-scale/the-guide-to-managing-jira-configurations-at-scale-with-cmj/
 
 ## References
 
