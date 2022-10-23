@@ -48,5 +48,13 @@ Deliverables:
     - Product
     - Manufacturer Book
 
+A full use concept in a manufacturing plant  is shown below:
+
+<img src="data_driven_engineering.svg" width="900"/>
+
+
 ### References
 
+[https://www.machinemetrics.com/blog/data-driven-manufacturing](https://www.machinemetrics.com/blog/data-driven-manufacturing)
+
+[https://www.machinemetrics.com/manufacturing-analytics-software](https://www.machinemetrics.com/manufacturing-analytics-software)

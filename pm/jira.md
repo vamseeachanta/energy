@@ -52,6 +52,12 @@ Implementation a pilot and test run with 2 stakeholders can gain trackion.
 
 Jira Templates
 https://www.judsonlmoore.com/jira-task-templates
+Some good go-by templates are:
+- Procurement management
+- Project management
+- Task management
+- Task lifecycle
+- Service management
 
 Jira Schemes
 https://community.atlassian.com/t5/Jira-articles/Configurations-overview-Understanding-Jira-schemes/ba-p/1894016
