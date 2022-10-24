@@ -26,17 +26,17 @@ Typical manufacturing process involves the following:
     - Product
     - Manufacturer databook
 
-Storage: 
+**Storage:** 
     - A neutral database, preferably, a traditional SQL database
     - Should interface with all software (additional tools required)
-Design Software: 
+**Design Software:**
     - Solidworks or Autodesk or others?
-Engineering: 
+**Engineering:**
     - Any analysis required should be as parametric as possible. Document component analysis with parametric analysis to utilize in future designs
     - Anticipate the test data required to verify design. Document all analysis in graphic and tabular format for easy verification
     - Minimize requirement to rerun analysis
     - Script oriented engineering analysis (eg; ANSYS or Abacus with Python scripting)
-Manufacturing:
+**Manufacturing:**
     - Prepare a schedule from procuremnet 
     - Show animations of the product as it progresses through the schedule
     - Document all steps in project management tool
@@ -44,13 +44,13 @@ Manufacturing:
     - Demonstrate all the fit-up tests to ensure things fit
     - Document strain from pressure and load tests 
         - Compare data against analysis report in 1-2 page technical note with reference documents as appendices
-Deliverables:
+**Deliverables:**
     - Product
     - Manufacturer Book
 
 A full concept in a manufacturing plant  is shown below. Parts of these have been implemented at various faclities. A full solution implementation will help get competitive edge:
 
-<img src="data_driven_engineering.svg" width=auto, height=auto/>
+<img src="dd/data_driven_engineering.svg" width=auto, height=auto/>
 
 ### References
 
