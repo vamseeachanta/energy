@@ -48,10 +48,9 @@ Deliverables:
     - Product
     - Manufacturer Book
 
-A full use concept in a manufacturing plant  is shown below:
+A full concept in a manufacturing plant  is shown below. Parts of these have been implemented at various faclities. A full solution implementation will help get competitive edge:
 
-<img src="data_driven_engineering.svg" width="900"/>
-
+<img src="data_driven_engineering.svg" width=auto, height=auto/>
 
 ### References
 
