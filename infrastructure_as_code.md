@@ -16,11 +16,7 @@ Using Terraform has several advantages over manually managing your infrastructur
 - Terraform's state allows you to track resource changes throughout your deployments.
 - can commit your configurations to version control to safely collaborate on infrastructure.
 
-### IDE: VS Code 
-
-For general working in VS code:
-[https://code.visualstudio.com/docs/languages/typescript](https://code.visualstudio.com/docs/languages/typescript)
-
+https://similarweb.engineering/building-terraform-ci-cd-pipeline/
 
 
 

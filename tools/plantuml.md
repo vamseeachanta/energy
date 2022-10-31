@@ -44,7 +44,6 @@ Install plantuml using the below command:
 
 Plantuml can be worked in various methods:
 
-
 ## Browser
 
 Prerequisites:
@@ -72,7 +71,6 @@ An plantuml extension or utility can be used to render in an IDE. Instructions f
   - [ ![](<img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />) ]("tools/puml/export_diagram.png")
   - Click option to 'Export Workspace Diagrams' 
   - choose the format to save diagrams
-
 
 ---
 Previous slide
@@ -179,10 +177,11 @@ If plantuml extenion is installed in vs code, execute below in VS code terminal
 plantuml "C:\Users\Vamsee Achanta\GitHub\energy\tools\puml\gantt.puml"
 
 Output file will be saved in same folder as the root folder. The default output is typically .png
+To obtain other extensions:
 
 <pre><code>
-plantuml -png "C:\Users\Ganga\GitHub\client_projects\energy_engineering\rii\004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml"
-plantuml -svg "C:\Users\Ganga\GitHub\client_projects\energy_engineering\rii\004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml"
+plantuml -png "004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml"
+plantuml -svg "004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml"
 </code></pre>
 
 Reference:
@@ -256,4 +255,3 @@ https://github.com/mattjhayes/PlantUML-Examples
 https://www.freecodecamp.org/news/inserting-uml-in-markdown-using-vscode/
 
 https://github.com/qjebbs/vscode-plantuml/issues/449#issuecomment-975520835
-
