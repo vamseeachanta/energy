@@ -34,6 +34,8 @@ Open Source Drilling Models
 https://github.com/Open-Source-Drilling-Community
 https://opensourcedrilling.org/
 
+
+https://jpt.spe.org/trends-in-remote-operations-and-drilling-systems-automation-point-to-an-expanding-footprint-what-comes-next-and-when
 ## Field Planning
 
 https://www.linkedin.com/posts/johndewardt_next-generation-field-development-planning-activity-6970420367504924672-5DjR?utm_source=share&utm_medium=member_desktop

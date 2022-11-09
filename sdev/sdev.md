@@ -63,5 +63,9 @@ https://www.feynmanlectures.caltech.edu/I_toc.html
 https://www.feynmanlectures.caltech.edu/II_toc.html
 https://www.feynmanlectures.caltech.edu/III_toc.html
 
+### Children
+
+https://www.bbc.com/future/article/20221101-how-to-teach-kids-to-make-great-choices
+
 ## References
 

@@ -105,9 +105,10 @@ foobar
 
 # Slide 2
 
-foobar
+#TODO
 ```
-
+1/ The theme files i.e. (.css files) are not read in by the Marp application. Troubleshoot
+2/  Have to update the marp vscode setting. And then you can just manage the themes list in the setting. (SP proven)
 ---
 
 # How to insert plantuml file into Markdown
