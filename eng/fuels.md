@@ -18,4 +18,6 @@ Ranges from USD 2 up to USD 12 per gallon
 
 https://www.airnav.com/fuel/
 
+## LNG
 
+https://www.linkedin.com/posts/alfonsorreyes_the-energy-revolution-nobody-is-talking-about-activity-7001482855805575168-KDqh

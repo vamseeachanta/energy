@@ -94,6 +94,41 @@ https://www.linkedin.com/posts/johndewardt_spe-iadc-energy-activity-697257442043
 ### References
 
 
+### SPE Drilling Systems Automation Technical Section
+
+Want to Have a Say in What is Happening on the Forefront of Drilling Systems Automation - attend the SPE DSATS Nov 10 virtual meeting.
+DSATS Officer and Membership Meeting Thursday, 10 November 2022, 0830-1000am CDT (Houston time). Meeting link below.
+
+Agenda
+8:30 - 8:45 - A few polls to get feedback from the community
+8:45 - 9:00 DSATS Update - Section update, events, new DSATS website Dimitrios Pirovolou
+9:00 - 9:15 D-WIS Workshop - Highlights from the workshop held on Oct. 6-7 Fred Florence
+9:15 - 9:45 Update from the DSATS sub-committees
+Drilling Automation & Human Factors Shashi Talya Verification & Validation of Automation Systems Matthew Forshaw Q&A
+9:50 - 10:00 Closing remarks
+Link to Teams meeting - https://lnkd.in/gbXs7YYQ
+
+dimitrious.pirovolou@weatherford.com
+
+Robert Wylie
+John Macpherson
+John de Wardt
+dimitrios.pirovolou@weatherford.com
+
+## Drillers Dichotomy
+
+Dichotomy in Drilling Advisory Displays – integration beats additional screen, or does it?
+On the one hand, the fastest implementation of a 3rd party drilling advisor is with an additional screen for the driller. On the other hand, the best means to communicate high value information to the driller is through his own drilling screen. This is a dichotomy that will benefit from a resolution.
+
+I have spent time with a night driller in the desert discussing the use of all the data displayed to him. It was obvious that he relied significantly on his own screen / control system and paid little attention to the adjacent EDR screen. In fact, he routinely reset his WOB on his own system and intermittently reset it on the EDR system. This behavior is backed up by an SPE paper where a study showed that 80% of the time across 40 wells the WOB on the EDR was either not reset or was reset improperly. Additionally, the driller I spoke with shared that he trusted his own rig system and ran a risk if something went wrong while. using another system (liability issues). I have also seen significant push back when an operator came up with a drilling process that required an additional screen, the view was that the driller had enough screens already. Adding a screen may be a quickly implemented solution but it can fail to function as sound input to the driller.
+
+I have heard that drillers are using the EDR system to adjust their drilling parameters and choose / adjust displays to meet their needs. Such usage must have resolved the perceived liability issues. Presumably the operator oversaw this implementation.
+
+The obvious solution is to integrate a new advisory display into the drillers own display. The problem is that the industry has not developed plug and play systems to do this. A hook up into the driller’s display takes a lot of time and cost because it involves a bespoke solution and is probably not rewarded in standard contracts. The issue of liabilities would also need to be addressed. The drilling contractor is the key participant in this type of solution and is probably prioritizing using their own advisory systems in the drillers display. 
+
+How do you see the solution for this dichotomy?
+
+https://www.linkedin.com/posts/johndewardt_spe-iadc-energy-activity-6998337715238776832-iPEN/
 
 
 ### Automation
@@ -101,3 +136,5 @@ https://www.linkedin.com/posts/johndewardt_spe-iadc-energy-activity-697257442043
 https://www.linkedin.com/pulse/drilling-systems-digitalization-automation-do-you-john/
 
 https://dsabok.org/organizations/
+
+https://jpt.spe.org/trends-in-remote-operations-and-drilling-systems-automation-point-to-an-expanding-footprint-what-comes-next-and-when
