@@ -110,6 +110,28 @@ C:\Users\achantv\Documents\GitHub\client_projects>git log --graph --decorate --p
 * 9fa9599 Update README.md
 * 86ac5dc Initial commit
 
+## Commit & Undo Commit
+
+**Undo Commit**
+step 1: Get the commit logs and ids using below
+<code>
+git log --oneline
+
+Output:
+8ffa550 (HEAD -> main) wip
+3e8b1eb wip
+256ec03 (origin/main, origin/HEAD) wip
+27c5043 wip
+1a04ce8 wip
+</code>
+
+step 2: Get the commit logs and ids using below
+<code>
+git revert 3e8b1eb
+</code>
+
+
+
 
 ## Installation
 
