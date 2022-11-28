@@ -11,6 +11,7 @@ For general guidance on building a library, see [py package](https://github.com/
 
 | Library |  Description | Status | Reference |
 |---|---|---|---|
+| flask_app_template | Flask App in dashhtmlgrid <br> Horizontal Menus <br> Multiple pages <br> services |  In development (0.0.1) | tba |
 | orcaflexPost | Orcaflex postprocessing for any given structure <br> Compare between runs <br> between structures etc. |  In development (0.0.1) | tba |
 | stockhold | Stock Hold Analysis |  In development (0.0.1) | [stockhold](https://github.com/vamseeachanta/stockhold) |
 | pypipecapacity | Pipe capacity calculations per various codes such as API, ASME etc. |  In development (0.0.1) | [pypipecapacity?](tba) |
