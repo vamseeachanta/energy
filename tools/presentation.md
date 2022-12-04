@@ -54,3 +54,14 @@ https://github.com/topics/marp-themes
     - https://github.com/rnd195/my-marp-themes (Beamer)    
     - https://github.com/johannesdewit/marp-theme-universiteit-leiden/blob/main/css/universiteit_leiden_16:9.css (Section, footer, header etc.)
     
+
+## GIF Animation creation
+
+- Installed LICEcap in windows
+- Can capture screens from VS code all the way to browser
+
+https://chrome.google.com/webstore/detail/capture-to-a-gif/eapecadlmfblmnfnojebefkbginhggeh
+https://dev.to/sinedied/3-tips-for-perfect-vs-code-video-gifs-recordings-dbn
+
+Steps to perform GIF Animation
+- 
