@@ -1,0 +1,61 @@
+{
+    "sync.gist": "4f3f54665c291056b894faeea5335662",
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Default Light+",
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "plantuml.exportFormat": "svg",
+    "plantuml.exportOutDir": "",
+    "plantuml.exportSubFolder": false,
+    "plantuml.render": "Local",
+    "plantuml.commandArgs": [],
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "runItOn": {
+        "commands": [
+            {
+                "match": "\\.puml$",
+                "isShellCommand": true,
+                "cmd": "plantuml -svg ${file}"
+            }
+        ],
+        "watchers": [
+            {
+                "match": "**/*.puml",
+                "cmd": "echo 'Changes detected on puml files.'"
+            }
+        ]
+    },
+    "python.terminal.activateEnvironment": true,
+    "python.condaPath": "D:\\miniconda\\Scripts\\conda.exe",
+    "python.defaultInterpreterPath": "D:\\miniconda\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "pylint",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "yapf", // or "black" here
+    "python.linting.pylintEnabled": true,
+    "python.formatting.yapfPath": "D:\\miniconda\\Scripts\\yapf.exe",
+    "python.formatting.yapfArgs": [
+        "--style={based_on_style: google, indent_width: 4, spaces_before_comment: 4, column_limit: 80}"
+    ],
+    "extensions.autoUpdate": false,
+    "remote.SSH.remotePlatform": {
+        "shoerack.lan": "linux"
+    },
+    "git.ignoreRebaseWarning": true,
+    "window.zoomLevel": 1,
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.exportType": "html",
+    "workbench.editor.enablePreview": false,
+}
