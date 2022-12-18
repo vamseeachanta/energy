@@ -6,14 +6,16 @@ footer
 %filename()
 end footer
 
-* Project Manager
+* Project Manager \n Facilities Engineer \n QA/HSE Manager \n  Field Layout & development Engineer \n Mechanical-Lead cum Static Eqpmnt \n Mechanical-Rotating equipment
+
 
 ** Document Controller \n Support 
-*** Templates 
-*** Document review & approval
-*** Meeting Minutes
-*** Budget & Schedule
-*** Project management tool (Jira etc.)
+*** Procurement Manager (Lead)
+*** Procurement Officer
+*** Project Control Lead
+*** Document controller cum Secretary
+
+
 
 ** Lead | Wellhead Platform 
 *** Sr. Global Analyst
@@ -33,15 +35,16 @@ end footer
 ** Lead | Company Documentation
 *** Technical Writer
 
-
 ** Lead | FPSO
+*** Hull & Mooring engineer
+*** Naval Architect
 *** Process Analyst
+*** E&I Lead
 *** Mechanical & Piping Designer
 *** Top side & Turret interface SME/Analyst
 *** Engineer MTO (50%)
 *** Drawings Designer 1 (100%)
 *** Drawings Designer 2 (100%)
 *** Specs SME 1 (30%)
-
 
 @endwbs
