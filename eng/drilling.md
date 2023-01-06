@@ -138,3 +138,18 @@ https://www.linkedin.com/pulse/drilling-systems-digitalization-automation-do-you
 https://dsabok.org/organizations/
 
 https://jpt.spe.org/trends-in-remote-operations-and-drilling-systems-automation-point-to-an-expanding-footprint-what-comes-next-and-when
+
+
+#### Joint makeup
+
+
+https://www.linkedin.com/posts/drillingautomation_robotclub-ugcPost-7009824710892900352-aUWx?utm_source=share&utm_medium=member_desktop
+
+It looks fantastic to me ? And making up surface wellheads riser tensioners and running them? Umbilicals ? 
+then switching over to makeup Large BHA’s what is the switch over time 1/2 hr - one hour to change tools reset programs to other routines? 
+
+pull one pin on rig tongs slide small jaws out fit large jaws reinsert pin … that’s the program ready to run 9-1/2” drill collars ..? About 1-2 minutes … how long does it take to set all this up? Or do we need to take all this off the rig floor or is it only a marine riser rig up? 
+
+also would love to see how this rig picks up the next joint of riser too … shame as the video only shows putting on some nuts by the Robert spinning them down and torquing them… 
+do the robots automatically adjust their positions around the rig floor to reach other bolt / job positions? How do they compensate for their miss alignments etc?  I would love to see the full video real time of rig up full connection including rig size and setup ( looks to me as if the pipe deck is horizontal with the rig floor elevation too (in the background … ) a large rig … possibly 5th generation - high cost circa 600-1,000,000 million USD / day possibly twin Derrick also … so great…! What happens if I only need a 4th generation semi or jackup and only want to pay $300-$600 / day for my rig? + services so total spread $600,000 rather than £1,600,000 ? This is quite a difference when the fat lady has to sing to the tune £18,000,000 for 30 days verses £48,000,000  so this is all great … but then how much time is spent rigging up and rigging down … because this is also paid at these same day rates?  What is the power source for the Robots? Remote hydraulic unit and generator power pack ..? After all I am spending 6-12 hours depending on water depth to run BOPs/LMRP and marine riser … so how long using the Robots - in deep water I am running in 12-24 hours …? With 5th semi mobile on 3DGPS thruster system ..? Oh and only hopping BOP’s to my next subsea wellhead 18-3/4” SSWHH … so therefore after my Deepwater riser is run once - it is only getting Pulled and run again if I need to change service annular BOP’s lmrp etc otherwise it’s all staying down there in my wells.  What I am asking is how much ‘operational time am I taking to rig up calibrate the system … I also don’t like the running speed through the rotary table with the buoyancy cladding .. is this speeded up?  So fake camera tricks don’t help me I’m afraid …. 
+ Would like to see real-time video if things like this … going on because then my little head has time to do my sums as each 1 hr clocks another 50,000 dollars upto my 1,600,000 per day … without NPT..? 
