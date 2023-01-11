@@ -12,8 +12,7 @@ For general guidance on building a library, see [py package](https://github.com/
 | Library |  Description | Status | Reference |
 |---|---|---|---|
 | bseedata | Get BSEE Data directly from website |  In development (0.0.1) | [bseedata](tba) |
-| openfast | Catch up, contribute, get work. Prepare visualizations |  In development (0.0.1) | [openfastresults](tba) https://openfast.readthedocs.io/en/main/source/this_doc.html <br> https://github.com/OpenFAST/openfast|
-| flask_app_template | Flask App in dashhtmlgrid <br> Horizontal Menus <br> Multiple pages <br> services |  In development (0.0.1) | tba |
+| app_template | Flask App in dashhtmlgrid <br> Horizontal Menus <br> Multiple pages <br> services <br> Add FastAPI for API service |  In development (0.0.1) | tba |
 | orcaflexPost | Orcaflex postprocessing for any given structure <br> Compare between runs <br> between structures etc. |  In development (0.0.1) | tba |
 | stockhold | Stock Hold Analysis |  Documentation pending (0.0.1) | [stockhold](https://github.com/vamseeachanta/stockhold) |
 | pypipecapacity | Pipe capacity calculations per various codes such as API, ASME etc. |  In development (0.0.1) | [pypipecapacity?](tba) |
@@ -26,3 +25,4 @@ For general guidance on building a library, see [py package](https://github.com/
 | pymvil | A Multi-Variate Interpolation for Limits (PYMVIL) |  pypi (0.0.1) | [pymvil](https://github.com/vamseeachanta/pymvil) |
 | lmfa | Leveraged Multi family Analysis (lmfa) <br> Add visualizations |  pypi (0.0.1) | [pymvil](https://github.com/vamseeachanta/pymvil) |
 | dashhtmlgrid | Plotly Dash HTML Grid <br> Add plotly visualization code |  pypi (0.0.1) | [dashhtmlgrid](https://github.com/vamseeachanta/dashhtmlgrid) |
+| openfast | Catch up, contribute, get work. Prepare visualizations |  no development <br> Low priority | [openfastresults](tba) https://openfast.readthedocs.io/en/main/source/this_doc.html <br> https://github.com/OpenFAST/openfast|

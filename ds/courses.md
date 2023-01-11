@@ -22,6 +22,9 @@ https://ocw.mit.edu/courses/res-ll-005-mathematics-of-big-data-and-machine-learn
 https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/
 https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/
 
+How chatGPT works:
+https://huggingface.co/blog/rlhf
+
 
 ## References
 
