@@ -40,3 +40,5 @@ https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/
 [Microsoft OpenAI cloud service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service/)
 
 [AI Powered lawyer](https://www.cbsnews.com/news/ai-powered-robot-lawyer-takes-its-first-court-case/)
+
+[No code is code](https://techcrunch.com/2021/08/11/no-code-is-code/)
