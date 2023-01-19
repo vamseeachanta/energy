@@ -44,3 +44,13 @@ https://github.com/umluizlima/flask-conf-pwa
 A good website with database, pages etc.
 https://github.com/XD-DENG/flask-example
 
+### Contact Page
+    - Nice to have: refine contact us using one of following in order of preference
+        - [atlas1031 contact](https://atlas1031.com/contact/)
+        - [hubspot contact page](https://www.hubspot.com/company/contact)
+        - [tune contact](https://www.tune.com/contact-us/)
+
+### redirect after rendering a page. 
+
+    utilize a url solution.
+    - Nice to have: redirect contact success to home page [after 2s](https://stackoverflow.com/questions/53320037/python-redirect-with-delay)

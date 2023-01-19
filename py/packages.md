@@ -11,12 +11,11 @@ For general guidance on building a library, see [py package](https://github.com/
 
 | Library |  Description | Status | Reference |
 |---|---|---|---|
-| pyfemodel | fe models for structural analysis |  In development (0.0.1) | [pyfemodel?](tba) |
-| orcaflexPost | Orcaflex postprocessing for any given structure <br> Compare between runs <br> between structures etc. |  In development (0.0.1) | tba |
-| bseedata | Get BSEE Data directly from website |  In development (0.0.1) | [bseedata](tba) |
-| bseeanalysis | Perform Analysis on BSEE Data using bseedata module |  In development (0.0.1) | [bseeanalysis](tba) |
+| digitalmodel | fe models for structural analysis <br> Orcaflex postprocessing for any given structure <br> Compare between runs <br> between structures etc. <br> 3D animation files etc.|  In development (0.0.1) | [digitalmodel?](tba) |
+| gomdata | Get BSEE Data directly from website |  In development (0.0.1) | [gomdata](tba) |
+| fielddev | Perform Analysis on BSEE Data using bseedata module for starters |  In development (0.0.1) | [fielddev](tba) |
+| pipecapacity | Pipe capacity calculations per various codes such as API, ASME etc. |  In development (0.0.1) | [pipecapacity?](tba) |
 | stockhold | Stock Hold Analysis |  Documentation pending (0.0.1) | [stockhold](https://github.com/vamseeachanta/stockhold) |
-| pypipecapacity | Pipe capacity calculations per various codes such as API, ASME etc. |  In development (0.0.1) | [pypipecapacity?](tba) |
 | presentation, report | libraries for presentation & report for easy reuse. Need not be a pypi library |  In development (0.0.1) | [??](https://github.com/vamseeachanta/dashhtmlgrid) |
 | splashzone | Splashzone calculations |  In development (0.0.1) | [??](https://github.com/vamseeachanta/dashhtmlgrid) |
 | pyintegrity | FFS for metallic structures<br> Add bs7910 crack growth calculations<br> Add ASME 31G curves |  pypi (0.0.1) | [pyintegrity](https://github.com/vamseeachanta/pyintegrity) |
