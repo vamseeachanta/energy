@@ -54,3 +54,5 @@ https://github.com/XD-DENG/flask-example
 
     utilize a url solution.
     - Nice to have: redirect contact success to home page [after 2s](https://stackoverflow.com/questions/53320037/python-redirect-with-delay)
+
+

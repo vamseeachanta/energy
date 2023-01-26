@@ -111,3 +111,24 @@ telnet hairbyliz.heroku.com:8080
 </code>
 
 it\web_hosting\heroku_ssl_setup.png
+
+
+**non-www not working**
+
+Add Domain (NOT subdomain) forwarding
+https://youtu.be/F_qZEYxdV-k
+
+https://medium.com/@twistblogg/solved-godaddy-domain-not-working-without-www-in-blogger-daf250f5af34
+
+
+
+**http to https**
+
+For python utilize flask-sslify app
+https://stackoverflow.com/questions/15116312/redirect-http-to-https-on-flaskheroku
+
+For Java utilize. See heroku example below:
+https://help.heroku.com/J2R1S4T8/can-heroku-force-an-application-to-use-ssl-tls
+
+https://stackoverflow.com/questions/15985782/make-servlet-filter-applicable-for-all-web-applications
+
