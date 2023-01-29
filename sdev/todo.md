@@ -5,14 +5,14 @@
 **Follow the money**
 
 - Find an earning.
-    - consult: Keep it stead. Reach out to industry contacts. Others?
-    - ft: Expose & mention about the interests. Most potential: Audubon or operator companies.
+    - consult: Keep it steady. Reach out to industry contacts. Others contacts?
+    - ft: Expose & mention about the interests. Most potential: Operator companies or consulting roles.
 - AceEngineer website:
     - Make Open source libraries functional
-        - see py_library_pipeline.md for further information
+        - see packages.md for further information
         - write documentation with video gif
     - Create blender work. Create demos from previous project work
-- AI/ML Training
+- AI/ML Training:
     - see  ds\courses.md for proposed courses/certifications
 - SEO project, see project repo
 - Study investments (multifamily, buildwealthseries, stocks etc.)
