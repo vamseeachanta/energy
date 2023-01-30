@@ -84,13 +84,37 @@ https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdW
 
 A usecase of [blender for large scale projects](https://blendergrid.com/learn/articles/tyler-disney-interview) where visualizations are performed using blender  by importing CAD drawings from revit (.fbx format).
 
+### Extensions
+
+#### .fbx 
+
+- A closed format - usable with only certain software
+- Not easily transferrable between systems
+- Not optimized for transmission between applications (AR, animation etc.)
+
+#### .gITF
+
+- A closed format - usable with only certain software
+- Not easily transferrable between systems
+- Not optimized for transmission between applications (AR, animation etc.)
+
+
+#### .OBJ
+
+
 
 ### Free Resources
 
 
-
-Name Description Link
-
+| Name | Description  | Comments |
+|---|---|---|
+|[Mirage 3D Models](https://github.com/MirageYM/3DModels) | Sports car & Road Bike |  free resource |
+|[3D Models](https://github.com/sparkfun/3D_Models) | Details unknown |  free resource |
+|[3D Models](https://github.com/jaanga/3d-models) | Aircrafts, Saab, Blackjack etc. |  free resource |
+|[free3d models](https://free3d.com/3d-models/furniture) | Architecture, vehicles, characters, aircraft, furniture, electronics, animals, plants, weapons, sports, food, anatomy |  free & paid resources |
+|[blender add-ons](https://github.com/agmmnn/awesome-blender) | simulation/physics, Generator/builder, modeling, animation, render engine, texture/UV, GameDev, Misc, Space, sound/Music, free stocks,  |  add-on guidance |
+|[blender starter by Ron Caster](https://github.com/Ron-Caster/blender) | unknown |  starter tutorials |
+|[blender starter by jame](https://github.com/jamel931/jamel931.github.io) | unknown |  A website of tutorials? |
 
 ## References
 

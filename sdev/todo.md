@@ -1,17 +1,22 @@
 ## Introduction
 
+## Summary - 2023 Feb
+
+**Follow the money**
+
+
 ## Summary - 2023 Jan
 
 **Follow the money**
 
 - Find an earning.
-    - consult: Keep it steady. Reach out to industry contacts. Others contacts?
+    - consult: Keep it steady. Reach out to industry contacts. Others contacts for work?
     - ft: Expose & mention about the interests. Most potential: Operator companies or consulting roles.
 - AceEngineer website:
-    - Make Open source libraries functional
+    - Open source libraries with documentation
         - see packages.md for further information
-        - write documentation with video gif
-    - Create blender work. Create demos from previous project work
+    - Create 3D work. 
+        - Create demos from previous project work
 - AI/ML Training:
     - see  ds\courses.md for proposed courses/certifications
 - SEO project, see project repo
