@@ -41,6 +41,6 @@
     - consult: Reach out to industry contacts. Others?
     - ft: Expose & mention about the interests. Most potentials:
         - Audubon
-        - Subsea7 
+        - Subsea7
 - SEO project, see project repo
 - Study investments (multifamily, buildwealthseries, stocks etc.)

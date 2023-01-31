@@ -15,6 +15,11 @@ https://www.youtube.com/@FreeCADAcademy
 - FreeCAD Can be imported as python module
 - FreeCAD Runs as a command line application
 - All GUI actions are printed as python code in python console. For reuse as macros.
+- All commands can be scripted
+
+### Libraries
+
+
 
 ## References
 
