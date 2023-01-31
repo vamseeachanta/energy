@@ -17,6 +17,7 @@
         - see packages.md for further information
     - Create 3D work. 
         - Create demos from previous project work
+        - [Precision modelling in Blender Full? Course](https://www.youtube.com/watch?v=83yNYScsRPI)
 - AI/ML Training:
     - see  ds\courses.md for proposed courses/certifications
 - SEO project, see project repo

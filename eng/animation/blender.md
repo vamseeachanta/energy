@@ -41,6 +41,13 @@ The high-level capabilities of blender are:
 Some detailed level capabilities of blender for mechanical engineering are:
 - Blender can create technical drawings for your models i.e. It allows for 2D orthographic views and measurements of your objects within the viewport.
 - Design and create models to 10th of mm. 
+- Assembly of parts is extremely fast
+
+Downsides for engineering:
+- The object integrity is also difficult to maintain
+    - With click of a mouse, the dimensions of a part can be altered. Blender is not good at keeping the dimensions accurate
+    - Faces can be removed thus making it an empty or open vessel in a non-engineering way
+    - The faces need wall thickness but there is not concept of wall thickness
 
 
 
@@ -61,28 +68,33 @@ Vincent Mullenders
 
 
 
-### COurses
+### Courses
 
-#### FreeCAD + Blender
+### Blender
 
-A [freecad and blender](https://www.blendernation.com/2020/08/31/mechanical-engineering-tutorial-with-freecad-and-blender/) is a tutorial for use.
-
-Starting tutorials
-
+Starting tutorials:
 https://www.youtube.com/watch?v=TPrnSACiTJ4
 https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD
+
 
 
 #### Blender for Engineers
 
 [Blender for Engineers](https://www.skillshare.com/en/classes/Blender-for-Engineers-step-by-step-Guide/1343651764) course work consists of the following learnings:
-- you will learn how to import cad files in blender
+- you will learn how to import cad files in blender (.stl file?)
 - how to make animation using free cad models
 - how to render step files in blender
 - how to make mechanical drawings
 - optimize your models for 3d printing
 
 A usecase of [blender for large scale projects](https://blendergrid.com/learn/articles/tyler-disney-interview) where visualizations are performed using blender  by importing CAD drawings from revit (.fbx format).
+
+[Precision modelling in Blender Full Course](https://www.youtube.com/watch?v=83yNYScsRPI)
+
+
+#### FreeCAD + Blender
+
+A [freecad and blender](https://www.blendernation.com/2020/08/31/mechanical-engineering-tutorial-with-freecad-and-blender/) is a tutorial for use.
 
 ### Extensions
 
@@ -122,9 +134,9 @@ https://www.udemy.com/course/python-scripting-in-blender-with-practical-projects
 
 https://docs.blender.org/api/current/info_quickstart.html
 
-https://www.youtube.com/watch?v=rHzf3Dku_cE
+https://www.youtube.com/watch?v=rHzf3Dku_cE (Python + Blender a very basic primer; 20 lines)
 
-https://www.youtube.com/watch?v=XqX5wh4YeRw
+https://www.youtube.com/watch?v=XqX5wh4YeRw (Python + Blender a very crash course; 60 lines)
 
 https://k3no.medium.com/the-basics-of-using-python-in-blender-46831fd094e6
 

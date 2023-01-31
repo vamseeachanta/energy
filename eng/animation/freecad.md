@@ -8,6 +8,7 @@ https://www.youtube.com/@FreeCADAcademy
 **High level Features**
 
 - Parametric 3D CAD modeler
+- Export to .stl file to import into blender-3D
 
 **Interface with python**
 
