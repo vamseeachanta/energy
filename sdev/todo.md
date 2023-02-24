@@ -4,6 +4,8 @@
 
 **Follow the money**
 
+- Sustainable earnings.
+
 
 ## Summary - 2023 Jan
 
