@@ -2,10 +2,20 @@
 
 ## Summary - 2023 Feb
 
-**Follow the money**
+**Follow the money, build teams**
 
-- Sustainable earnings.
-
+- Sustainable earnings through:
+    - consultancy. See private repo, [client projects](https://github.com/vamseeachanta/client_projects/blob/main/ongoing_projects.md)
+- Setup for Long term success:
+    - continously improve libraries as part of daily work.
+    - Groom content for online courses. See [online_course_development](https://github.com/vamseeachanta/energy/blob/master/online_course_development.md) for strategy
+    - Groom content for AceEngineer website
+- Continuous Learning:
+    - Finish AI/ML coursework. See [courses](ds\courses.md) for proposed courses/certifications
+- SEO project, see project repo
+- Investments:
+    - multifamily. Reach out to Chava and Shashi.
+    - stocks
 
 ## Summary - 2023 Jan
 
@@ -38,7 +48,7 @@
     - see py_library_pipeline.md for further information
     - write documentation with video gif
 - AI/ML Training
-    - see  ds\courses.md for proposed courses/certifications
+    - see  [courses](ds\courses.md) for proposed courses/certifications
 - Find an earning.
     - consult: Reach out to industry contacts. Others?
     - ft: Expose & mention about the interests. Most potentials:

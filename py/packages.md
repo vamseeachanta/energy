@@ -20,7 +20,7 @@ e/ Needed: prepare demo gifs or videos
 |---|---|------|---|---|
 | energydata | Get BSEE Data directly from website |  In development (0.0.1) | [energydata](tba) |
 | fielddev | Perform Analysis on BSEE Data using bseedata module for starters |  In development (0.0.1) | [fielddev](tba) |
-| pipecapacity | Pipe capacity calculations per various codes such as API, ASME etc. |  In development (0.0.1) | [pipecapacity?](tba) |
+| pipecapacity | Pipe capacity calculations per various codes such as API, ASME etc. |  In development (0.0.1) | [pipecapacity?](https://github.com/vamseeachanta/pipecapacity) |
 | digitalmodel | fe models for structural analysis <br> Orcaflex postprocessing for any given structure <br> Compare between runs <br> between structures etc. <br> 3D animation files etc.|  Released (0.0.1) | [digitalmodel](https://pypi.org/project/digitalmodel/0.0.1/) | ? |
 | pyintegrity | FFS for metallic structures<br> Get bs7910 crack growth calculations to run<br> Add ASME 31G curves for code comparisons |  pypi (0.0.1) | [pyintegrity](https://github.com/vamseeachanta/pyintegrity) | running with instructions |
 | stockhold | Stock Hold Analysis |  Documentation pending (0.0.1) | [stockhold](https://github.com/vamseeachanta/stockhold) |
