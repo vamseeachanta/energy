@@ -27,7 +27,11 @@ Flowchart as SVG:
 
 <img src="https://github.com/vamseeachanta/energy/blob/986a68f347179a90959edbe912033a181a3f44b4/out/tools/puml/engineering_design_workflow.svg?sanitize=true">
 
+## Technical
 
+### Geometric Dimensioning & Tolerencing
+
+https://formlabs.com/blog/gdt-geometric-dimensioning-and-tolerancing/
 
 ## References
 

@@ -10,6 +10,9 @@ The document describes :
     - O&G customers may be driven from outside google search
     - General IT and prodctivity users may be wide varying
 
+- Coursera:
+    - Need to partner with a university (eg. University of Houston etc.)
+
 - Starting course ideas
     - ASCII based work (VS code, drawings, presentations etc., engineering)
     - Engineering work lifecycle
