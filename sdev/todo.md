@@ -12,8 +12,8 @@
     - Groom content for AceEngineer website
 - SEO project, see project repo
 - Investments:
-    - multifamily. Reach out to Chava and Shashi. No response. Speak with Gali.
-    - stocks?
+    - multifamily. See investments repo.
+    - stocks. See investments repo.
 - Continuous Learning: None
 
 ## Summary - 2023 Jan

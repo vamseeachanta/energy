@@ -34,6 +34,8 @@ https://www.hashbangcode.com/article/creating-presentations-markdown-marp
 
 https://www.youtube.com/watch?v=TObd8hnPa8w
 
+[A good intro](https://www.youtube.com/watch?v=EzQ-p41wNEE)
+
 https://whatismarkdown.com/create-a-presentation-using-markdown/
 
 https://marpit.marp.app/theme-css
