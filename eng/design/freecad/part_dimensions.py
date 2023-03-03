@@ -1,2 +1,3 @@
-myBox = FreeCAD.ActiveDocument.getObject("Box")
+doc = FreeCAD.activeDocument()
+myBox = doc.getObject("Box")
 
