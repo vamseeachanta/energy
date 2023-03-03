@@ -14,6 +14,7 @@ https://executive-ed.xpro.mit.edu/designing-building-ai-products-services/?thank
 https://berkeley-online-executive-education.emeritus.org/technology-leadership-program
 
 ### Detailed Content
+
 https://developers.google.com/machine-learning/crash-course/ml-intro (Free)
 
 SimpliLearn Certification (90 days free)
