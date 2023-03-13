@@ -1,12 +1,10 @@
 ## Introduction
 
-
 ## Summary
-
 
 ### Case Study - 1
 
-https://www.linkedin.com/posts/warren-kuo-b9a4106_a-soil-report-is-the-technical-basis-for-activity-7019758370601529345-SzSG
+<https://www.linkedin.com/posts/warren-kuo-b9a4106_a-soil-report-is-the-technical-basis-for-activity-7019758370601529345-SzSG>
 
 A soil report is the technical basis for all the subsequent engineering. Insufficient data points or quality concerns of the geotechnical investigations would greatly affect a project. On the other hand, the design team is also important - over conservatism, not knowing constructability & installability, and didn’t try to optimize the weight would greatly increase the project cost.
 
@@ -25,3 +23,6 @@ It is the wishful thinking that things will solve by themselves that the natural
 It is the incapability of making offshore installation plan and the lack of back-up plans that resulting the firefighting chaos and ad-hoc costly decisions.
 It is all of the above (and more) that contribute to this project’s dismal situation. It is the optimistic ignorance, the mindset, the lack of experience, the baseless confidence, the dysfunctions of priority setting, and the contracting strategy.
 
+## Courses
+
+<https://ocw.mit.edu/courses/1-361-advanced-soil-mechanics-fall-2004/pages/lecture-notes/>
