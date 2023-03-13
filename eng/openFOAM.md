@@ -1,8 +1,6 @@
 ## Introduction
 
-
 ## Summary
-
 
 ## Case Studies
 
@@ -24,10 +22,38 @@ In addition, we also performed a comparison in terms of computational costs and 
 
 Here follows the link to access the publication, which can also be cited in the preprint stage:
 
-https://lnkd.in/g6RE8YcW
-
+<https://lnkd.in/g6RE8YcW>
 
 Ps: Click on the DOI link of the publication (DOI: 10.2139/ssrn.3957822) to be directed to the download page!
 
 ### References
 
+- View the entire Naval Hydrodynamics video
+  - <https://www.youtube.com/watch?v=PDDRRz478fs>   Naval Hydrodynamics I
+  - <https://www.youtube.com/watch?v=Nr7tMtII-DU>   Naval Hydrodynamics II
+  - Naval Hydro Pack - How to install it?
+
+- Courses
+  - <https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/>
+  - <https://ocw.mit.edu/courses/2-22-design-principles-for-ocean-vehicles-13-42-spring-2005/pages/readings/>
+  - Numerical Fluid Dynamics <https://ocw.mit.edu/courses/2-29-numerical-fluid-mechanics-spring-2015/pages/lecture-notes-and-references/>
+  - <https://ocw.mit.edu/courses/2-24-ocean-wave-interaction-with-ships-and-offshore-energy-systems-13-022-spring-2002/>
+
+References
+
+<https://www.youtube.com/watch?v=EDAn2uFJ6jU>
+FoamPython - How does it work. Is it OpenFOam under the hood
+
+<https://gitlab.com/share-renderluh/foampython-1.0> (Link not working)
+
+Fluid Structure Interactions
+<https://www.youtube.com/watch?v=Lnu4muOXV0Q>
+
+Using blender to visualize OpenFOAM outputs?
+<https://www.youtube.com/watch?v=yp9khQtP1g8>
+
+<https://www.youtube.com/@openfoamjournal6606>
+
+<https://www.jores.net/>
+
+[Getting Started](<https://www.openfoam.com/documentation/tutorial-guide/1-introduction/1.1-getting-started#x4-30001.1>)
