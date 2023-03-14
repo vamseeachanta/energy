@@ -2,6 +2,33 @@
 
 ## Summary
 
+### Helyx vs. OpenFOAM
+
+For the pre and post processing layers for OpenFOAM
+<https://engys.com/products/helyx>
+
+- Example flow paths:
+  - CAD software -> Blender -> OpenFOAM -> Blender -> Outputs
+  - CAD software -> Helyx -> OpenFOAM -> Helyx -> Outputs
+
+| Feature | HELYX |  OpenFOAM |  Additional comments |
+|---|---|---|---|
+| Preprocessing | HELYX GUI | CAD/Blender | n/a |
+| CORE | HELYX-Core | FreeCAD | HELYX-Core is built on top of OpenFOAM |
+| Hardware | Windows, Linux | Windows, Linux, MacOS | n/a |
+| Operating System | Windows, Linux | Windows, Linux, MacOS | n/a |
+| User Support | Help-line | - |  |
+| Resources | Documentation | Documentation | n/a |
+| Maintenance | Enterprise - more responsive | Open-source | n/a |
+| Solver Technology | standard finite-volume approach <br> Generalised Internal Boundaries (GIB) method| standard finite-volume approach | n/a |
+| Add-Ons | Marine Ship Hull <br> Adjoint <br> Others | standard finite-volume approach | n/a |
+
+### Installation
+
+- Follow the instructions in the [OpenFOAM Installation Guide](https://github.com/vamseeachanta/energy/blob/61c3bb3bf50beeaac8f6cc2d4c9e143f91ff3083/eng/openfoam/InstallationOpenFoam-2.pdf). Replace "openfoam8" with appropriate openfoam version (i.e. "openfoam2212")
+
+### Running
+
 ## Case Studies
 
 ### PHD THesis - Marielle de Oliveira
