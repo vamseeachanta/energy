@@ -13,7 +13,7 @@ For the pre and post processing layers for OpenFOAM
 
 | Feature | HELYX |  OpenFOAM |  Additional comments |
 |---|---|---|---|
-| Preprocessing | HELYX GUI | CAD/Blender | n/a |
+| Preprocessing | HELYX-GUI | CAD/Blender | n/a |
 | CORE | HELYX-Core | FreeCAD | HELYX-Core is built on top of OpenFOAM |
 | Hardware | Windows, Linux | Windows, Linux, MacOS | n/a |
 | Operating System | Windows, Linux | Windows, Linux, MacOS | n/a |
@@ -29,7 +29,28 @@ For the pre and post processing layers for OpenFOAM
 
 ### Running
 
-## Case Studies
+Typical steps for running a case study:
+
+- Meshing
+- Boundary Conditons
+- Solver
+- Paraview (not installed when using the OpenFOAM install from website). See [paraview help guide](https://github.com/vamseeachanta/energy/blob/master/eng/paraview.md)
+
+## Common Errors
+
+### OpenFOAM
+
+- The filepath name should not contain spaces
+-
+
+### ParaView
+
+saving the animation
+<code>
+ffmpeg -i animation/animation.%04d.png venturi.mp4
+</code>
+
+## Case Studies - Venturi
 
 ### PHD THesis - Marielle de Oliveira
 
@@ -84,3 +105,11 @@ Using blender to visualize OpenFOAM outputs?
 <https://www.jores.net/>
 
 [Getting Started](<https://www.openfoam.com/documentation/tutorial-guide/1-introduction/1.1-getting-started#x4-30001.1>)
+
+<https://holzmann-cfd.com/community/learn-openfoam>
+
+<https://openfoamwiki.net/index.php/SIG_Ship_Hydrodynamics>
+
+<http://www.wolfdynamics.com/tutorials.html?id=149>
+
+[Estimation of hydrodynamic derivatives of an appended KCS model in open and restricted waters](https://www.sciencedirect.com/science/article/pii/S0029801822022302)
