@@ -7,10 +7,6 @@
 For the pre and post processing layers for OpenFOAM
 <https://engys.com/products/helyx>
 
-- Example flow paths:
-  - CAD software -> Blender -> OpenFOAM -> Blender -> Outputs
-  - CAD software -> Helyx -> OpenFOAM -> Helyx -> Outputs
-
 | Feature | HELYX |  OpenFOAM |  Additional comments |
 |---|---|---|---|
 | Preprocessing | HELYX-GUI | CAD/Blender | n/a |
@@ -23,6 +19,12 @@ For the pre and post processing layers for OpenFOAM
 | Solver Technology | standard finite-volume approach <br> Generalised Internal Boundaries (GIB) method| standard finite-volume approach | n/a |
 | Add-Ons | Marine Ship Hull <br> Adjoint <br> Others | standard finite-volume approach | n/a |
 
+### Workflow Paths
+
+- Example workflow paths:
+  - CAD software -> Blender -> OpenFOAM -> Blender -> Outputs
+  - CAD software -> Helyx -> OpenFOAM -> Helyx -> Outputs
+
 ### Installation
 
 - Follow the instructions in the [OpenFOAM Installation Guide](https://github.com/vamseeachanta/energy/blob/61c3bb3bf50beeaac8f6cc2d4c9e143f91ff3083/eng/openfoam/InstallationOpenFoam-2.pdf). Replace "openfoam8" with appropriate openfoam version (i.e. "openfoam2212")
@@ -34,7 +36,7 @@ Typical steps for running a case study:
 - Meshing
 - Boundary Conditons
 - Solver
-- Paraview (not installed when using the OpenFOAM install from website). See [paraview help guide](https://github.com/vamseeachanta/energy/blob/master/eng/paraview.md)
+- Paraview, see [paraview help guide](https://github.com/vamseeachanta/energy/blob/master/eng/paraview.md)
 
 ## Common Errors
 
@@ -43,73 +45,72 @@ Typical steps for running a case study:
 - The filepath name should not contain spaces
 -
 
-### ParaView
+## Case Studies
 
-saving the animation
-<code>
-ffmpeg -i animation/animation.%04d.png venturi.mp4
-</code>
+### Summary
 
-## Case Studies - Venturi
+| Case Study | Source Zip Size |  Compiled Size |  Model Used |    Runtime (min) | Additional comments |  Learnings |  
+|---|---|---|---|---|---|---|
+| Venturi | 23 kB | 930 MB |  ? | < 10  with 2 cpus | post-process | n/a |
+| Wigley Hull | 80 MB | ? |  ? | ? | post-process | n/a |
 
-### PHD THesis - Marielle de Oliveira
+### Venturi
 
-Hello everyone from my LinkedIn community, here I present more results from my Ph.D about the blade-resolved CFD simulations of the NREL 5-MW baseline wind turbine for offshore applications, that I have being developing at the Fluids & Dynamics Research Group - Poli-USP at the Escola Politécnica da USP of the Universidade de São Paulo (Mechanical Engineering Department) under the scholarship from FAPESP and the supervision of Dr. Bruno Carmo and collaboration of my colleague Rodolfo Curci Puraca.
+### Wigley Hull
 
-This video shows a comparison between two different spatial discretization the Mesh-1 and the Mesh-2, both meshes were developed in the OpenCFD Limited (software OF v.1912), considering the AMI method.
+## Clarifications
 
-In both cases the resolution of the mesh close to the blades surface are equal since both cases respect the y+ parameter for the same turbulence model employed which was the URANS k-Omega SST. The main difference between the meshes is the size of the finite volume cells which surround the wind turbine and the ones placed in the wake region.
+**HELYX Marine/AdJoint Add-On Capabilities**
 
-At the left side of the video for both Mesh-1 and Mesh-2, the results are presented in terms of the isosurfaces of the Q-criterion (0.05), colored by the vorticity magnitude. It is possible to notice that considering element of 0.5 m size, more vortical structures along of the blade span was captured by the Mesh-1.
+- What are the capabilities? Is it just GUI abstraction or additional core solver capabilities?
 
-At the right side of the video for both Mesh-1 and Mesh-2 the results are presented in terms of the axial velocity contours. It is possible to notice some differences in the wake pattern contour, and also a different gradient pattern behind the wind turbine with is propagated for the wake region.
+**Naval Hydro Pack**
 
-The results for both Mesh-1 and Mesh-2 in terms of generated thrust and power production can be seeing in the graphic shown in the video, where the CFD simulations results were benchmarked with the results obtained through the National Renewable Energy Laboratory (NREL) OpenFAST code, considering the same environmental conditions.
-
-In addition, we also performed a comparison in terms of computational costs and distributed forces along the blades for different azimuth angles for both meshes and all the information regarding the numerical methods employed in the CFD simulations can be found through the preprint of our journal submission which is already available in my ResearchGate and even without correction yet, I hope it can be useful for you!
-
-Here follows the link to access the publication, which can also be cited in the preprint stage:
-
-<https://lnkd.in/g6RE8YcW>
-
-Ps: Click on the DOI link of the publication (DOI: 10.2139/ssrn.3957822) to be directed to the download page!
+- Who is the owner/maintainer of Hydro Pack? OpenFOAM Foundation or someone else?
+- What are the capabilities of Naval Hydro Pack?
+- How to install and use Naval Hydro Pack?
 
 ### References
 
-- View the entire Naval Hydrodynamics video
-  - <https://www.youtube.com/watch?v=PDDRRz478fs>   Naval Hydrodynamics I
-  - <https://www.youtube.com/watch?v=Nr7tMtII-DU>   Naval Hydrodynamics II
-  - Naval Hydro Pack - How to install it?
+**Marine Hydrodynamics**
 
-- Courses
-  - <https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/>
-  - <https://ocw.mit.edu/courses/2-22-design-principles-for-ocean-vehicles-13-42-spring-2005/pages/readings/>
-  - Numerical Fluid Dynamics <https://ocw.mit.edu/courses/2-29-numerical-fluid-mechanics-spring-2015/pages/lecture-notes-and-references/>
-  - <https://ocw.mit.edu/courses/2-24-ocean-wave-interaction-with-ships-and-offshore-energy-systems-13-022-spring-2002/>
+- [Wigley hull - VOF with free surface](<http://www.wolfdynamics.com/tutorials.html?id=149>)
+  - [Wigley hull - VOF with free surface | input files](http://www.wolfdynamics.com/validations/wigleyhull/wigleyHull_LTS.tar.gz)
+- [Flow about the classical Ahmed body](http://www.wolfdynamics.com/tutorials.html?id=146)
+- [Two ahmed bodies in platoon](http://www.wolfdynamics.com/tutorials.html?id=147)
+- [3D dam-break simulation](http://www.wolfdynamics.com/tutorials.html?id=95)
 
-References
+- [SIG_Ship_Hydrodynamics](<https://openfoamwiki.net/index.php/SIG_Ship_Hydrodynamics>)
+- [Estimation of hydrodynamic derivatives of an appended KCS model in open and restricted waters](https://www.sciencedirect.com/science/article/pii/S0029801822022302)
 
-<https://www.youtube.com/watch?v=EDAn2uFJ6jU>
-FoamPython - How does it work. Is it OpenFOam under the hood
+- [Joint Research Project | Ship Energy Efficiency Solutions](<https://www.jores.net/>)
 
-<https://gitlab.com/share-renderluh/foampython-1.0> (Link not working)
+**OpenFOAM Workshop Videos**
 
-Fluid Structure Interactions
-<https://www.youtube.com/watch?v=Lnu4muOXV0Q>
+- [17th OpenFoam Workshop | Naval Hydrodynamics I](<https://www.youtube.com/watch?v=PDDRRz478fs>)
+- [17th OpenFoam Workshop | Naval Hydrodynamics I](<https://www.youtube.com/watch?v=Nr7tMtII-DU>)
 
-Using blender to visualize OpenFOAM outputs?
-<https://www.youtube.com/watch?v=yp9khQtP1g8>
+**OpenFOAM Videos**
 
-<https://www.youtube.com/@openfoamjournal6606>
+- [OpenFOAM® validation cases ready to use](http://www.wolfdynamics.com/tutorials.html?id=94)
+- [openfoam Youtube Channel](<https://www.youtube.com/@openfoamjournal6606>)
+- [Fluid Structure Interactions](<https://www.youtube.com/watch?v=Lnu4muOXV0Q>)
 
-<https://www.jores.net/>
+**Postprocessing**
 
-[Getting Started](<https://www.openfoam.com/documentation/tutorial-guide/1-introduction/1.1-getting-started#x4-30001.1>)
+- [Using blender to visualize OpenFOAM outputs?](<https://www.youtube.com/watch?v=yp9khQtP1g8>)
 
-<https://holzmann-cfd.com/community/learn-openfoam>
+- [OpenFOAM Documentation | Getting Started](<https://www.openfoam.com/documentation/tutorial-guide/1-introduction/1.1-getting-started#x4-30001.1>)
+- [learn-openfoam](<https://holzmann-cfd.com/community/learn-openfoam>)
 
-<https://openfoamwiki.net/index.php/SIG_Ship_Hydrodynamics>
+**Course Work**
 
-<http://www.wolfdynamics.com/tutorials.html?id=149>
+- [MIT | numerical-marine-hydrodynamics](<https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/>)
+- [MIT | design-principles-for-ocean-vehicles](<https://ocw.mit.edu/courses/2-22-design-principles-for-ocean-vehicles-13-42-spring-2005/pages/readings/>)
+- [MIT | Numerical Fluid Dynamics](<https://ocw.mit.edu/courses/2-29-numerical-fluid-mechanics-spring-2015/pages/lecture-notes-and-references/>)
+- [MIT | ocean-wave-interaction-with-ships-and-offshore-energy-systems](<https://ocw.mit.edu/courses/2-24-ocean-wave-interaction-with-ships-and-offshore-energy-systems-13-022-spring-2002/>)
 
-[Estimation of hydrodynamic derivatives of an appended KCS model in open and restricted waters](https://www.sciencedirect.com/science/article/pii/S0029801822022302)
+**FoamPython**
+
+- [FoamPython, OpenFOAM utilizing python](<https://www.youtube.com/watch?v=EDAn2uFJ6jU>)s
+- [FoamPython, Link not working](<https://gitlab.com/share-renderluh/foampython-1.0>)

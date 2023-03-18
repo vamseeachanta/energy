@@ -2,18 +2,29 @@
 
 ## Summary
 
-### Installation
+### Installation - Ubuntu Software Store(s)
 
 **Search in Ubuntu Application software or Snap Store and install Paraview.**
 
-### Installation Steps - Superseded
+### Saving Animation
+
+saving the animation
+<code>
+ffmpeg -i animation/animation.%04d.png venturi.mp4
+</code>
+
+### References
+
+<https://youtu.be/tWEGjWD8d2M>
+
+### Installation - From Source Code
+
+**Use Software store unless latest version is absolutely necessary**
 
 - Remove old version (if any)
 - Download the latest version of Paraview from [here](https://www.paraview.org/download/)
 
 - Extract and copy
-  -
-
   - sudo gedit ~/.bashrc
   - Add the following line(s) to the end of the file:
     - export PATH=$PATH:/opt/ParaView-5.11/bin/
@@ -36,7 +47,3 @@ Name=New Window
 Exec=paraview
 TargetEnvironment=Unity
 </code>
-
-### References
-
-<https://youtu.be/tWEGjWD8d2M>
