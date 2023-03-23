@@ -2,6 +2,14 @@
 
 ## Summary
 
+### ToDo
+
+- Try changing mesh
+- Try changing number of CPUs
+- Try changing geometry?
+- <https://www.cfd-online.com/Forums/openfoam/>
+
+
 ### Helyx vs. OpenFOAM
 
 For the pre and post processing layers for OpenFOAM
