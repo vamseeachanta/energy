@@ -9,7 +9,6 @@
 - Try changing geometry?
 - <https://www.cfd-online.com/Forums/openfoam/>
 
-
 ### Helyx vs. OpenFOAM
 
 For the pre and post processing layers for OpenFOAM
@@ -59,8 +58,8 @@ Typical steps for running a case study:
 
 | Case Study | Source Zip Size |  Compiled Size |  Model Used |    Runtime (min) | Additional comments |  Learnings |  
 |---|---|---|---|---|---|---|
-| Venturi | 23 kB | 930 MB |  ? | < 10  with 2 cpus | post-process | n/a |
-| Wigley Hull | 80 MB | ? |  ? | ? | post-process | n/a |
+| Venturi | 23 kB | 930 MB |  RAS <br> (Reynolds Averaging Simulation) | < 10  with 2 cpus | post-process | n/a |
+| Wigley Hull | 80 MB | ? |  RAS | < 10  with 2 cpus | post-process | n/a |
 
 ### Venturi
 

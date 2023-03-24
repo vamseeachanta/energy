@@ -9,8 +9,21 @@ To summarize the steps to run the case study
 Entry 'Umean' not found in dictionary "/home/vamsee/openfoam_others/wigley_hull/wigleyHull_LTS/0/U.boundaryField.outflow"
 openfoam Entry 'Umean' not found in dictionary in U.boundaryField.outflow
 
-Very similar error
-<https://github.com/openfoamtutorials/single_bend_airfoil/issues/1>
+Solution:
+Added the "Umean           1.452;" line to the outflow boundary condition in 0_org/U file. See the updated file snippet below.
+
+<code>
+    outflow
+    {
+        Umean           1.452;
+        type            outletPhaseMeanVelocity;
+        alpha           alpha.water;
+        UnMean           $Umean;
+        value           $internalField;
+    }
+</code>
+
+### Downstream error due to Umean error above
 
 **openfoam not creating 0 folders**
 

@@ -106,7 +106,7 @@ boundaryField
 }
 </code>
 
-When the OpenFOAM solver reads this BC, it will know to replace the inlet value with the internalField value. The $ preceding the variable name is the flag that informs OpenFOAM that it is looking at a reference variable. Reference variables are not limited to keywords in the boundary files, you can create your own named variables at the top of the file and reference them within the boundary fields, for example if you would like to specify a different inlet value than your interalField value, you can set your new inlet value using ‘inletValue’, shown as:
+When the OpenFOAM solver reads this BC, it will know to replace the inlet value with the internalField value. The $ preceding the variable name is the flag that informs OpenFOAM that it is looking at a reference variable. Reference variables are not limited to keywords in the boundary files, you can create your own named variables at the top of the file and reference them within the boundary fields, for example if you would like to specify a different inlet value than your internalField value, you can set your new inlet value using ‘inletValue’, shown as:
 
 <code>
 internalField    uniform 10;
