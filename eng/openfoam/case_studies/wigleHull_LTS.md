@@ -4,7 +4,8 @@ To summarize the steps to run the case study
 
 ## Summary
 
-- Rerun with more processors. How to do this?
+- Rerun with more processors. See sensitivity of run times. How to do this? Current runtime: 6 hours using 4 processors
+- Also generate the water height along the hull plot (post processing)
 
 # Run Errors
 
