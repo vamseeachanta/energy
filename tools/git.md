@@ -125,12 +125,14 @@ Output:
 1a04ce8 wip
 </code>
 
-step 2: Get the commit logs and ids using below
+step 2: Revert changes from each ID using below command
 <code>
 git revert 3e8b1eb
 </code>
 
+### Remove all local branch changes
 
+git reset --hard origin/<branch_names>
 
 
 ## Installation
