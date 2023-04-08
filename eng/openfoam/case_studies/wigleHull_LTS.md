@@ -2,6 +2,10 @@
 
 To summarize the steps to run the case study
 
+## Summary
+
+- Rerun with more processors. How to do this?
+
 # Run Errors
 
 **Entry 'Umean' not found in dictionary in U.boundaryField.outflow**
