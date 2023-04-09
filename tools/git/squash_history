@@ -1,0 +1,9 @@
+2 options are available
+
+Does not give control at all
+git merge --squash feature_branch
+
+More control and interactive
+git rebase -i HEAD~3
+
+<https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history>
