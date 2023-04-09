@@ -13,6 +13,10 @@ saving the animation
 ffmpeg -i animation/animation.%04d.png venturi.mp4
 </code>
 
+### OpenFoam Tricks
+
+[OpenFoam - Paraview: Extract Data for All Time Steps](https://www.youtube.com/watch?v=84-aJ3wLDgM&t=27s)
+
 ### References
 
 <https://youtu.be/tWEGjWD8d2M>
