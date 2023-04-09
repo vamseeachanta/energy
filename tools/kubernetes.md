@@ -180,7 +180,7 @@ https://medium.com/avmconsulting-blog/running-a-python-application-on-kubernetes
 ## References
 
 https://azure.microsoft.com/en-us/overview/kubernetes-getting-started/
-
+https://www.youtube.com/watch?v=X48VuDVv0do
 https://spot.io/blog/azure-kubernetes-the-basics-and-a-quick-tutorial/
 
 https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
