@@ -57,3 +57,20 @@ vtkOpenFOAMReaderPrivate (0x5620750cb5a0): Error reading line 21 of /home/vamsee
 
 **Rename Solution file from sol_5000 to 5000**
 Rename of solution file helps read the solution in paraview and can visualize the results for 5000s (i.e. end of simulation)
+
+### Downstream error due to Umean error above
+
+**openfoam not creating 0 folders**
+
+<https://www.cfd-online.com/Forums/openfoam-pre-processing/217890-redistributepar-does-not-create-0-folder-new-processor-folders.html>
+
+**Summary**
+
+openfoam not creating 0 folders
+
+**Details**
+
+cannot find file "/home/vamsee/openfoam_others/wigley_hull/wigleyHull_LTS/processor0/0/p_rgh"
+cannot find file "/home/vamsee/openfoam_others/wigley_hull/wigleyHull_LTS/processor2/0/p_rgh"
+cannot find file "/home/vamsee/openfoam_others/wigley_hull/wigleyHull_LTS/processor3/0/p_rgh"
+
