@@ -2,6 +2,10 @@
 
 ## Summary
 
+### CVA Requirements
+https://2hoffshore.com/knowledge/cva-requirements-offshore-wind
+
+
 ## PHD Thesis - Wind Turbine Blade CFD by Marielle de Oliveira
 
 Hello everyone from my LinkedIn community, here I present more results from my Ph.D about the blade-resolved CFD simulations of the NREL 5-MW baseline wind turbine for offshore applications, that I have being developing at the Fluids & Dynamics Research Group - Poli-USP at the Escola Politécnica da USP of the Universidade de São Paulo (Mechanical Engineering Department) under the scholarship from FAPESP and the supervision of Dr. Bruno Carmo and collaboration of my colleague Rodolfo Curci Puraca.

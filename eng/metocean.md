@@ -4,6 +4,13 @@
 ## Summary
 
 
+## Waves
+
+https://www.vos.noaa.gov/MWL/apr_06/waves.shtml
+https://cruisersnet.org/waves.pdf
+https://oceanweatherservices.com/featured_blog_posts/a_mariners_guide_to_waves
+
+
 ## Wind
 
 [Explaining tides and currents](https://tidesandcurrents.noaa.gov/restles1.html)

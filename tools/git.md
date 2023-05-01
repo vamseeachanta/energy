@@ -174,6 +174,7 @@ https://stackoverflow.com/questions/9008309/how-do-i-set-git-ssl-no-verify-for-s
 |  | clone only a subdirectory  | - | [https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository](https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository) |  |
 |  | submodules  | - | [https://git-scm.com/book/en/v2/Git-Tools-Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) |  |
 |  | cheatsheet  | - | [https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.md](https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.md) |  |
+|  | Pro Git Book  | - | https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2) |  |
 
 
 
