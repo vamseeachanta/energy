@@ -24,4 +24,5 @@ dependencies:
     - finvizfinance==0.14.3
     - yahoo-fin==0.8.9.1
     - sec-edgar-downloader
+    - xlwings
 

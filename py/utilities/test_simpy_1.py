@@ -20,8 +20,9 @@ test_sympy_1()
 def test_sympy_catenary_equation_1():
     y = 1874.64
     x = 806.286
-    a = sym.Symbol('a', positive=True)
-    a_value = sym.nsolve(sym.cosh(x / a) - y / a - 1, 0)
+    a = sym.Symbol('a', real=True)
+    # a_value = sym.nsolve(sym.cosh(x / a) - y / a - 1, 0)
+    a_value = sym.nsolve(a * sym.cosh(x / a), y)
 
     pytest.approx(2 * math.cos(x_value) - x_value, 0)
 
@@ -33,9 +34,9 @@ def test_sympy_catenary_equation_1():
 def test_sympy_catenary_equation_2():
     y = 1874.64
     x = 806.286
-    w = 1000
-    F = sym.Symbol('F', positive=True)
-    s = sym.Symbol('s', positive=True)
+    w = 10000
+    F = sym.Symbol('F', real=True)
+    s = sym.Symbol('s', real=True)
 
     eq1 = sym.Eq(y * (2 * F / w - y), s)
     eq2 = sym.Eq(((F / w - y) * math.log((s + F / w) / (F / w - y))), x)
@@ -52,4 +53,3 @@ def test_sympy_catenary_equation_2():
 
 #TODO : Not working
 # test_sympy_catenary_equation_2()
-
