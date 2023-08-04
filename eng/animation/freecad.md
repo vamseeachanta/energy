@@ -20,6 +20,11 @@ https://www.youtube.com/@FreeCADAcademy
 ### Libraries
 
 
+### Trainings
+
+https://mangojellysolutions.blogspot.com/
+https://mangojellysolutions.blogspot.com/2022/01/multi-body-hinged-boxed-with-shape.html
+
 
 ## References
 

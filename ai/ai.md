@@ -6,6 +6,8 @@ Natural Language processing
 
 ## Summary
 
+A simple guide to AI
+https://www.bbc.co.uk/news/resources/idt-74697280-e684-43c5-a782-29e9d11fecf3
 
 ### Machine Learning
 

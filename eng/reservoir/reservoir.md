@@ -15,3 +15,22 @@ Process engineers design plants that can be safely started and stopped, treat im
 For simple reservoirs there is often no modelling overlap at all! Curiously overlap subsurface and surface modelling does become important for allocation. When multiple reservoirs with different owners share a single processing hub, the question of who owns which export barrel is of great interest. With feeds of different oils of different densities and condensates with changing compositions during depletion, modelling the commingled export streams can be challenging. A good fluid model that works across reservoir and surface domains can solve the problem. Petrophase has published a case study where allocation was determined with great accuracy, for a copy details contact me.
 
 Brian.
+
+
+
+## Reservoir Visualization
+
+Python programming is a great choice for visualizing seismic data. It is a free and open-source language that is easy to learn and use. Commercial software for seismic data visualization is expensive and not everyone has access to it (including myself).
+
+In this practice coding, I used a real seismic data in SEGY file format. SEGY files are a standard file format for storing seismic data.
+
+This practice coding used three Python libraries:
+1. numpy for reading the seismic data from the SEGY file and reorganizing the data into a regular grid.
+2. plotly for creating interactive visualizations of the seismic data.
+3. segyio (developed by Equinor) for reading seismic data from SEGY files in Python.
+
+As a result, the code was able to successfully visualize the seismic data, providing a valuable tool for understanding the geological features of the subsurface.
+
+Data credits to Equinor ASA (former StatOil) and the former Volve license partners: ExxonMobil Exploration & Production Norway AS and Bayerngas Norge AS.
+
+https://www.linkedin.com/posts/maribickpostanes_python-oilandgasindustry-datavisualization-ugcPost-7092897298644434945-0F1E?utm_source=share&utm_medium=member_desktop
