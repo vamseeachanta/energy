@@ -11,3 +11,11 @@ openbb package?
 
 
 https://www.linkedin.com/posts/jasonstrimpel_github-openbb-financeopenbbterminal-investment-activity-7092300570295734272-tbEA?utm_source=share&utm_medium=member_desktop
+
+## Portfolio optimization
+
+https://pyportfolioopt.readthedocs.io/en/latest/
+This may need C++ compiler or installation?
+
+
+

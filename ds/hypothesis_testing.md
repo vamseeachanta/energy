@@ -22,12 +22,11 @@ Full understanding of the models you use:
 - Assumptions of tests, and how bias could affect results
 - Confounding variables and Simpson's Paradox
 
-
-
-
 ## References
 
 
 
 https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/
+
+https://www.linkedin.com/posts/adrianolszewski_hypothesistesting-statistics-datascience-activity-7094653981217452033-7ptY?utm_source=share&utm_medium=member_desktop
 

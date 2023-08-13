@@ -104,6 +104,12 @@ Here are 30 pieces of life advice everyone needs to hear:
 29. If there's something bothering you, ask yourself whether it will matter in one month. If not, let it go right now.
 30. When in doubt, love. We can always use more love.
 
+# Good job habits
+
+- Find the tasks the boss dislikes and do the tasks for them.
+- 
+
+
 
 ## References
 
