@@ -20,3 +20,4 @@ Riser hang-off analysis to determine if the hung-off riser is acceptable during 
 Installation analysis to find the maximum allowable environmental conditions for installing the conductor, surface casing and riser to minimise potential rig downtime waiting on weather, providing significant cost savings to the drilling operations.
 Cement optimisation analysis to determine the lowest acceptable cement top elevation. This can reduce risk to drilling operations and reduce costs by avoiding the need for costly equipment and rig time to remedy cement issues.
 Soil sensitivity analysis to determine the influence of the soil properties on the results and conclusions. Gauging the impact of the soil profile has previously enabled operators to better understand their risk and reduce operational costs.
+
