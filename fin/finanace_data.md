@@ -1,3 +1,4 @@
+https://www.youtube.com/watch?v=xfzGZB4HhEE Youtube course 
 
 Google api for stock and option data
 https://github.com/mcdallas/wallstreet
@@ -16,6 +17,8 @@ https://www.linkedin.com/posts/jasonstrimpel_github-openbb-financeopenbbterminal
 
 https://pyportfolioopt.readthedocs.io/en/latest/
 This may need C++ compiler or installation?
+
+
 
 
 ## Finance Data
@@ -111,4 +114,73 @@ Alpha Vantage
 Nasdaq Data Link
 pandas-datareader
 
+
+### FInance Books
+
+Some were readings I leveraged while working at Google Finance team; Some were recommended to me by quant managers.
+
+My Reading List 📚
+
+→ Following the Trend
+→ Advances in Active Portfolio Management
+→ Reinforcement Learning
+→ Building Winning Algorithmic Trading Systems
+→ Statistics on the Trading Floor
+→ Introduction to Time Series and Forecasting
+
+Other notable resources (not shown in image)
+
+→ Forecasting: Principles and Practice
+→ FB Prophet
+→ Quandl
+
+## Finance Analytics
+
+Notebooks that replicate original quantitative finance papers from Emanuel Derman.
+
+https://lnkd.in/gKJKubvg
+
+Many Jupyter Notebooks to verify theoretical ideas and practical methods of quantitative finance interactively.
+
+https://lnkd.in/gr4bhEu7
+
+Educational notebooks on quantitative finance, algorithmic trading, financial modeling, and investment strategy.
+
+https://lnkd.in/gBHm9bWh
+
+Lecture series on economics, finance, econometrics, and data science.
+
+https://quantecon.org
+
+A community-driven set of Python resources for quantitative finance.
+
+https://lnkd.in/eHebccR
+
+A library to price financial options using closed-form solutions written in Python.
+
+https://lnkd.in/gXJYMrnm
+
+Deep learning and machine learning frameworks to get started tradings stocks.
+
+https://lnkd.in/g-mTxD4P
+
+Examples of code related to Rob Carver's book Systematic Trading and blog.
+
+https://lnkd.in/guFYz4tx
+
+Examples using pysystemtrade.
+
+https://lnkd.in/gRD-wMj5
+
+TL;DR:
+
+• Rob Carver
+• Lecture series
+• Deep learning
+• Pricing options
+• Practical quant
+• Derman papers
+• More Rob Carver
+• Educational quant
+• Community resources
 

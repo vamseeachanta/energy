@@ -1,10 +1,14 @@
 # Introduction
 
 For general guidance on building a library, see [py package](https://github.com/vamseeachanta/py_package)
+
 # Guidelines
 
 - If new library, ensure the proposed name does exists for use on pypi.org prior to development. This foresight will help avoid refactoring
 - ?
+
+
+
 
 
 ## Pipeline Summary
