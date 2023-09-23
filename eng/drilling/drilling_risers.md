@@ -1,4 +1,7 @@
 
+## Deepwater Well Construction Improvements
+
+https://read.nxtbook.com/gulf_energy_information/world_oil/august_2023/sf_rosenberg_subsea_drive_cor.html
 
 ## Aquaterraenergy - Drilling Risers
 
