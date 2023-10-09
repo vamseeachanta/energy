@@ -1,3 +1,6 @@
+https://ig.ft.com/generative-ai/
+
+
 https://www.linkedin.com/posts/st%C3%A9phane-renevier-cfa-4442762b_mckinsey-the-economic-potential-of-generative-activity-7079864102646349824-pZ1M?utm_source=share&utm_medium=member_desktop
 
 McKinsey's AI Guide: The Economic Potential Of Generative AI From

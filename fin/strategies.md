@@ -3,3 +3,4 @@ https://www.linkedin.com/posts/pyquant-news_it-wasnt-until-i-met-an-old-time-opt
 
 https://github.com/mfrdixon/ML_Finance_Codes
 
+https://github.com/firmai/financial-machine-learning
