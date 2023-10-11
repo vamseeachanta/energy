@@ -48,6 +48,11 @@ Typical manufacturing process involves the following:
     - Product
     - Manufacturer Book
 
+Example companies following good reporting:
+https://www.entail.no/
+https://www.entail.no/lifting-campaign
+https://www.entail.no/engineering-automation
+
 A full concept in a manufacturing plant  is shown below. Parts of these have been implemented at various faclities. A full solution implementation will help get competitive edge:
 
 <img src="dd/data_driven_engineering.svg" width=auto, height=auto/>
@@ -57,3 +62,6 @@ A full concept in a manufacturing plant  is shown below. Parts of these have bee
 [https://www.machinemetrics.com/blog/data-driven-manufacturing](https://www.machinemetrics.com/blog/data-driven-manufacturing)
 
 [https://www.machinemetrics.com/manufacturing-analytics-software](https://www.machinemetrics.com/manufacturing-analytics-software)
+https://www.entail.no/
+https://www.entail.no/lifting-campaign
+https://www.entail.no/engineering-automation (Why automate?)

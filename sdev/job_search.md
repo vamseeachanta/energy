@@ -3,6 +3,10 @@
 
 ## Summary
 
+## Resume in .md format
+
+https://luther.io/markdown-resume/
+https://sdsawtelle.github.io/blog/output/simple-markdown-resume-with-pandoc-and-wkhtmltopdf.html
 
 
 ## LinkedIn
