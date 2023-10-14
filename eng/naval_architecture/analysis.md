@@ -4,7 +4,7 @@
 - Seakeeping analysis
   - RAO analysis is seakeeping analysis using potential flow theory. For more details, see [RAOs are fingerprints](https://dsaocean.com/fingerprints-everywhere-RAO/) article.
   - An example software is [shipmo3d](https://dsaocean.com/shipmo3d/overview/).
--
+
 
 ## Seakeeping
 
