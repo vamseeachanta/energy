@@ -6,6 +6,8 @@ FreeCAD is a computer aided design (CAD) software. The capabilities are:
 Create objects in freeCAD? 
 https://www.youtube.com/@FreeCADAcademy
 
+Example wind turbine animation
+https://www.linkedin.com/posts/barry-young-63b529230_floatingwind23-renewableenergy-floatingoffshorewind-activity-7115343878034964480-gxJj?utm_source=share&utm_medium=member_desktop
 
 
 ## Summary

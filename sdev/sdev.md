@@ -113,3 +113,4 @@ Here are 30 pieces of life advice everyone needs to hear:
 
 ## References
 
+https://twitter.com/valueinvestorac/status/1713874157744930882?s=56&t=Zb2gcDSbOtWzH4682FjhJA (Warren Buffet's speech)

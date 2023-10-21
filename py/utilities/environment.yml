@@ -25,4 +25,5 @@ dependencies:
     - yahoo-fin==0.8.9.1
     - sec-edgar-downloader
     - xlwings
-
+    - pandoc
+    - wkhtmltopdf

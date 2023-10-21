@@ -13,6 +13,8 @@ Key requirements and things to consider for forming a company.
 - Decide the type of incorporation
     - Form an inc to keep a firewall between personal and company
     - https://www.legalzoom.com/marketing/business-formation/category
+- How long does it take to form a company
+    - https://www.legalzoom.com/articles/how-long-does-it-take-to-create-an-llc
 
 ### Example Task List
 
