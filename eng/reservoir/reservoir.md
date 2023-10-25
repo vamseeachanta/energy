@@ -3,7 +3,11 @@
 https://launchpad.awsenergy.47lining.com/
 https://www.linkedin.com/posts/evensen_aws-ecosystem-launchpad-aligned-to-the-osdu-activity-7075019358372052993-ebEw?utm_source=share&utm_medium=member_desktop
 
-## Isolated Working
+
+## Prosper with Python
+https://github.com/FrancoSivila/Sensitivity_Well_Model_PROSPER_Py/blob/main/04%20Sensitivity%20Analysis%20Gas%20Well%20Model%20(PROSPER).ipynb
+
+## Isolated Working In Oil and Gas Industry
 
 https://www.linkedin.com/posts/bjmoffatt_the-reservoir-engineers-versus-process-engineer-activity-7069966630725787648-y2DF?utm_source=share&utm_medium=member_desktop
 The Reservoir engineer’s versus Process engineer’s perspective! The same fluid, very likely the same EoS, but negligible technical overlap. Why? Partly from our technical domains silo culture but also from pursuing different objectives.

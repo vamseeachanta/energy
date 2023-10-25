@@ -10,8 +10,8 @@ To handle the nuances of header and footer
 
 **For Number of pages:**
 - Input total number of pages to suit need (Manual)
-- Alternativley, utilize a formula using the following steps (Programmatical):
-    - Access the page footer
+- Alternatively, utilize a formula using the following steps (Programmatical):
+    - Access the page footer/header
     - Press Ctrl-F9 twice to create a pair of nested field braces, which will appear as { { } }
     - Fill in the fields so you end up with {={NUMPAGES} + 1}
     - Press F9 to update the display.
