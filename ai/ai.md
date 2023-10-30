@@ -45,6 +45,10 @@ Reference:
 https://www.linkedin.com/posts/itay-gabbay_python-machinelearning-datascience-activity-6955063756766752769-bARN?utm_source=linkedin_share&utm_medium=member_desktop_web
 
 
+### LLMs evaluation
+
+https://www.linkedin.com/posts/sebastianraschka_challenges-in-evaluating-ai-systems-activity-7123282621622587393-3kS8?utm_source=share&utm_medium=member_desktop
+
 ## References
 
 Rules of ML
@@ -57,3 +61,4 @@ https://github.com/marcotcr/lime
 
 HyperOpt Concepts
 https://docs.microsoft.com/en-us/azure/databricks/applications/machine-learning/automl-hyperparam-tuning/hyperopt-concepts
+

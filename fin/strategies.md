@@ -6,3 +6,5 @@ https://github.com/firmai/financial-machine-learning
 
 https://github.com/zazhang/ep-chan-book-algo-trading (Python codes repo)
 
+https://pmorissette.github.io/bt/ (Back testing for python)
+

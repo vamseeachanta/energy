@@ -1,1 +1,0 @@
-See [dashhtmlgrid](https://github.com/vamseeachanta/dashhtmlgrid)
