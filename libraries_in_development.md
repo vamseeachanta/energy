@@ -8,9 +8,6 @@ For general guidance on building a library, see [py package](https://github.com/
 - ?
 
 
-
-
-
 ## Pipeline Summary
 
 a/ Needed: Get library to run
@@ -29,10 +26,9 @@ e/ Needed: prepare demo gifs or videos
 | pyintegrity | FFS for metallic structures<br> Get bs7910 crack growth calculations to run<br> Add ASME 31G curves for code comparisons |  pypi (0.0.1) | [pyintegrity](https://github.com/vamseeachanta/pyintegrity) | running with instructions |
 | stockhold | Stock Hold Analysis |  Documentation pending (0.0.1) | [stockhold](https://github.com/vamseeachanta/stockhold) |
 | presentation, report | libraries for presentation & report for easy reuse. Need not be a pypi library |  In development (0.0.1) | [??](https://github.com/vamseeachanta/dashhtmlgrid) |
-| splashzone | Splashzone calculations |  In development (0.0.1) | [??](https://github.com/vamseeachanta/dashhtmlgrid) |
 | py_package | Python library guidelines |  pypi (0.0.1) | [py_package](https://github.com/vamseeachanta/py_package) |
-| pymvil | A Multi-Variate Interpolation for Limits (PYMVIL) |  pypi (0.0.1) | [pymvil](https://github.com/vamseeachanta/pymvil) |
+| pymvil | A Multi-Variate Interpolation for Limits (PYMVIL) |  pypi (0.0.1) | [pymvil](https://github.com/vamseeachanta/pymvil) | Roll this code into utilities. |
 | lmfa | Leveraged Multi family Analysis (lmfa) <br> Add visualizations |  pypi (0.0.1) | [lmfa](https://github.com/vamseeachanta/lmfa) |
 | dashhtmlgrid | add Flask & FastAPI routes in dashhtmlgrid <br> Horizontal Menus <br> Multiple pages <br> services <br> Add FastAPI for API service |  pypi (0.0.1) | [dashhtmlgrid](https://github.com/vamseeachanta/dashhtmlgrid) |
-| openfast | Catch up, contribute, get work. Prepare visualizations |  no development <br> Low priority | [openfastresults](tba) https://openfast.readthedocs.io/en/main/source/this_doc.html <br> https://github.com/OpenFAST/openfast|
+| openfast | Wind Turbine analysis. Catch up, contribute, get work. Prepare visualizations |  no development <br> Low priority | [openfastresults](tba) https://openfast.readthedocs.io/en/main/source/this_doc.html <br> https://github.com/OpenFAST/openfast|
 | metocean | Get all data sources together <br> Ability to transform data into APIs should be key |  Fresh library <br> Low priority | none.

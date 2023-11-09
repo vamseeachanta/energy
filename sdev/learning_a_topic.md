@@ -75,3 +75,7 @@ Use the Feynman Technique: Find beauty in simplicity.
 
 
 https://www.linkedin.com/posts/sahilbloom_how-to-learn-and-master-anything-the-feynman-activity-7116029497467904000-4eZw?utm_source=share&utm_medium=member_desktop
+
+### A learning process
+
+https://chamath.substack.com/p/learn-with-me

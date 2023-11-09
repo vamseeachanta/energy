@@ -1,3 +1,8 @@
+Microsoft Courses
+
+https://github.com/microsoft/generative-ai-for-beginners
+
+
 https://ig.ft.com/generative-ai/
 
 
@@ -87,3 +92,4 @@ This course introduces Generative AI Studio, a product on Vertex AI, that helps 
 https://lnkd.in/eUWPnwXG
 
 to stay up to date with AI.
+

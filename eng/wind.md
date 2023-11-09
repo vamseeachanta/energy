@@ -47,3 +47,27 @@ However, what a simple cost analysis cannot tell you is the pile driving refusal
 ### References
 
 https://www.americanprogress.org/article/offshore-wind-can-lower-energy-prices-and-beat-out-oil-and-gas/
+
+
+### Project Challenges 2023-11
+
+What is going on with #OffshoreWind in the US?
+
+
+You may have seen a range of news articles recently about European offshore wind developers in the USA. This may have made you wonder what is going and ask, is this the end of the US offshore wind industry? Here's a short explainer, to the best of my knowledge.
+
+First the good news, no this is not the end. In fact, the US offshore wind market isn't even at full steam. According to Spinergie there is currently a 52GW pipeline of 44 offshore wind farms across the US. The majority (24) are still in development zones, 14 are under assessment, 2 have permission to construct, 2 are being constructed, and 2 are in operation.
+
+But it is true that 2 Gulf of Mexico sites didn't get any bids, 2 projects were cancelled by Orsted (retaining the right to build later), 4 had requests to increase sale prices declined, and Shell did recently pull out of a joint venture. If the market is booming, what gives?
+
+Costs vs sales - Just as with the recent power auction in the UK, increases in the base cost of supplies in comparison to a fixed price range for electricity sales undermines the business case of potential projects. When asked to increase the sale point, which would increase energy prices in the future, regulators in New York understandably declined.
+
+Tax credits - as part of the Inflation Reduction Act the US offers a range of tax credits on both the capital invested to build the project and the production of renewable energy. The aim is to incentivise companies to use US suppliers and site facilities in the US (which is good), particularly in areas that could benefit from the income (which is even better). These are stackable (the more you do the more you get) but there are calls for these to be increased to account for cost increases. However, I think there's a secondary issue related to this.
+
+Supply chain - the US is full of brilliant companies and people but, on the whole, they've not been building parts for offshore wind farms until recently. It takes time to convert businesses or build new facilities. Similarly, international companies with US entities will need to manage resources to deal with international offshore wind demand. If you need to source from the US to get your tax credits, this will cause understandable delays. The Orsted CEO alluded to this in his recent investor briefing too.
+
+I have heard rumours that some of the cancellations are done to "send a message to government" but to me this seems like an expensive message. The simple fact is that costs are increasing so business cases need to be re-evaluated.
+
+The current pipeline will produce enough renewable energy for a quarter of all homes in the US. As with the European Wind Power Package, it seems likely the US govt will respond soon enough.
+
+Time and again, the US proves to be one of the most entrepreneurial and innovative countries in the world. This is certainly a setback, but definitely not the end.

@@ -4,6 +4,14 @@ The document describes :
 ## Summary
 - TBA
 
+## Documentation
+
+Good documentations implemented in TeamCenter and in 4Subsea applications:
+whatfix
+
+https://chrome.google.com/webstore/detail/whatfix-for-google/fepkmkdameafkbpknifgfhfmoogdcjck
+https://chrome.google.com/webstore/detail/whatfix-studio/ohkeehjepccedbdpohnbapepongppfcj
+
 ## Architecture
 
 ## Deployment

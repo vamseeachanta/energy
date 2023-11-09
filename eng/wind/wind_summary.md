@@ -18,3 +18,13 @@
 | wind_turbine_field_wake_solution.jfif | - | Field wake solution |  | 
 | wind_turbine_foudations.jpg | - | Wind turbine foundation with increasing wind turbine power rating |  | 
 
+
+### Wind Turbine Capacity 
+
+Why they get bigger? Economics?
+
+https://www.aegirinsights.com/opinion-capping-turbines-at-15mw-could-deepen-not-defuse-the-crisis-in-offshore-wind
+
+### Moorings
+
+https://news.cision.com/american-bureau-of-shipping/r/novel-design-for-floating-offshore-wind-approved-by-abs,c3852948

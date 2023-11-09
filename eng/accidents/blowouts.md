@@ -12,7 +12,6 @@ Smedvig West Vangaurd
 https://equinor.industriminne.no/en/west-vanguard-blowout/
 
 
-
 Production
 
 https://www.linkedin.com/posts/mazin-al-hashmi-8451b6171_learning-from-well-process-safety-fatality-activity-7120403534017089536-JXaa?utm_source=share&utm_medium=member_desktop
