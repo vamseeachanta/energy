@@ -11,6 +11,9 @@ https://www.energy.gov/eere/wind/how-wind-turbine-works-text-version
 
 
 https://towardsdatascience.com/wind-energy-physics-and-resource-assessment-with-python-789a0273e697
+
+https://www.offshorewind.biz/2023/11/14/building-floating-wind-installation-and-om-strategies-on-oil-and-gas-experience/    Wind strategies on O&G experience.
+
 ## Installation
 
 
@@ -24,6 +27,12 @@ https://knowledge.autodesk.com/support/vault-products/learn
 
 
 https://forums.autodesk.com/t5/vault-customization/bd-p/301
+
+## Models
+
+https://iopscience.iop.org/article/10.1088/1742-6596/2626/1/012049/meta Simplification of wind models
+
+
 
 ### Foundations
 
@@ -50,6 +59,13 @@ https://www.americanprogress.org/article/offshore-wind-can-lower-energy-prices-a
 
 
 ### Project Challenges 2023-11
+
+https://www.marinelog.com/offshore/offshore-wind/orsted-will-use-suction-bucket-foundations-for-taiwan-wind-farms/
+
+
+https://acteon.com/blog/navigating-pile-refusal-challenges-in-offshore-renewables   Pile refusal challenges
+
+https://2hoffshore.com/knowledge/when-monopiles-dont-work-fixed-wind-foundation-selection   monopiles vs. ?
 
 What is going on with #OffshoreWind in the US?
 

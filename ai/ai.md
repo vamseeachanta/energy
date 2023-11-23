@@ -2,6 +2,8 @@
 
 Natural Language processing
 
+Why ML is not AI?
+https://oilgains.medium.com/why-machine-learning-is-not-artificial-intelligence-61b174a3c9a2
 
 
 ## Summary

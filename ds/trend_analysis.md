@@ -15,5 +15,11 @@ https://www.wikihow.com/Read-MACD
 https://technical-analysis-library-in-python.readthedocs.io/en/latest/ta.html
 https://school.stockcharts.com/doku.php?id=technical_indicators:moving_average_convergence_divergence_macd
 
+
+https://github.com/valeman/awesome-conformal-prediction
+
+https://www.youtube.com/watch?v=FUi5jklGvvo&t=3s
+
+
 ## References
 
