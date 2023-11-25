@@ -72,3 +72,7 @@ https://code.visualstudio.com/docs/remote/ssh-tutorial
 [vscode-journal](https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal)
 
 https://www.reddit.com/r/vscode/comments/d36ni0/textbased_daily_journal_for_vscode/
+
+**Run on Save**
+
+https://stackoverflow.com/questions/68059778/auto-run-command-from-vscode-extension-on-file-save
