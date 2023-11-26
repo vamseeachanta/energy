@@ -127,7 +127,7 @@ Output:
 
 step 2: Revert changes from each ID using below command
 <code>
-git revert 3e8b1eb
+git revert 3c8ad5e
 </code>
 
 ### Remove all local branch changes
