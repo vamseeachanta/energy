@@ -1,19 +1,23 @@
 ## Introduction
-The ability to draw ascii drawings and help project participants. Drawings and diagrams can benefit developers, architects, project sponsors etc. PlantUML is a component that allows to quickly write and generate drawings and diagrams using basic ascii code. 
+
+The ability to draw ascii drawings and help project participants. Drawings and diagrams can benefit developers, architects, project sponsors etc. PlantUML is a component that allows to quickly write and generate drawings and diagrams using basic ascii code.
 
 This document describes the following:
+
 - A method to prepare drawings to steamline project work and development etc.
-- How to write source in asciidoc + PlantUML; 
+- How to write source in asciidoc + PlantUML;
 - How to get rendered in HTML + PNG on github markdown pages.
 
 ## Summary
 
 The advantages to ascii code based drawings or diagrams such as plantuml are:
+
 - Ability to quickly generate drawings from ground up
 - Ability to quickly edit to update/correct drawings to keep sync with code
 - Integrate drawings in markdown files using general CI/CD practices
 
 Best practices:
+
 - Always save each plantuml drawing as individual files
   - helps in easy CI-CD
   - facilitates easy use of templates
@@ -33,12 +37,16 @@ Good starting examples (and reference links) are given below:
 ## Installation
 
 Install plantuml using the below command:
-- choco install plantuml
-- troubleshooting - chocolatey not installed:
-  - error: "choco : The term 'choco' is not recognized as the name of a cmdlet, function, script file, or operable program. Check   the spelling of the name, or if a path was included, verify that the path is correct and try again"
-  - ensure chocolatey is installed on the computer. 
-  - https://chocolatey.org/install
 
+- choco install plantuml (Does not install latest version)
+- Use below command to install latest version:
+  - <code> choco install plantuml --version=1.2023.11 </code>
+  - <https://community.chocolatey.org/packages/plantuml/1.2023.11>
+
+- troubleshooting: chocolatey not installed:
+  - error: "choco : The term 'choco' is not recognized as the name of a cmdlet, function, script file, or operable program. Check   the spelling of the name, or if a path was included, verify that the path is correct and try again"
+  - ensure chocolatey is installed on the computer.
+  - <https://chocolatey.org/install>
 
 # Working in
 
@@ -47,19 +55,21 @@ Plantuml can be worked in various methods:
 ## Browser
 
 Prerequisites:
+
 - Need a working (error less) .puml (or .plantuml) code for use
 
-
 The following link can be used to generate drawings. Paste the .puml data into the below link. One should get the chart.
-http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
+<http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000>
 
 ## IDE
 
 Prerequisites:
+
 - Need a working (error less) .puml (or .plantuml) code for use
 - Installation installed on the computer
 
 An plantuml extension or utility can be used to render in an IDE. Instructions for IDE(s) is given in this section.
+
 ### VS Code
 
 - Install the extension 'PlantUML' in VS code
@@ -68,8 +78,8 @@ An plantuml extension or utility can be used to render in an IDE. Instructions f
 
 - Exporting images to other formats using plantuml extension
   - <img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />
-  - [ ![](<img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />) ]("tools/puml/export_diagram.png")
-  - Click option to 'Export Workspace Diagrams' 
+  - [](<img src="https://github.com/vamseeachanta/energy/blob/master/tools/puml/export_diagram.png" width="200" height="300" />) ]("tools/puml/export_diagram.png")
+  - Click option to 'Export Workspace Diagrams'
   - choose the format to save diagrams
 
 ---
@@ -78,15 +88,17 @@ Previous slide
 ---
 
 # Display plantuml diagram inline in VS Code
+
 Prerequisites:
+
 - Install plantuml
   - Set the following in vs code user (or workspace based on preference) settings
   <pre>
       "plantuml.server": "https://www.plantuml.com/plantuml",
   </pre>
 
-- install markdown preview enhanced extension: 
-https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+- install markdown preview enhanced extension:
+<https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced>
 
 ```plantuml
 @startuml
@@ -107,14 +119,15 @@ Next slide
 ---
 
 Typical errors and how to resolve them:
+
 - Error: Diagram unnamed. Try "@startuml name"
-  - Resolution: 
+  - Resolution:
 
 References:
-https://stackoverflow.com/questions/66934681/using-plantuml-within-a-markdown-document
+<https://stackoverflow.com/questions/66934681/using-plantuml-within-a-markdown-document>
 
 To display inline plantuml code in Google Chrome, use below:
-https://github.com/wicksome/plantuml-extension
+<https://github.com/wicksome/plantuml-extension>
 
 ## Github Integration
 
@@ -143,14 +156,15 @@ Github integration will greatly help streamline implementation. A method to impl
 </code></pre>
 
 - The below format is defined in markdown (.md) file:
-  - http://www.plantuml.com/plantuml/proxy?cache=no&src=(raw github plantuml link)
+  - <http://www.plantuml.com/plantuml/proxy?cache=no&src=(raw> github plantuml link)
 - Key things to note are:
   - raw github file link can be obtained from actual githublink file link
   - cache=no will allow to seamlessly update image along with code
 - Example format is below of a file in repo is below
-  - http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml
+  - <http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml>
 
 - Exact code used in markdown is:
+
 <pre><code>
 ![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml)
 </code></pre>
@@ -158,7 +172,6 @@ Github integration will greatly help streamline implementation. A method to impl
 - The rendering of the example file in github is:
 
 ![example UML](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vamseeachanta/energy/master/tools/puml/wbs.puml)
-
 
 ### Other IDEs
 
@@ -168,9 +181,10 @@ For developers, getting it to work in in other IDEs may be difficult.
 
 ### gantt
 
-https://plantuml.com/gantt-diagram
+<https://plantuml.com/gantt-diagram>
 
 ## Tips and Tricks
+
 ### Command line execution
 
 If plantuml extenion is installed in vs code, execute below in VS code terminal
@@ -185,8 +199,7 @@ plantuml -svg "004 telescopic jt schedule\21in_RD_termination_adaptor_gantt.puml
 </code></pre>
 
 Reference:
-https://plantuml.com/command-line
-
+<https://plantuml.com/command-line>
 
 ### Custom Styling
 
@@ -213,7 +226,7 @@ Custom change line style and color. The code is self-explanatory if familiar wit
 @enduml
 </code></pre>
 
-https://blog.jdriven.com/2017/01/plantuml-pleasantness-change-line-style-color/
+<https://blog.jdriven.com/2017/01/plantuml-pleasantness-change-line-style-color/>
 
 ### Commenting Code
 
@@ -229,8 +242,7 @@ lines '/
 @enduml
 </code></pre>
 
-https://forum.plantuml.net/1353/is-it-possible-to-comment-out-lines-of-diagram-syntax
-
+<https://forum.plantuml.net/1353/is-it-possible-to-comment-out-lines-of-diagram-syntax>
 
 ## References
 
@@ -248,10 +260,10 @@ https://forum.plantuml.net/1353/is-it-possible-to-comment-out-lines-of-diagram-s
 
 - [https://github.github.com/gfm/](https://github.github.com/gfm/)
 
-https://mattjhayes.com/2021/11/28/other-uses-for-plantuml/
+<https://mattjhayes.com/2021/11/28/other-uses-for-plantuml/>
 
-https://github.com/mattjhayes/PlantUML-Examples
+<https://github.com/mattjhayes/PlantUML-Examples>
 
-https://www.freecodecamp.org/news/inserting-uml-in-markdown-using-vscode/
+<https://www.freecodecamp.org/news/inserting-uml-in-markdown-using-vscode/>
 
-https://github.com/qjebbs/vscode-plantuml/issues/449#issuecomment-975520835
+<https://github.com/qjebbs/vscode-plantuml/issues/449#issuecomment-975520835>
