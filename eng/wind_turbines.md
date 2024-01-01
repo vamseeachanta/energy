@@ -4,8 +4,13 @@
 
 ### CVA Requirements
 
-https://2hoffshore.com/knowledge/cva-requirements-offshore-wind
+<https://2hoffshore.com/knowledge/cva-requirements-offshore-wind>
 
+### Optimize Mooring and Dynamic Cable systems
+
+<https://www.dnv.com/article/optimizing-mooring-and-dynamic-cable-design-requirements-for-floating-wind-245037?utm_source=linkedin&utm_medium=ES_organic&utm_campaign=00NOEU%2C99ADVISORY>
+
+<https://www.fredolsen1848.com/technologies/brunel/>
 
 ## PHD Thesis - Wind Turbine Blade CFD by Marielle de Oliveira
 
