@@ -1,5 +1,8 @@
 # Introduction
 
+Software:
+<https://www.freecad.org/>
+
 Create objects in freeCAD?  
 <https://www.youtube.com/@FreeCADAcademy>
 
@@ -21,7 +24,7 @@ Freecad Scripting Channel
 ## Training
 
 A good introduction or training video for FreeCAD3D
-https://docs.google.com/presentation/d/1mx08eQhsbkhgh_vZBNE2pLhkdCRrDWuX/edit#slide=id.p1
+<https://docs.google.com/presentation/d/1mx08eQhsbkhgh_vZBNE2pLhkdCRrDWuX/edit#slide=id.p1>
 
 ## Other Tools
 
@@ -44,4 +47,4 @@ Option 2:
 [Batch export of files](<https://cadplus.xarial.com/batch/>)
 [File Formats Supported for Exporting SOLIDWORKS Files](https://help.solidworks.com/2022/English/SWConnected/swdotworks/t_export_sw_non_sw_file.htm#:~:text=SLDASM%2C%20or%20*.,export%20options%20and%20click%20OK.)
 
-https://mechnexus.com/category/freecad-articles/
+<https://mechnexus.com/category/freecad-articles/>
