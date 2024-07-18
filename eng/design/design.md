@@ -12,3 +12,12 @@ FreeCAD is free design software with interface with Python.
 | Solidworks |  ~10k/year |
 | ANSYS SpaceClaim |  ~50k/year |
 | FreeCAD | Free | Install and see
+
+### Interchangeable file formats
+
+For 3D Models, the following formats are common:
+
+- STEP
+- IGES
+- STL
+- DXF
