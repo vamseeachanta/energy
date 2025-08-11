@@ -1,0 +1,185 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "energy"
+version = "0.1.0"
+description = "Standardized project configuration for energy"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Development Team", email = "dev@example.com"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "assetutilities"
+    "black"
+    "bs4"
+    "build"
+    "bumpver"
+    "chardet"
+    "crochet"
+    "dash"
+    "deepdiff"
+    "digitalmodel"
+    "docx"
+    "excel2img"
+    "excel2img; sys_platform == 'win32'"
+    "fake_headers"
+    "flask"
+    "gitpython==3.1.31"
+    "imgkit"
+    "isort"
+    "jinja2"
+    "kaleido"
+    "loguru"
+    "matplotlib"
+    "numpy"
+    "openpyxl"
+    "OrcFxAPI"
+    "pandas"
+    "pandoc"
+    "parsel"
+    "plantuml"
+    "playwright"
+    "plotly"
+    "poetry"
+    "pydantic"
+    "PyPDF2"
+    "pytest"
+    "python-certifi-win32"
+    "python-docx"
+    "pyyaml"
+    "rainflow"
+    "ruamel.yaml"
+    "ruff"
+    "scipy"
+    "scrapy==2.12"
+    "selenium"
+    "sympy"
+    "sympy>=1.13.3"
+    "tabula"
+    "tabulate"
+    "twine"
+    "undetected-chromedriver "
+    "utm"
+    "webcolors"
+    "wkhtmltopdf"
+    "xlrd"
+    "xlsxwriter"
+    "xmltodict"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "flake8>=6.0",
+    "mypy>=1.0",
+    "pre-commit>=3.0",
+]
+test = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "pytest-mock>=3.0",
+]
+docs = [
+    "sphinx>=6.0",
+    "sphinx-rtd-theme>=1.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/username/energy"
+"Bug Tracker" = "https://github.com/username/energy/issues"
+"Documentation" = "https://github.com/username/energy#readme"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+exclude = ["tests*", "docs*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39', 'py310', 'py311']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+addopts = "--cov=src --cov-report=term-missing --cov-report=html"
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["*/tests/*", "*/test_*.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if __name__ == .__main__.:",
+    "raise AssertionError",
+    "raise NotImplementedError",
+]
+
+[tool.uv]
+# UV environment configuration
+python = "3.11"
+system = false
+seed = true
+compile = true
+
+[tool.uv.pip]
+index-url = "https://pypi.org/simple"
+extra-index-url = []
+no-cache = false
+pre = false
+
+# MANDATORY: Parallel Processing Configuration
+[tool.parallel]
+enabled = true
+max_workers = 5
+use_threading = false  # Use multiprocessing for CPU-bound tasks
+use_asyncio = true     # Use asyncio for I/O-bound tasks
+batch_size = 10
+
+[tool.parallel.rules]
+# Define when to use parallel processing
+file_operations = "always"      # File reading/writing
+http_requests = "always"        # API calls
+data_processing = "threshold"   # Based on data size
+threshold_size = 1000           # Items before parallel kicks in
+
+[tool.scripts]
+# Common scripts that use parallel processing
+test = "pytest -n auto"
+format = "black . && isort ."
+lint = "flake8 . & mypy . & pylint ."
+install = "uv pip install -e ."
+dev-install = "uv pip install -e .[dev]"
