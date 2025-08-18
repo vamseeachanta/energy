@@ -24,61 +24,61 @@ classifiers = [
 ]
 
 dependencies = [
-    "assetutilities"
-    "black"
-    "bs4"
-    "build"
-    "bumpver"
-    "chardet"
-    "crochet"
-    "dash"
-    "deepdiff"
-    "digitalmodel"
-    "docx"
-    "excel2img"
-    "excel2img; sys_platform == 'win32'"
-    "fake_headers"
-    "flask"
-    "gitpython==3.1.31"
-    "imgkit"
-    "isort"
-    "jinja2"
-    "kaleido"
-    "loguru"
-    "matplotlib"
-    "numpy"
-    "openpyxl"
-    "OrcFxAPI"
-    "pandas"
-    "pandoc"
-    "parsel"
-    "plantuml"
-    "playwright"
-    "plotly"
-    "poetry"
-    "pydantic"
-    "PyPDF2"
-    "pytest"
-    "python-certifi-win32"
-    "python-docx"
-    "pyyaml"
-    "rainflow"
-    "ruamel.yaml"
-    "ruff"
-    "scipy"
-    "scrapy==2.12"
-    "selenium"
-    "sympy"
-    "sympy>=1.13.3"
-    "tabula"
-    "tabulate"
-    "twine"
-    "undetected-chromedriver "
-    "utm"
-    "webcolors"
-    "wkhtmltopdf"
-    "xlrd"
-    "xlsxwriter"
+    "assetutilities",
+    "black",
+    "bs4",
+    "build",
+    "bumpver",
+    "chardet",
+    "crochet",
+    "dash",
+    "deepdiff",
+    "digitalmodel",
+    "docx",
+    "excel2img",
+    "excel2img; sys_platform=='win32'",
+    "fake_headers",
+    "flask",
+    "gitpython==3.1.31",
+    "imgkit",
+    "isort",
+    "jinja2",
+    "kaleido",
+    "loguru",
+    "matplotlib",
+    "numpy",
+    "openpyxl",
+    "OrcFxAPI",
+    "pandas",
+    "pandoc",
+    "parsel",
+    "plantuml",
+    "playwright",
+    "plotly",
+    "poetry",
+    "pydantic",
+    "PyPDF2",
+    "pytest",
+    "python-certifi-win32",
+    "python-docx",
+    "pyyaml",
+    "rainflow",
+    "ruamel.yaml",
+    "ruff",
+    "scipy",
+    "scrapy==2.12",
+    "selenium",
+    "sympy",
+    "sympy>=1.13.3",
+    "tabula",
+    "tabulate",
+    "twine",
+    "undetected-chromedriver",
+    "utm",
+    "webcolors",
+    "wkhtmltopdf",
+    "xlrd",
+    "xlsxwriter",
     "xmltodict"
 ]
 
@@ -105,9 +105,6 @@ docs = [
 "Homepage" = "https://github.com/username/energy"
 "Bug Tracker" = "https://github.com/username/energy/issues"
 "Documentation" = "https://github.com/username/energy#readme"
-
-[tool.setuptools]
-packages = ["src"]
 
 [tool.setuptools.packages.find]
 where = ["."]
