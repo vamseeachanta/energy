@@ -132,18 +132,54 @@ python_files = ["test_*.py", "*_test.py"]
 addopts = "--cov=src --cov-report=term-missing --cov-report=html"
 
 [tool.coverage.run]
-source = ["src"]
-omit = ["*/tests/*", "*/test_*.py"]
+source = ["src", "."]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*_test.py",
+    "*/__pycache__/*",
+    "*/venv/*",
+    "*/env/*",
+    "*/.venv/*",
+    "*/site-packages/*",
+    "*/migrations/*",
+    "*/settings/*",
+    "*/config/*",
+    "*/manage.py",
+    "*/wsgi.py",
+    "*/asgi.py",
+    "setup.py",
+    "*/conftest.py"
+]
+branch = true
+data_file = ".coverage"
 
 [tool.coverage.report]
 exclude_lines = [
     "pragma: no cover",
     "def __repr__",
-    "if self.debug:",
-    "if __name__ == .__main__.:",
+    "if self\\.debug",
     "raise AssertionError",
     "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "@(abc\\.)?abstractmethod",
+    "if TYPE_CHECKING:",
+    "if sys\\.platform"
 ]
+skip_empty = true
+show_missing = true
+precision = 2
+sort = "Cover"
+fail_under = 0
+
+[tool.coverage.html]
+directory = "htmlcov"
+title = "Energy Project Coverage Report"
+show_contexts = true
+
+[tool.coverage.xml]
+output = "coverage.xml"
 
 [tool.uv]
 # UV environment configuration
