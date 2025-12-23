@@ -303,7 +303,7 @@ marine_analysis/
 Should I proceed with this organization?"
 ```
 
-**See full standards**: `docs/FILE_ORGANIZATION_STANDARDS.md`
+**See full standards**: `docs/standards/FILE_ORGANIZATION_STANDARDS.md`
 
 ### 📊 HTML Reporting Requirements
 
@@ -330,7 +330,7 @@ Should I proceed with this organization?"
 - **Statistical:** Altair (`altair-analysis-agent`)
 - **Custom viz:** D3.js (`d3js-custom-viz-agent`)
 
-**See full standards:** `docs/HTML_REPORTING_STANDARDS.md`
+**See full standards:** `docs/standards/HTML_REPORTING_STANDARDS.md`
 
 ## 🤖 AI Agent Orchestration System
 
